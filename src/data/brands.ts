@@ -61,7 +61,7 @@ export const brands: Brand[] = [
     slug: "naxos-ceramica",
     category: "plocice",
     website: "https://www.naxos-ceramica.it/en/",
-    logo: "https://www.naxos-ceramica.it/wp-content/uploads/2024/05/Raggruppa-185.png",
+    logo: "/images/logos/naxos.png",
     images: [
       "https://www.naxos-ceramica.it/wp-content/uploads/2025/10/Amb_Apulia-Dots-Alpes-1.jpg",
       "https://www.naxos-ceramica.it/wp-content/uploads/2025/09/white.jpg",
@@ -80,7 +80,7 @@ export const brands: Brand[] = [
     slug: "century-ceramica",
     category: "plocice",
     website: "https://www.century-ceramica.it/en/",
-    logo: "https://www.century-ceramica.it/wp-content/uploads/2024/05/Raggruppa-194.png",
+    logo: "/images/logos/century.png",
     images: [
       "https://www.century-ceramica.it/wp-content/uploads/2025/09/Amb_Mineralis-60x120-120x120-2.jpg",
       "https://www.century-ceramica.it/wp-content/uploads/2025/02/Immagine-prodotto-1.jpg",
@@ -118,7 +118,7 @@ export const brands: Brand[] = [
     slug: "la-fabbrica",
     category: "plocice",
     website: "https://www.lafabbrica.it/en/",
-    logo: "https://www.lafabbrica.it/wp-content/uploads/2023/08/Senza-titolo-1.png",
+    logo: "/images/logos/lafabbrica.png",
     images: [
       "https://www.lafabbrica.it/wp-content/uploads/2025/11/Moon-Cream_focus.jpg",
       "https://www.lafabbrica.it/wp-content/uploads/2025/11/Venezia_focus.jpg",
@@ -137,7 +137,7 @@ export const brands: Brand[] = [
     slug: "serenissima",
     category: "plocice",
     website: "https://www.serenissima.re.it/?lang=en",
-    logo: "https://www.serenissima.re.it/wp-content/uploads/cerchio_payoff-22.png",
+    logo: "/images/logos/serenissima.png",
     images: [
       "https://www.serenissima.re.it/wp-content/uploads/AMBIENTAZIONE-PETRA-21_tabacco.jpg",
       "https://www.serenissima.re.it/wp-content/uploads/AMBIENTAZIONE-PETRA-2_beige.jpg",
@@ -175,7 +175,7 @@ export const brands: Brand[] = [
     slug: "cir",
     category: "plocice",
     website: "https://www.cir.it/",
-    logo: "https://www.caemdordini.it/storage/133/cir.jpg",
+    logo: "/images/logos/cir.jpg",
     images: [
       "https://www.cir.it/wp-content/uploads/Yellow-White-20x20-Matte-Finish-Bubble-Yellow-20x20-2.jpg",
       "https://www.cir.it/wp-content/uploads/White-20x20-6x25-Matte-Finish.jpg",
@@ -194,7 +194,7 @@ export const brands: Brand[] = [
     slug: "cerasarda",
     category: "plocice",
     website: "https://www.cerasarda.it/en/",
-    logo: "https://www.cerasarda.it/wp-content/uploads/2025/06/CERASARDA_websitelogo_ORANGE_RGB_aggiornato11.06_Tavola-disegno-1.svg",
+    logo: "/images/logos/cerasarda.svg",
     images: [
       "https://www.cerasarda.it/wp-content/uploads/2025/06/Menu_home.jpg",
       "https://www.cerasarda.it/wp-content/uploads/2025/06/Menu_tradizione.jpg",
@@ -212,7 +212,7 @@ export const brands: Brand[] = [
     slug: "xclusive-ceramica",
     category: "plocice",
     website: "https://xclusiveceramica.com/",
-    logo: "https://www.caemdordini.it/storage/136981/ceramiche-xclusive-logo.jpg",
+    logo: "/images/logos/xclusive.jpg",
     images: [],
     description:
       "Ekskluzivne keramičke pločice s efektima metala, mramora i drva za rezidencijalne i industrijske prostore.",
@@ -224,7 +224,7 @@ export const brands: Brand[] = [
     slug: "crz64",
     category: "plocice",
     website: "https://www.crz64.com/en/",
-    logo: "https://www.crz64.com/wp-content/uploads/2021/01/crz64_logo-2.png",
+    logo: "/images/logos/crz64.png",
     images: [
       "https://www.crz64.com/wp-content/uploads/2025/12/Amb_Flow_White_60x120_Living-1300x920.jpg",
       "https://www.crz64.com/wp-content/uploads/2025/11/Amb_Berg_Grey_60x60-30x60_bagno-1300x920.jpg",
@@ -262,7 +262,7 @@ export const brands: Brand[] = [
     slug: "herberia",
     category: "plocice",
     website: "https://www.herberiaceramiche.it/en/",
-    logo: "https://www.herberiaceramiche.it/wp-content/uploads/2023/01/cropped-Logo-herberia-2023.png",
+    logo: "/images/logos/herberia.png",
     images: [
       "https://www.herberiaceramiche.it/wp-content/uploads/2026/03/Herberia-milano-desig-week.jpg",
       "https://www.herberiaceramiche.it/wp-content/uploads/2026/02/Annual-2026_Anteprima.jpg",
@@ -298,7 +298,7 @@ export const brands: Brand[] = [
     slug: "deco-decking",
     category: "plocice",
     website: "https://www.decodecking.it/en/",
-    logo: "https://img.edilportale.com/profile-image/thumb2_Deco-The-Italian-Decking-Company-489283be-log1.gif",
+    logo: "/images/logos/deco.gif",
     images: [
       "https://www.decodecking.it/wp-content/uploads/2024/06/MG_9290.jpg",
       "https://www.decodecking.it/wp-content/uploads/2023/05/FOTO-FINALE.jpg",
@@ -318,7 +318,7 @@ export const brands: Brand[] = [
     slug: "artceram",
     category: "sanitarije",
     website: "https://artceram.it/en/",
-    logo: "https://www.artceram.it/wp-content/uploads/2022/03/TheArtceram_logo-02.svg",
+    logo: "/images/logos/artceram.svg",
     images: [
       "https://www.artceram.it/wp-content/uploads/2022/09/Lavabi.jpg",
       "https://www.artceram.it/wp-content/uploads/2022/09/Sanitari.jpg",
@@ -337,7 +337,7 @@ export const brands: Brand[] = [
     slug: "ceramica-galassia",
     category: "sanitarije",
     website: "https://www.ceramicagalassia.com/",
-    logo: "https://img.edilportale.com/profile-image/thumb2_GALASSIA-4234f0a9-log1.gif",
+    logo: "/images/logos/galassia.gif",
     images: [
       "https://www.ceramicagalassia.it/public/mosaico-core.jpg",
       "https://www.ceramicagalassia.it/public/MOSAICO-KITCHEN.jpg",
@@ -356,7 +356,7 @@ export const brands: Brand[] = [
     slug: "kerasan",
     category: "sanitarije",
     website: "https://www.kerasan.com/",
-    logo: "https://www.kerasan.com/public/theme/images/logo.png",
+    logo: "/images/logos/kerasan.png",
     images: [
       "https://www.kerasan.com/public/slide-oke.jpg",
       "https://www.kerasan.com/public/slide-oke3.jpg",
@@ -375,7 +375,7 @@ export const brands: Brand[] = [
     slug: "simas",
     category: "sanitarije",
     website: "https://www.simas.it/en/",
-    logo: "https://archello.com/thumbs/images/2016/05/24/untitled-1559.1505996979.784.jpg",
+    logo: "/images/logos/simas.jpg",
     images: [
       "https://www.simas.it/img/clip_slides/img_106_clip.jpg",
       "https://www.simas.it/img/clip_slides/img_104_clip.jpg",
@@ -394,7 +394,7 @@ export const brands: Brand[] = [
     slug: "paffoni",
     category: "sanitarije",
     website: "https://paffoni.it/",
-    logo: "https://paffoni.it/_default_upload_bucket/paffoni_logo_grigio.svg",
+    logo: "/images/logos/paffoni.svg",
     images: [
       "https://paffoni.it/CMS/Test%20GMDE/83/image-thumb__83__product-areas-brick/bagno_home.21a2d60b.jpg",
       "https://paffoni.it/CMS/Test%20GMDE/81/image-thumb__81__product-areas-brick/cucina_home.4d2b740c.jpg",
@@ -413,7 +413,7 @@ export const brands: Brand[] = [
     slug: "daniel",
     category: "sanitarije",
     website: "https://www.daniel.it/en/",
-    logo: "https://www.daniel.it/img/daniel-rubinetterie-logo-1522416006.jpg",
+    logo: "/images/logos/daniel.jpg",
     images: [
       "https://www.daniel.it/img/cms/HOME/2025-home-top-regency.jpg",
       "https://www.daniel.it/img/cms/HOME/2025-home-top-reverso2.jpg",
@@ -432,7 +432,7 @@ export const brands: Brand[] = [
     slug: "giulini",
     category: "sanitarije",
     website: "https://www.giulini.it/en/",
-    logo: "https://img.edilportale.com/profile-image/thumb2_Rubinetteria-Giulini-Giovanni-8b48c5fd-log1.gif",
+    logo: "/images/logos/giulini.gif",
     images: [
       "https://www.giulini.it/wp-content/uploads/slider/cache/0f5e41ebf2c8bf8c23d899916145dbf3/video-anteprima_Giulini_rubinetteria_new.jpg",
       "https://www.giulini.it/wp-content/uploads/slider/cache/75009f23d7fc293181c34757d4c7a565/slides_DNA_Made_in_Italy_Giulini_rubinetteria_premi-new.jpg",
@@ -451,7 +451,7 @@ export const brands: Brand[] = [
     slug: "lineabeta",
     category: "sanitarije",
     website: "https://www.lineabeta.net/en",
-    logo: "https://archello.com/thumbs/images/2013/10/09/lineabeta-archello.1505995241.9006.jpg",
+    logo: "/images/logos/lineabeta.jpg",
     images: [
       "https://samo.it/media/thumb.php?src=1700745742.jpg&w=600&h=600",
       "https://samo.it/media/thumb.php?src=1702308631.jpg&w=600&h=600",
@@ -471,7 +471,7 @@ export const brands: Brand[] = [
     slug: "artesi",
     category: "namjestaj",
     website: "https://artesi.it/",
-    logo: "https://archello.com/thumbs/images/2012/12/03/artesi-logo.1505994845.87.jpg?fit=fill&w=150&h=150&auto=compress&fm=jpg",
+    logo: "/images/logos/artesi.jpg",
     images: [
       "https://archello.com/thumbs/images/2012/12/03/Tiffany-TF01.1506001149.5214.jpg?fit=crop&w=800&h=500",
     ],
@@ -486,7 +486,7 @@ export const brands: Brand[] = [
     slug: "artesi-kade",
     category: "kade-i-tus-kabine",
     website: "https://artesi.it/",
-    logo: "https://archello.com/thumbs/images/2012/12/03/artesi-logo.1505994845.87.jpg?fit=fill&w=150&h=150&auto=compress&fm=jpg",
+    logo: "/images/logos/artesi.jpg",
     images: [
       "https://archello.com/thumbs/images/2012/12/03/Tiffany-TF01.1506001149.5214.jpg?fit=crop&w=800&h=500",
     ],

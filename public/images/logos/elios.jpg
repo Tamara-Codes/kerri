@@ -1,0 +1,6495 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<base href="https://eliosceramica.com/">
+<script type="text/javascript" src="https://www.roomvo.com/static/scripts/b2b/eliosceramicait.js" async></script>
+<script>
+	var casa='https://eliosceramica.com/';
+</script>
+<meta name="google-site-verification" content="zi-zQFCa1GE4Hu7wWLoQAewMTxij6esirGIjfEah2_Q" />
+
+<!-- Google analytics -->
+<script async src='https://www.googletagmanager.com/gtag/js?id=G-DERFVHTBN1'></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DERFVHTBN1');
+</script>
+
+<!-- Google Tag Manager - inserito il 06.09.2024 -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KPN4GCZ5');</script>
+<!-- End Google Tag Manager -->
+
+
+<!-- stringhe -->
+<style>
+	.radio-chi .wpcf7-list-item:nth-child(3) > span:before {
+		content:"Altro";
+	}
+	.radio-chi .wpcf7-list-item:nth-child(2) > span:before {
+		content:"Progettista";
+	}
+	.radio-chi .wpcf7-list-item:nth-child(1) > span:before {
+		content:"Rivenditore";
+	}
+	ul.cinerama.urside.cine-news .leggi-tutto::before {
+		content:"leggi tutto";
+	}
+	.stringa.link-advance-in-collezione::after {
+		content:"Scopri di più sulla tecnologia";
+	}
+	.stringa.azzera-filtri::after {
+		content:"Azzera tutti i filtri";
+	}
+	ul#formica0.cinerama.formicide a.link > .scopri::after {
+		content:"Scopri di più";
+	}
+	body ul.cinerama.talpide.cine-generali div.link > .link1 > a::after {
+		content:"Download";
+	}
+	body ul.cinerama.talpide.cine-articolo div.link > .link2 > a::after {
+		content:"Allegato";
+	}
+	ul.cinerama.procionide.cine-gallery-articolo h2::before {
+		content:"Gallery";
+	}
+	ul.cinerama.urside.progetti-rel .leggi-tutto:before {
+		content:"Vedi il progetto";
+	}
+	.stringa.progetti-relativi::after {
+		content:"Progetti relativi";
+	}
+	ul.cinerama.urside.cine-collezioni .leggi-tutto:before,#abbinabili ul.cinerama.urside .leggi-tutto::before,ul.cinerama.procionide.cine-collezioni .link > a::before,ul.cinerama.procionide.cine-lookbook .link > a::before,ul.cinerama.urside.cine-collezioni-correlate .leggi-tutto:before,.slug-wish-list ul.cinerama.urside .leggi-tutto:before {
+		content:"Scopri la collezione";
+	}
+	ul.cinerama.procionide.cine-gallery-progetto h2::before {
+		content:"Gallery";
+	}
+	.stringa.scheda-del-progetto::after {
+		content:"Scheda del progetto";
+	}
+	.stringa.collezioni-nel-progetto::after {
+		content:"Collezioni utilizzate";
+	}
+	.stringa.rassegna-stampa::after {
+		content:"Rassegna stampa";
+	}
+	.stringa.progetto-anno::after {
+		content:"Anno";
+	}
+	.stringa.progetto-designer::after {
+		content:"Designer";
+	}
+	.stringa.progetto-descrizione::after {
+		content:"Descrizione del progetto";
+	}
+	.stringa.progetto-tipologia::after {
+		content:"Tipologia";
+	}
+	#scopri-e-share .share-collezione > h2::before {
+		content:"Share";
+	}
+	#scopri-e-share .cinerama .testo h2::before {
+		content:"Scopri";
+	}
+	.stringa.superfici::after {
+		content:"SUPERFICI";
+	}
+	.stringa.cerca-collezioni::after {
+		content:"Cerca nel sito";
+	}
+	.stringa.wish-vuota::after {
+		content:"La tua wishlist è vuota";
+	}
+	.stringa.wishlist-post-remove::after {
+		content:"dalla wishlist";
+	}
+	.stringa.wishlist-post-add::after {
+		content:"alla wishlist";
+	}
+	.stringa.wishlist-remove::after {
+		content:"Rimuovi dalla wishlist";
+	}
+	.stringa.wishlist-add::after {
+		content:"Aggiungi alla wishlist";
+	}
+	ul.cinerama.procionide.cine-highlight .link > a:before {
+		content:"vedi tutte le COLLEZIONI";
+	}
+	.stringa.collezioni-abbinabili::after {
+		content:"ricerca";
+	}
+	.stringa.ancora-colori::after {
+		content:"Seleziona un altro colore di fondo per vedere i decori abbinati";
+	}
+	body ul.cinerama.talpide div.link > .link2 > a::after {
+		content:"Info tecniche";
+	}
+	body ul.cinerama.talpide div.link > .link1 > a::after {
+		content:"Catalogo";
+	}
+	.stringa.vai-al-configuratore::after {
+		content:"vai al CONFIGURATORE";
+	}
+	.stringa.guarda-in-stanza::after {
+		content:"Guarda questo prodotto nella tua stanza";
+	}
+	.stringa.vedi-tutte-le-news::after {
+		content:"vedi tutte le NEWS";
+	}
+	.stringa.h2-news::after {
+		content:"News";
+	}
+	.stringa.menu-wishlist::after {
+		content:"Wishlist";
+	}
+	.stringa.menu-contatti::after {
+		content:"Contatti";
+	}
+	.stringa.menu-ceramica-info::after {
+		content:"Ceramica.info";
+	}
+	.stringa.menu-news::after {
+		content:"News";
+	}
+	.stringa.menu-azienda::after {
+		content:"Corporate & Compliance";
+	}
+	.stringa.menu-download::after {
+		content:"Download";
+	}
+	.stringa.menu-referenze::after {
+		content:"Referenze";
+	}
+	.stringa.menu-configuratore::after {
+		content:"Vai al configuratore";
+	}
+	.stringa.menu-collezioni-nella-stanza::after {
+		content:"Guarda le collezioni nella tua stanza";
+	}
+	.stringa.menu-collezioni::after {
+		content:"COLLEZIONI";
+	}
+	ul.cinerama.procionide.cine-highlight li.scegli-il-tuo-spazio a.procio-foto.foto5::after {
+		content:"Locali pubblici\00000aaffascinanti";
+	}
+	ul.cinerama.procionide.cine-highlight li.scegli-il-tuo-spazio a.procio-foto.foto4::after {
+		content:"Design\00000aliving";
+	}
+	ul.cinerama.procionide.cine-highlight li.scegli-il-tuo-spazio a.procio-foto.foto2::after {
+		content:"Raffinate\00000acucine";
+	}
+	ul.cinerama.procionide.cine-highlight li.scegli-il-tuo-spazio a.procio-foto.foto::after {
+		content:"Bagni\00000aricercati";
+	}
+	ul.cinerama.procionide.cine-highlight li.highlight-prodotto a.procio-foto.foto5::after {
+		content:"Preziose\00000adecorazioni";
+	}
+	ul.cinerama.procionide.cine-highlight li.highlight-prodotto a.procio-foto.foto4::after {
+		content:"I grandi\00000apiccoli";
+	}
+	ul.cinerama.procionide.cine-highlight li.highlight-prodotto a.procio-foto.foto::after {
+		content:"I grandi\00000a100x100";
+	}
+	.stringa.lookbook::after {
+		content:"LOOKBOOK";
+	}
+	.stringa.pulsante-cerca-24::after {
+		content:"Cerca";
+	}
+	.stringa.cerca-la-tua-collezione::after {
+		content:"Cerca la tua collezione";
+	}
+	.stringa.vedi-tutte-le-collezioni::after {
+		content:"vedi tutte le COLLEZIONI";
+	}
+	.stringa.tendina-nome-collezione::after {
+		content:"NOME COLLEZIONE";
+	}
+	.stringa.filtro-decori::after {
+		content:"DECORI";
+	}
+	.stringa.filtro-formati::after {
+		content:"FORMATI";
+	}
+	.stringa.filtro-destinazione::after {
+		content:"DESTINAZIONE D'USO";
+	}
+	.stringa.filtro-colori::after {
+		content:"COLORI";
+	}
+	.stringa.filtro-effetto::after {
+		content:"EFFETTO";
+	}
+	.stringa.ricerca-per-collezioni::after {
+		content:"PER COLLEZIONI";
+	}
+	.stringa.ricerca-collezioni-ricerca::after {
+		content:"ricerca";
+	}
+</style>
+
+<style>
+body.slug-collezioni .titolo-pagina,
+body.slug-collezione .titolo-pagina,
+body.slug-colore .titolo-pagina,
+body.slug-progetto .titolo-pagina {
+	display:none;
+}
+</style>
+
+<script>
+var menu_nuovo=1;
+</script>
+
+<style>
+div.vota-proj,
+.votabile > h3,
+.vedi-tutti-i-pr-votabili,
+div.spiega-contest.votare,
+div.spiega-contest.votato,
+#progetto .gia-votato {
+	display:none !important;
+	}
+body.contest-votabile .ducolonne ul > li:nth-child(4) {
+    opacity: .3;
+}
+#principe div#banner_contest_votabile a
+	{
+	background-image: url(https://eliosceramica.com/wp-content/themes/argilla/banner-contest/banner-sito-after-voto-OKOK.png);
+	}
+#principe div#banner_contest_votabile a:before {
+	padding-bottom: 33.75%;
+}
+</style>
+<title> | Elios Ceramica</title>
+<meta name='robots' content='max-image-preview:large' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<style media="screen">#wp-admin-bar-cinerama-menu-bar > .ab-item{padding-right:26px !important;background: url('https://eliosceramica.com/wp-content/plugins/cinerama/cinerama.png') center right no-repeat !important;background-size: 20px 20px !important;}</style>
+<script>
+	var cinerama_percorso="https://eliosceramica.com/cinerama/";
+	var cinerama_url="https://eliosceramica.com/wp-content/plugins/cinerama/";
+	var cinerama_utente_admin=false;
+	var versione_cinerama='10.03.2020c';
+	var cinerama_uploaddir="https://eliosceramica.com/wp-content/uploads/";
+</script>
+<link rel="canonical" href="" />
+<meta name="description" content=""/>
+<meta property="fb:app_id" content="" />
+<meta property="og:locale" content="it-IT" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="" />
+<meta property="og:description" content="" />
+<meta property="og:url" content="" />
+<meta property="og:site_name" content="Elios Ceramica" />
+<meta property="og:image" content="https://eliosceramica.com/cinerama/jpeg.085-png.6-o/1200/0" />
+<meta property="og:image:secure_url" content="https://eliosceramica.com/cinerama/jpeg.085-png.6-o/1200/0" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="0" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:title" content="" />
+<meta name="twitter:image" content="https://eliosceramica.com/cinerama/jpeg.085-png.6-o/1200/0" />
+
+<link rel='icon' href='https://eliosceramica.com/elios-20201013-07333/wp-content/uploads/2025/10/elios_favicon.png'>
+<link rel="alternate" type="application/rss+xml" title="Elios Ceramica &raquo; Feed" href="https://eliosceramica.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Elios Ceramica &raquo; Feed dei commenti" href="https://eliosceramica.com/comments/feed/" />
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/eliosceramica.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.2"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://eliosceramica.com/wp-includes/css/dist/block-library/style.min.css?ver=6.7.2' media='all' />
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--accent: #cd2653;--wp--preset--color--primary: #000000;--wp--preset--color--secondary: #6d6d6d;--wp--preset--color--subtle-background: #dcd7ca;--wp--preset--color--background: #f5efe0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 18px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 26.25px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--normal: 21px;--wp--preset--font-size--larger: 32px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='https://eliosceramica.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.0.4' media='all' />
+<style id='contact-form-7-inline-css'>
+.wpcf7 .wpcf7-recaptcha iframe {margin-bottom: 0;}.wpcf7 .wpcf7-recaptcha[data-align="center"] > div {margin: 0 auto;}.wpcf7 .wpcf7-recaptcha[data-align="right"] > div {margin: 0 0 0 auto;}
+</style>
+<link rel='stylesheet' id='cmplz-general-css' href='https://eliosceramica.com/wp-content/plugins/complianz-gdpr-premium/assets/css/cookieblocker.min.css?ver=1758804815' media='all' />
+<link rel='stylesheet' id='twentytwenty-style-css' href='https://eliosceramica.com/wp-content/themes/argilla/style.css?ver=13.10.2020' media='all' />
+<style id='twentytwenty-style-inline-css'>
+.color-accent,.color-accent-hover:hover,.color-accent-hover:focus,:root .has-accent-color,.has-drop-cap:not(:focus):first-letter,.wp-block-button.is-style-outline,a { color: #cd2653; }blockquote,.border-color-accent,.border-color-accent-hover:hover,.border-color-accent-hover:focus { border-color: #cd2653; }button,.button,.faux-button,.wp-block-button__link,.wp-block-file .wp-block-file__button,input[type="button"],input[type="reset"],input[type="submit"],.bg-accent,.bg-accent-hover:hover,.bg-accent-hover:focus,:root .has-accent-background-color,.comment-reply-link { background-color: #cd2653; }.fill-children-accent,.fill-children-accent * { fill: #cd2653; }body,.entry-title a,:root .has-primary-color { color: #000000; }:root .has-primary-background-color { background-color: #000000; }cite,figcaption,.wp-caption-text,.post-meta,.entry-content .wp-block-archives li,.entry-content .wp-block-categories li,.entry-content .wp-block-latest-posts li,.wp-block-latest-comments__comment-date,.wp-block-latest-posts__post-date,.wp-block-embed figcaption,.wp-block-image figcaption,.wp-block-pullquote cite,.comment-metadata,.comment-respond .comment-notes,.comment-respond .logged-in-as,.pagination .dots,.entry-content hr:not(.has-background),hr.styled-separator,:root .has-secondary-color { color: #6d6d6d; }:root .has-secondary-background-color { background-color: #6d6d6d; }pre,fieldset,input,textarea,table,table *,hr { border-color: #dcd7ca; }caption,code,code,kbd,samp,.wp-block-table.is-style-stripes tbody tr:nth-child(odd),:root .has-subtle-background-background-color { background-color: #dcd7ca; }.wp-block-table.is-style-stripes { border-bottom-color: #dcd7ca; }.wp-block-latest-posts.is-grid li { border-top-color: #dcd7ca; }:root .has-subtle-background-color { color: #dcd7ca; }body:not(.overlay-header) .primary-menu > li > a,body:not(.overlay-header) .primary-menu > li > .icon,.modal-menu a,.footer-menu a, .footer-widgets a:where(:not(.wp-block-button__link)),#site-footer .wp-block-button.is-style-outline,.wp-block-pullquote:before,.singular:not(.overlay-header) .entry-header a,.archive-header a,.header-footer-group .color-accent,.header-footer-group .color-accent-hover:hover { color: #cd2653; }.social-icons a,#site-footer button:not(.toggle),#site-footer .button,#site-footer .faux-button,#site-footer .wp-block-button__link,#site-footer .wp-block-file__button,#site-footer input[type="button"],#site-footer input[type="reset"],#site-footer input[type="submit"] { background-color: #cd2653; }.header-footer-group,body:not(.overlay-header) #site-header .toggle,.menu-modal .toggle { color: #000000; }body:not(.overlay-header) .primary-menu ul { background-color: #000000; }body:not(.overlay-header) .primary-menu > li > ul:after { border-bottom-color: #000000; }body:not(.overlay-header) .primary-menu ul ul:after { border-left-color: #000000; }.site-description,body:not(.overlay-header) .toggle-inner .toggle-text,.widget .post-date,.widget .rss-date,.widget_archive li,.widget_categories li,.widget cite,.widget_pages li,.widget_meta li,.widget_nav_menu li,.powered-by-wordpress,.footer-credits .privacy-policy,.to-the-top,.singular .entry-header .post-meta,.singular:not(.overlay-header) .entry-header .post-meta a { color: #6d6d6d; }.header-footer-group pre,.header-footer-group fieldset,.header-footer-group input,.header-footer-group textarea,.header-footer-group table,.header-footer-group table *,.footer-nav-widgets-wrapper,#site-footer,.menu-modal nav *,.footer-widgets-outer-wrapper,.footer-top { border-color: #dcd7ca; }.header-footer-group table caption,body:not(.overlay-header) .header-inner .toggle-wrapper::before { background-color: #dcd7ca; }
+</style>
+<link rel='stylesheet' id='twentytwenty-fonts-css' href='https://eliosceramica.com/wp-content/themes/twentytwenty/assets/css/font-inter.css?ver=13.10.2020' media='all' />
+<link rel='stylesheet' id='cinerama-css' href='https://eliosceramica.com/wp-content/plugins/cinerama/cinerama.css?v=10.03.2020c&#038;ver=6.7.2' media='all' />
+<link rel='stylesheet' id='elios-base-css' href='https://eliosceramica.com/martino-04.05.2021/css/base.css?ver=6.7.2' media='all' />
+<link rel='stylesheet' id='elios-tablet-css' href='https://eliosceramica.com/martino-04.05.2021/css/tablet.css' media='(min-width:600px)' />
+<link rel='stylesheet' id='elios-desktop-css' href='https://eliosceramica.com/martino-04.05.2021/css/desktop.css' media='(min-width:980px)' />
+<link rel='stylesheet' id='termos-css' href='https://eliosceramica.com/wp-content/plugins/elios/elios.css?v=ReE3' media='all' />
+<link rel='stylesheet' id='elios-grotesque-css' href='https://eliosceramica.com/wp-content/plugins/elios/fonts/FONTS.css?ver=6.7.2' media='all' />
+<link rel='stylesheet' id='fancy-css' href='https://eliosceramica.com/wp-content/plugins/fancybox/fancybox/fancy.css?ver=6.7.2' media='all' />
+<link rel='stylesheet' id='fancy-button-css' href='https://eliosceramica.com/wp-content/plugins/fancybox/fancybox/button.css?ver=6.7.2' media='all' />
+<link rel='stylesheet' id='fancy-thumbs-css' href='https://eliosceramica.com/wp-content/plugins/fancybox/fancybox/thumbs.css?ver=6.7.2' media='all' />
+<script src="https://eliosceramica.com/wp-content/themes/twentytwenty/assets/js/index.js?ver=13.10.2020" id="twentytwenty-js-js" defer data-wp-strategy="defer"></script>
+<script src="https://eliosceramica.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="https://eliosceramica.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script src="https://eliosceramica.com/wp-content/plugins/cinerama/cinerama.js?v=10.03.2020c&amp;ver=1.0" id="cinerama-js"></script>
+<script src="https://eliosceramica.com/wp-content/plugins/fancybox/fancybox/fancy.js?ver=6.7.2" id="fancy-js"></script>
+<script src="https://eliosceramica.com/wp-content/plugins/fancybox/fancybox/button.js?ver=6.7.2" id="fancy-button-js"></script>
+<script src="https://eliosceramica.com/wp-content/plugins/fancybox/fancybox/thumbs.js?ver=6.7.2" id="fancy-thumbs-js"></script>
+<script src="https://eliosceramica.com/wp-content/plugins/fancybox/fancybox/mousewheel.js?ver=6.7.2" id="fancy-wheel-js"></script>
+<script src="https://eliosceramica.com/wp-content/plugins/fancybox/fancybox/media.js?ver=6.7.2" id="fancy-media-js"></script>
+<script src="https://eliosceramica.com/wp-content/plugins/magellano/magellano.js?ver=1.0" id="magellano-js"></script>
+<link rel="https://api.w.org/" href="https://eliosceramica.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://eliosceramica.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.7.2" />
+			<style>.cmplz-hidden {
+					display: none !important;
+				}</style>	<script>document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );</script>
+	<style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><link rel="icon" href="https://eliosceramica.com/wp-content/uploads/2025/10/cropped-elios_favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://eliosceramica.com/wp-content/uploads/2025/10/cropped-elios_favicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://eliosceramica.com/wp-content/uploads/2025/10/cropped-elios_favicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://eliosceramica.com/wp-content/uploads/2025/10/cropped-elios_favicon-270x270.png" />
+		<style id="wp-custom-css">
+			body.slug-cookie-policy .corpo {column-count:1 !important;padding-left:0;padding-right:0;}
+#striscione-benvenuto li:nth-of-type(3) a::before {
+    background-image: var(--catalogo-img);
+}
+
+#striscione-benvenuto li:nth-of-type(4) a::before {
+    background-image: var(--contattaci-img);
+}
+ul.cinerama.tachiglosside li[data-slug='elios-logo'] a.img1 > img {
+	--w-perce:80%;
+}
+#utilizzo ul.cervide > li.icona-upec.niente-titolo,#utilizzo ul.cervide > li.icona-upec-2.niente-titolo {
+    max-width: unset !important;
+}
+
+#utilizzo-e-superfici #utilizzo li.icona-upec .foto,#utilizzo-e-superfici #utilizzo li.icona-upec-2 .foto {width: 90px;min-width: 90px;}
+
+/* 19 apr 2024 - annuncio vincitore */
+body.contest-votabile .ducolonne ul > li:nth-child(1), body.contest-votabile .ducolonne ul > li:nth-child(2), body.contest-votabile .ducolonne ul > li:nth-child(3), body.contest-votabile .ducolonne ul > li:nth-child(4),
+body.contest-votabile .ducolonne > div:nth-child(2),body.contest-votabile h2.scatta-e-vinci {
+	display:none;
+}
+.ducolonne li > div:nth-child(2) {
+	margin-bottom: 23px;
+}
+
+li#menu-32587 {
+    display: none;
+}		</style>
+		</head>
+
+<body data-cmplz=1 class="error404 wp-embed-responsive ispirazioni2024 gigi slug- enable-search-modal has-no-pagination not-showing-comments show-avatars footer-top-visible contest-votabile">
+<a id="cima"></a>
+<!-- Google Tag Manager (noscript) - inserito il 06.09.2024 -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KPN4GCZ5"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+	<!-- magellano wisconsin -->
+	<script class="magellano" src="https://eliosceramica.com/wp-content/plugins/magellano/territori/js/wisconsin.js"></script>
+	<link class="magellano" rel="stylesheet" media="all" href="https://eliosceramica.com/wp-content/plugins/magellano/territori/css/wisconsin.css?v=10.03.2020c"/>
+
+
+	<aside class='magellano wisconsin' id='magellano-1'>
+
+<div class='dentro'>
+	<div>
+		<div class='porta-logo'>
+			<a href='https://eliosceramica.com' class='logo-wisconsin' style='background-image:url(https://eliosceramica.com/elios-20201013-07333/wp-content/uploads/2020/10/LOGO_ELIOS_favicon.png);'></a>
+		</div>
+		<div class='laterale'>
+
+				<div class='porta-ul porta-ul1'><ul class='ul livello-1 radice'>
+<li class='principale_it no-sub' id='menu-319'><a href='#' title='COLLEZIONI'>COLLEZIONI</a></li>
+<li class='principale_it no-sub advance' id='menu-29170'><a href='https://eliosceramica.com/advance/' title='ADVANCE ®'>ADVANCE ®</a></li>
+<li class='principale_it no-sub wish-list' id='menu-314'><a href='https://eliosceramica.com/wish-list/' title='wishlist'>wishlist</a></li>
+<li class='principale_it no-sub contatti' id='menu-312'><a href='https://eliosceramica.com/contatti/' title='contatti'>contatti</a></li>
+<li class='principale_it no-sub cookie-policy-ue' id='menu-32587'><a href='https://eliosceramica.com/cookie-policy-ue/' title='Cookie Policy (UE)'>Cookie Policy (UE)</a></li>
+
+</ul>
+</div>
+				<div id='apri-menu-wisconsin'></div>
+				<div id='chiudi-menu-wisconsin'></div>
+
+		</div>
+	</div>
+</div>
+<div class='pseudo-dentro'></div>
+<div class='torna-su'><div><div></div></div></div>
+<div class='spiattellato'>
+	<div>
+		<h2><a href="collezioni" class="grotR">COLLEZIONI</a></h2>
+<h2 class="h2-advance"><a href="advance" class="grotR">Advance <sup>®</sup></a></h2>
+<hr />
+<h2 class="grotR">Guarda le collezioni nella tua stanza</h2>
+<p><span></span><a class="" href="javascript: roomvo.startStandaloneVisualizer();">Vai al configuratore</a></p>
+<hr />
+<div class="elenco-pagine grotR px18">
+<h2><a class="" href="progetti">Referenze</a></h2>
+<h2><a class="" href="download">Download</a></h2>
+<h2><a class="" href="corporate-and-compliance">Corporate & Compliance</a></h2>
+<h2><a class="" href="certificazioni-e-sostenibilita">Certificazioni e sostenibilità</a></h2>
+<h2><a class="" href="news">News</a></h2>
+<h2><a class="" href="ceramica-info">Ceramica.info</a></h2>
+<h2><a class="" href="contatti">Contatti</a></h2>
+<h2><a class="" href="https://portale.eliosceramica.it/">Area riservata</a></h2>
+
+</div>
+<p class="wishlist"><span></span><a class="grotR px18" href="wish-list">Wishlist</a></p>
+<div class="link-social">
+<div class="social">
+<a class="facebook" target="_BLANK" href="https://facebook.com/elios.ceramica/" rel="noopener noreferrer"><img src="https://eliosceramica.com/elios-20201013-07333/martino-23.04.2021/css/img/icone/facebook.svg"></a>
+<a class="instagram" target="_BLANK" href="https://www.instagram.com/elios_ceramica/" rel="noopener noreferrer"><img src="https://eliosceramica.com/elios-20201013-07333/martino-23.04.2021/css/img/icone/instagram.svg"></a>
+<a class="youtube" target="_BLANK" href="https://www.youtube.com/channel/UCSP0sfJgeKF_YqluIpk7nQg" rel="noopener noreferrer"><img src="https://eliosceramica.com/elios-20201013-07333/martino-23.04.2021/css/img/icone/youtube.svg"></a>
+<a class="linkedin" target="_BLANK" href="https://www.linkedin.com/company/24661261/" rel="noopener noreferrer"><img src="https://eliosceramica.com/elios-20201013-07333/martino-23.04.2021/css/img/icone/linkedin.svg"></a>
+</div>
+</div>
+	</div>
+</div>
+	
+</aside>
+
+	<script>
+		jQuery(document).ready(function () {
+			wisconsin_ready(jQuery("aside#magellano-1"));
+		});
+		jQuery(document).ready(function () {
+			jQuery(document).ready(function () {
+				wisconsin_ready_ready(jQuery("aside#magellano-1"));
+			});
+		});
+		jQuery(window).resize(function () {
+			wisconsin_resize(jQuery("aside#magellano-1"));
+		});
+
+	</script>
+<div id='crusco'>
+<div>
+<div id='cruscotto'>
+<div>
+
+<div class='titolone-e-motto'>
+	<div>
+		<h2>COLLEZIONI</h2>
+	</div>
+	<div>
+		<h3>Dentro ogni piastrella c'è il valore della cultura ceramica</h3>
+	</div>
+</div>
+<div class='titolo'>
+	<h3><span class='stringa ricerca-collezioni-ricerca'></span>&nbsp;<span class='stringa ricerca-per-collezioni'></span></h3>
+</div>
+<div class='filtriera vuota'><div>
+<h4 class='stringa filtro-effetto filtro'></h4>
+<div>
+	<!-- cinerama urside -->
+
+	<script src="https://eliosceramica.com/wp-content/plugins/cinerama/js/animali/urside.js?v=10.03.2020c"></script>
+	<link rel="stylesheet" href="https://eliosceramica.com/wp-content/plugins/cinerama/css/animali/urside.css?v=10.03.2020c" media="all"/>
+	<link rel="stylesheet" media="(min-width:500px)" href="https://eliosceramica.com/wp-content/plugins/cinerama/css/animali/urside-500.css?v=10.03.2020c"/>
+	<link rel="stylesheet" media="(min-width:800px)" href="https://eliosceramica.com/wp-content/plugins/cinerama/css/animali/urside-800.css?v=10.03.2020c"/>
+	<link rel="stylesheet" media="(min-width:1000px)" href="https://eliosceramica.com/wp-content/plugins/cinerama/css/animali/urside-1000.css?v=10.03.2020c"/>
+<style>
+#rama-0 .foto {background-size:cover;}
+</style>
+<section class="cinerama urside sottosopra cine-filtri no-tasso niente-testo2 fit-cover">
+
+		<ul
+data-lingua="it"
+id="rama-0"
+class="cinerama urside sottosopra cine-filtri no-tasso niente-testo2 fit-cover"
+data-compressione="jpeg.080-png.6-o"
+data-compressione2="jpeg.080-png.6-o"
+data-compressione3="jpeg.080-png.6-o"
+data-compressione4="jpeg.080-png.6-o"
+data-compressione5="jpeg.080-png.6-o"
+data-compressione6="jpeg.080-png.6-o"
+data-compressione7="jpeg.080-png.6-o"
+data-compressione8="jpeg.080-png.6-o"
+data-compressione9="jpeg.080-png.6-o"
+data-compressione10="jpeg.080-png.6-o"
+data-compressione11="jpeg.080-png.6-o"
+data-fit="cover"
+data-fit2=""
+data-fit3=""
+data-fit4=""
+data-fit5=""
+data-fit6=""
+data-fit7=""
+data-fit8=""
+data-fit9=""
+data-fit10=""
+data-fit11=""
+data-foto="background"
+data-foto2=""
+data-foto3=""
+data-foto4=""
+data-foto5=""
+data-foto6=""
+data-foto7=""
+data-foto8=""
+data-foto9=""
+data-foto10=""
+data-foto11=""
+data-chiama-immagini="ready"
+data-chiama-immagini2=""
+data-chiama-immagini3=""
+data-chiama-immagini4=""
+data-chiama-immagini5=""
+data-chiama-immagini6=""
+data-chiama-immagini7=""
+data-chiama-immagini8=""
+data-chiama-immagini9=""
+data-chiama-immagini10=""
+data-chiama-immagini11=""
+data-sfondo=""
+data-rapporto=""
+style=""
+title=""
+data-genere="urside"
+data-quante="6">
+	<li
+style=""
+data-file="/2024/08/Elios_loghini_nuove_ispirazioni4-1.png"
+data-file2="/2024/08/ispirazioni2024-superfici-creative.png"
+data-file3=""
+data-file4=""
+data-file5=""
+data-file6=""
+data-file7=""
+data-file8=""
+data-file9="" 
+data-file10="" 
+data-file11="" 
+data-mime="image/png"
+data-mime2="image/png"
+data-mime3=""
+data-mime4=""
+data-mime5=""
+data-mime6=""
+data-mime7=""
+data-mime8=""
+data-mime9=""
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="353"
+data-numero="1"
+data-w="581"
+data-h="243"
+data-w2="800"
+data-h2="611"
+data-w3="0"
+data-h3="0"
+data-w4="0"
+data-h4="0"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="0"
+data-h7="0"
+data-w8="0"
+data-h8="0"
+data-w9="0"
+data-h9="0"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="materia"
+class="filtro_effetto pescato materia">
+
+	<article>
+		<a href='https://eliosceramica.com/collezioni/effetto/materia/' rel='urside' class='link-orso' title='Materia'>
+			<div class='titolo-e-testo'>
+				<h3 class='titolo'><span>Materia</span></h3>
+				<div class='testo'><p>Suggestioni, idee, colori e superfici per arredare gli spazi contemporanei.</p>
+</div>
+			</div>
+			<div class='leggi-e-tasso'>
+				
+				<p class='leggi-tutto'><span></span></p>
+			</div>
+			<div class='data'>
+				<p><span class='giorno'>18</span><span class='mese'>11</span><span class='anno'>2020</span></p>
+			</div>
+			<div class='foto urside' style=''></div>
+		</a>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2024/08/Elios_loghini_nuove_ispirazioni5-1.png"
+data-file2="/2024/08/ispirazioni2024-cave-di-gres.png"
+data-file3=""
+data-file4=""
+data-file5=""
+data-file6=""
+data-file7=""
+data-file8=""
+data-file9="" 
+data-file10="" 
+data-file11="" 
+data-mime="image/png"
+data-mime2="image/png"
+data-mime3=""
+data-mime4=""
+data-mime5=""
+data-mime6=""
+data-mime7=""
+data-mime8=""
+data-mime9=""
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="356"
+data-numero="2"
+data-w="468"
+data-h="225"
+data-w2="800"
+data-h2="611"
+data-w3="0"
+data-h3="0"
+data-w4="0"
+data-h4="0"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="0"
+data-h7="0"
+data-w8="0"
+data-h8="0"
+data-w9="0"
+data-h9="0"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="marmi-e-pietre"
+class="filtro_effetto pescato marmi-e-pietre">
+
+	<article>
+		<a href='https://eliosceramica.com/collezioni/effetto/marmi-e-pietre/' rel='urside' class='link-orso' title='Marmi e Pietre'>
+			<div class='titolo-e-testo'>
+				<h3 class='titolo'><span>Marmi e Pietre</span></h3>
+				<div class='testo'><p>Tonalità e venature nella loro espressione ideale, riprodotte ad alta fedeltà o reinventate creativamente.</p>
+</div>
+			</div>
+			<div class='leggi-e-tasso'>
+				
+				<p class='leggi-tutto'><span></span></p>
+			</div>
+			<div class='data'>
+				<p><span class='giorno'>18</span><span class='mese'>11</span><span class='anno'>2020</span></p>
+			</div>
+			<div class='foto urside' style=''></div>
+		</a>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2024/08/Elios_loghini_nuove_ispirazioni3-1.png"
+data-file2="/2024/08/ispirazioni2024-essenze-lignee.png"
+data-file3=""
+data-file4=""
+data-file5=""
+data-file6=""
+data-file7=""
+data-file8=""
+data-file9="" 
+data-file10="" 
+data-file11="" 
+data-mime="image/png"
+data-mime2="image/png"
+data-mime3=""
+data-mime4=""
+data-mime5=""
+data-mime6=""
+data-mime7=""
+data-mime8=""
+data-mime9=""
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="357"
+data-numero="3"
+data-w="559"
+data-h="239"
+data-w2="800"
+data-h2="611"
+data-w3="0"
+data-h3="0"
+data-w4="0"
+data-h4="0"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="0"
+data-h7="0"
+data-w8="0"
+data-h8="0"
+data-w9="0"
+data-h9="0"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="legni"
+class="filtro_effetto pescato legni">
+
+	<article>
+		<a href='https://eliosceramica.com/collezioni/effetto/legni/' rel='urside' class='link-orso' title='Legni'>
+			<div class='titolo-e-testo'>
+				<h3 class='titolo'><span>Legni</span></h3>
+				<div class='testo'><p>Il calore e il feeling delle superfici in legno in tutte le sue forme, anche le più rare e introvabili.</p>
+</div>
+			</div>
+			<div class='leggi-e-tasso'>
+				
+				<p class='leggi-tutto'><span></span></p>
+			</div>
+			<div class='data'>
+				<p><span class='giorno'>18</span><span class='mese'>11</span><span class='anno'>2020</span></p>
+			</div>
+			<div class='foto urside' style=''></div>
+		</a>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2024/08/Elios_loghini_nuove_ispirazioni2-1.png"
+data-file2="/2024/08/ispirazioni2024-manufatti-ceramici.png"
+data-file3=""
+data-file4=""
+data-file5=""
+data-file6=""
+data-file7=""
+data-file8=""
+data-file9="" 
+data-file10="" 
+data-file11="" 
+data-mime="image/png"
+data-mime2="image/png"
+data-mime3=""
+data-mime4=""
+data-mime5=""
+data-mime6=""
+data-mime7=""
+data-mime8=""
+data-mime9=""
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="359"
+data-numero="4"
+data-w="728"
+data-h="253"
+data-w2="800"
+data-h2="611"
+data-w3="0"
+data-h3="0"
+data-w4="0"
+data-h4="0"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="0"
+data-h7="0"
+data-w8="0"
+data-h8="0"
+data-w9="0"
+data-h9="0"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="cementi-e-cotti"
+class="filtro_effetto pescato cementi-e-cotti">
+
+	<article>
+		<a href='https://eliosceramica.com/collezioni/effetto/cementi-e-cotti/' rel='urside' class='link-orso' title='Cementi e Cotti'>
+			<div class='titolo-e-testo'>
+				<h3 class='titolo'><span>Cementi e Cotti</span></h3>
+				<div class='testo'><p>Manufatti artigianali, materie contemporanee e industriali, essenzialità e minimalismo.</p>
+</div>
+			</div>
+			<div class='leggi-e-tasso'>
+				
+				<p class='leggi-tutto'><span></span></p>
+			</div>
+			<div class='data'>
+				<p><span class='giorno'>18</span><span class='mese'>11</span><span class='anno'>2020</span></p>
+			</div>
+			<div class='foto urside' style=''></div>
+		</a>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2024/08/Elios_loghini_nuove_ispirazioni-1.png"
+data-file2="/2024/08/ispirazioni2024-magnus.png"
+data-file3=""
+data-file4=""
+data-file5=""
+data-file6=""
+data-file7=""
+data-file8=""
+data-file9="" 
+data-file10="" 
+data-file11="" 
+data-mime="image/png"
+data-mime2="image/png"
+data-mime3=""
+data-mime4=""
+data-mime5=""
+data-mime6=""
+data-mime7=""
+data-mime8=""
+data-mime9=""
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="32311"
+data-numero="5"
+data-w="655"
+data-h="283"
+data-w2="800"
+data-h2="611"
+data-w3="0"
+data-h3="0"
+data-w4="0"
+data-h4="0"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="0"
+data-h7="0"
+data-w8="0"
+data-h8="0"
+data-w9="0"
+data-h9="0"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="lastre"
+class="filtro_effetto pescato lastre">
+
+	<article>
+		<a href='https://eliosceramica.com/collezioni/effetto/lastre/' rel='urside' class='link-orso' title='Lastre'>
+			<div class='titolo-e-testo'>
+				<h3 class='titolo'><span>Lastre</span></h3>
+				<div class='testo'><p>Magnus incarna la grandezza, l’eleganza e la versatilità delle superfici in grande formato. </p>
+</div>
+			</div>
+			<div class='leggi-e-tasso'>
+				
+				<p class='leggi-tutto'><span></span></p>
+			</div>
+			<div class='data'>
+				<p><span class='giorno'>26</span><span class='mese'>08</span><span class='anno'>2024</span></p>
+			</div>
+			<div class='foto urside' style=''></div>
+		</a>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2025/10/Argillakotta-logo.png"
+data-file2="/2025/10/Argillakotta.png"
+data-file3=""
+data-file4=""
+data-file5=""
+data-file6=""
+data-file7=""
+data-file8=""
+data-file9="" 
+data-file10="" 
+data-file11="" 
+data-mime="image/png"
+data-mime2="image/png"
+data-mime3=""
+data-mime4=""
+data-mime5=""
+data-mime6=""
+data-mime7=""
+data-mime8=""
+data-mime9=""
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="33098"
+data-numero="6"
+data-w="559"
+data-h="239"
+data-w2="800"
+data-h2="611"
+data-w3="0"
+data-h3="0"
+data-w4="0"
+data-h4="0"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="0"
+data-h7="0"
+data-w8="0"
+data-h8="0"
+data-w9="0"
+data-h9="0"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="argillakotta"
+class="filtro_effetto pescato argillakotta">
+
+	<article>
+		<a href='https://eliosceramica.com/collezioni/effetto/argillakotta/' rel='urside' class='link-orso' title='Argillakotta'>
+			<div class='titolo-e-testo'>
+				<h3 class='titolo'><span>Argillakotta</span></h3>
+				<div class='testo'><p>Il calore e il feeling delle superfici in legno in tutte le sue forme, anche le più rare e introvabili.</p>
+</div>
+			</div>
+			<div class='leggi-e-tasso'>
+				
+				<p class='leggi-tutto'><span></span></p>
+			</div>
+			<div class='data'>
+				<p><span class='giorno'>24</span><span class='mese'>10</span><span class='anno'>2025</span></p>
+			</div>
+			<div class='foto urside' style=''></div>
+		</a>
+	</article>
+	</li>
+
+</ul>
+		<nav id="freccine-rama-0" class="cinerama freccine urside sottosopra cine-filtri" data-quante="6">
+				<span class="freccia-sx"></span>
+	<span class="freccia-dx"></span>
+
+		</nav>
+
+</section>
+
+	<script>
+		jQuery(document).ready(function () {
+			urside_ready(jQuery("ul#rama-0"));
+		});
+		jQuery(document).ready(function () {
+			jQuery(document).ready(function () {
+				urside_ready_ready(jQuery("ul#rama-0"));
+			});
+		});
+		jQuery(window).resize(function () {
+			urside_resize(jQuery("ul#rama-0"));
+		});
+	</script>
+	<!-- end cinerama urside -->
+
+</div>
+</div>
+<div>
+<h4 class='stringa filtro-colori filtro'></h4>
+<div>
+	<!-- cinerama urside -->
+<style>
+#rama-1 .foto {background-size:cover;}
+</style>
+<section class="cinerama urside sottosopra cine-filtri no-tasso niente-testo2 fit-cover">
+
+		<ul
+data-lingua="it"
+id="rama-1"
+class="cinerama urside sottosopra cine-filtri no-tasso niente-testo2 fit-cover"
+data-compressione="jpeg.080-png.6-o"
+data-compressione2="jpeg.080-png.6-o"
+data-compressione3="jpeg.080-png.6-o"
+data-compressione4="jpeg.080-png.6-o"
+data-compressione5="jpeg.080-png.6-o"
+data-compressione6="jpeg.080-png.6-o"
+data-compressione7="jpeg.080-png.6-o"
+data-compressione8="jpeg.080-png.6-o"
+data-compressione9="jpeg.080-png.6-o"
+data-compressione10="jpeg.080-png.6-o"
+data-compressione11="jpeg.080-png.6-o"
+data-fit="cover"
+data-fit2=""
+data-fit3=""
+data-fit4=""
+data-fit5=""
+data-fit6=""
+data-fit7=""
+data-fit8=""
+data-fit9=""
+data-fit10=""
+data-fit11=""
+data-foto="background"
+data-foto2=""
+data-foto3=""
+data-foto4=""
+data-foto5=""
+data-foto6=""
+data-foto7=""
+data-foto8=""
+data-foto9=""
+data-foto10=""
+data-foto11=""
+data-chiama-immagini="ready"
+data-chiama-immagini2=""
+data-chiama-immagini3=""
+data-chiama-immagini4=""
+data-chiama-immagini5=""
+data-chiama-immagini6=""
+data-chiama-immagini7=""
+data-chiama-immagini8=""
+data-chiama-immagini9=""
+data-chiama-immagini10=""
+data-chiama-immagini11=""
+data-sfondo=""
+data-rapporto=""
+style=""
+title=""
+data-genere="urside"
+data-quante="8">
+	<li
+style=""
+data-file="/2020/11/filtro_grigio@2x.png"
+data-file2=""
+data-file3=""
+data-file4=""
+data-file5=""
+data-file6=""
+data-file7=""
+data-file8=""
+data-file9="" 
+data-file10="" 
+data-file11="" 
+data-mime="image/png"
+data-mime2=""
+data-mime3=""
+data-mime4=""
+data-mime5=""
+data-mime6=""
+data-mime7=""
+data-mime8=""
+data-mime9=""
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="86"
+data-numero="1"
+data-w="110"
+data-h="110"
+data-w2="0"
+data-h2="0"
+data-w3="0"
+data-h3="0"
+data-w4="0"
+data-h4="0"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="0"
+data-h7="0"
+data-w8="0"
+data-h8="0"
+data-w9="0"
+data-h9="0"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="grigio"
+class="filtro_colore pescato grigio">
+
+	<article>
+		<a href='https://eliosceramica.com/collezioni/colore/grigio/' rel='urside' class='link-orso' title='Grigio'>
+			<div class='titolo-e-testo'>
+				<h3 class='titolo'><span>Grigio</span></h3>
+				<div class='testo'></div>
+			</div>
+			<div class='leggi-e-tasso'>
+				
+				<p class='leggi-tutto'><span></span></p>
+			</div>
+			<div class='data'>
+				<p><span class='giorno'>14</span><span class='mese'>10</span><span class='anno'>2020</span></p>
+			</div>
+			<div class='foto urside' style=''></div>
+		</a>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2020/11/filtro_bianco@2x.png"
+data-file2=""
+data-file3=""
+data-file4=""
+data-file5=""
+data-file6=""
+data-file7=""
+data-file8=""
+data-file9="" 
+data-file10="" 
+data-file11="" 
+data-mime="image/png"
+data-mime2=""
+data-mime3=""
+data-mime4=""
+data-mime5=""
+data-mime6=""
+data-mime7=""
+data-mime8=""
+data-mime9=""
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="92"
+data-numero="2"
+data-w="110"
+data-h="110"
+data-w2="0"
+data-h2="0"
+data-w3="0"
+data-h3="0"
+data-w4="0"
+data-h4="0"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="0"
+data-h7="0"
+data-w8="0"
+data-h8="0"
+data-w9="0"
+data-h9="0"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="bianco"
+class="filtro_colore pescato bianco">
+
+	<article>
+		<a href='https://eliosceramica.com/collezioni/colore/bianco/' rel='urside' class='link-orso' title='Bianco'>
+			<div class='titolo-e-testo'>
+				<h3 class='titolo'><span>Bianco</span></h3>
+				<div class='testo'></div>
+			</div>
+			<div class='leggi-e-tasso'>
+				
+				<p class='leggi-tutto'><span></span></p>
+			</div>
+			<div class='data'>
+				<p><span class='giorno'>15</span><span class='mese'>10</span><span class='anno'>2020</span></p>
+			</div>
+			<div class='foto urside' style=''></div>
+		</a>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2020/11/filtro_nero@2x.png"
+data-file2=""
+data-file3=""
+data-file4=""
+data-file5=""
+data-file6=""
+data-file7=""
+data-file8=""
+data-file9="" 
+data-file10="" 
+data-file11="" 
+data-mime="image/png"
+data-mime2=""
+data-mime3=""
+data-mime4=""
+data-mime5=""
+data-mime6=""
+data-mime7=""
+data-mime8=""
+data-mime9=""
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="360"
+data-numero="3"
+data-w="110"
+data-h="110"
+data-w2="0"
+data-h2="0"
+data-w3="0"
+data-h3="0"
+data-w4="0"
+data-h4="0"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="0"
+data-h7="0"
+data-w8="0"
+data-h8="0"
+data-w9="0"
+data-h9="0"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="nero"
+class="filtro_colore pescato nero">
+
+	<article>
+		<a href='https://eliosceramica.com/collezioni/colore/nero/' rel='urside' class='link-orso' title='Nero'>
+			<div class='titolo-e-testo'>
+				<h3 class='titolo'><span>Nero</span></h3>
+				<div class='testo'></div>
+			</div>
+			<div class='leggi-e-tasso'>
+				
+				<p class='leggi-tutto'><span></span></p>
+			</div>
+			<div class='data'>
+				<p><span class='giorno'>18</span><span class='mese'>11</span><span class='anno'>2020</span></p>
+			</div>
+			<div class='foto urside' style=''></div>
+		</a>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2020/11/filtro_avorio@2x.png"
+data-file2=""
+data-file3=""
+data-file4=""
+data-file5=""
+data-file6=""
+data-file7=""
+data-file8=""
+data-file9="" 
+data-file10="" 
+data-file11="" 
+data-mime="image/png"
+data-mime2=""
+data-mime3=""
+data-mime4=""
+data-mime5=""
+data-mime6=""
+data-mime7=""
+data-mime8=""
+data-mime9=""
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="361"
+data-numero="4"
+data-w="110"
+data-h="110"
+data-w2="0"
+data-h2="0"
+data-w3="0"
+data-h3="0"
+data-w4="0"
+data-h4="0"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="0"
+data-h7="0"
+data-w8="0"
+data-h8="0"
+data-w9="0"
+data-h9="0"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="avorio"
+class="filtro_colore pescato avorio">
+
+	<article>
+		<a href='https://eliosceramica.com/collezioni/colore/avorio/' rel='urside' class='link-orso' title='Avorio'>
+			<div class='titolo-e-testo'>
+				<h3 class='titolo'><span>Avorio</span></h3>
+				<div class='testo'></div>
+			</div>
+			<div class='leggi-e-tasso'>
+				
+				<p class='leggi-tutto'><span></span></p>
+			</div>
+			<div class='data'>
+				<p><span class='giorno'>18</span><span class='mese'>11</span><span class='anno'>2020</span></p>
+			</div>
+			<div class='foto urside' style=''></div>
+		</a>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2020/11/filtro_beige@2x.png"
+data-file2=""
+data-file3=""
+data-file4=""
+data-file5=""
+data-file6=""
+data-file7=""
+data-file8=""
+data-file9="" 
+data-file10="" 
+data-file11="" 
+data-mime="image/png"
+data-mime2=""
+data-mime3=""
+data-mime4=""
+data-mime5=""
+data-mime6=""
+data-mime7=""
+data-mime8=""
+data-mime9=""
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="362"
+data-numero="5"
+data-w="110"
+data-h="110"
+data-w2="0"
+data-h2="0"
+data-w3="0"
+data-h3="0"
+data-w4="0"
+data-h4="0"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="0"
+data-h7="0"
+data-w8="0"
+data-h8="0"
+data-w9="0"
+data-h9="0"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="beige"
+class="filtro_colore pescato beige">
+
+	<article>
+		<a href='https://eliosceramica.com/collezioni/colore/beige/' rel='urside' class='link-orso' title='Beige'>
+			<div class='titolo-e-testo'>
+				<h3 class='titolo'><span>Beige</span></h3>
+				<div class='testo'></div>
+			</div>
+			<div class='leggi-e-tasso'>
+				
+				<p class='leggi-tutto'><span></span></p>
+			</div>
+			<div class='data'>
+				<p><span class='giorno'>18</span><span class='mese'>11</span><span class='anno'>2020</span></p>
+			</div>
+			<div class='foto urside' style=''></div>
+		</a>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2020/11/filtro_ocra@2x.png"
+data-file2=""
+data-file3=""
+data-file4=""
+data-file5=""
+data-file6=""
+data-file7=""
+data-file8=""
+data-file9="" 
+data-file10="" 
+data-file11="" 
+data-mime="image/png"
+data-mime2=""
+data-mime3=""
+data-mime4=""
+data-mime5=""
+data-mime6=""
+data-mime7=""
+data-mime8=""
+data-mime9=""
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="363"
+data-numero="6"
+data-w="110"
+data-h="110"
+data-w2="0"
+data-h2="0"
+data-w3="0"
+data-h3="0"
+data-w4="0"
+data-h4="0"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="0"
+data-h7="0"
+data-w8="0"
+data-h8="0"
+data-w9="0"
+data-h9="0"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="ocra"
+class="filtro_colore pescato ocra">
+
+	<article>
+		<a href='https://eliosceramica.com/collezioni/colore/ocra/' rel='urside' class='link-orso' title='Ocra'>
+			<div class='titolo-e-testo'>
+				<h3 class='titolo'><span>Ocra</span></h3>
+				<div class='testo'></div>
+			</div>
+			<div class='leggi-e-tasso'>
+				
+				<p class='leggi-tutto'><span></span></p>
+			</div>
+			<div class='data'>
+				<p><span class='giorno'>18</span><span class='mese'>11</span><span class='anno'>2020</span></p>
+			</div>
+			<div class='foto urside' style=''></div>
+		</a>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2020/11/filtro_marrone@2x.png"
+data-file2=""
+data-file3=""
+data-file4=""
+data-file5=""
+data-file6=""
+data-file7=""
+data-file8=""
+data-file9="" 
+data-file10="" 
+data-file11="" 
+data-mime="image/png"
+data-mime2=""
+data-mime3=""
+data-mime4=""
+data-mime5=""
+data-mime6=""
+data-mime7=""
+data-mime8=""
+data-mime9=""
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="364"
+data-numero="7"
+data-w="110"
+data-h="110"
+data-w2="0"
+data-h2="0"
+data-w3="0"
+data-h3="0"
+data-w4="0"
+data-h4="0"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="0"
+data-h7="0"
+data-w8="0"
+data-h8="0"
+data-w9="0"
+data-h9="0"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="marrone"
+class="filtro_colore pescato marrone">
+
+	<article>
+		<a href='https://eliosceramica.com/collezioni/colore/marrone/' rel='urside' class='link-orso' title='Marrone'>
+			<div class='titolo-e-testo'>
+				<h3 class='titolo'><span>Marrone</span></h3>
+				<div class='testo'></div>
+			</div>
+			<div class='leggi-e-tasso'>
+				
+				<p class='leggi-tutto'><span></span></p>
+			</div>
+			<div class='data'>
+				<p><span class='giorno'>18</span><span class='mese'>11</span><span class='anno'>2020</span></p>
+			</div>
+			<div class='foto urside' style=''></div>
+		</a>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2020/11/filtro_altri@2x.png"
+data-file2=""
+data-file3=""
+data-file4=""
+data-file5=""
+data-file6=""
+data-file7=""
+data-file8=""
+data-file9="" 
+data-file10="" 
+data-file11="" 
+data-mime="image/png"
+data-mime2=""
+data-mime3=""
+data-mime4=""
+data-mime5=""
+data-mime6=""
+data-mime7=""
+data-mime8=""
+data-mime9=""
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="365"
+data-numero="8"
+data-w="110"
+data-h="110"
+data-w2="0"
+data-h2="0"
+data-w3="0"
+data-h3="0"
+data-w4="0"
+data-h4="0"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="0"
+data-h7="0"
+data-w8="0"
+data-h8="0"
+data-w9="0"
+data-h9="0"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="altri"
+class="filtro_colore pescato altri">
+
+	<article>
+		<a href='https://eliosceramica.com/collezioni/colore/altri/' rel='urside' class='link-orso' title='Altri'>
+			<div class='titolo-e-testo'>
+				<h3 class='titolo'><span>Altri</span></h3>
+				<div class='testo'></div>
+			</div>
+			<div class='leggi-e-tasso'>
+				
+				<p class='leggi-tutto'><span></span></p>
+			</div>
+			<div class='data'>
+				<p><span class='giorno'>18</span><span class='mese'>11</span><span class='anno'>2020</span></p>
+			</div>
+			<div class='foto urside' style=''></div>
+		</a>
+	</article>
+	</li>
+
+</ul>
+		<nav id="freccine-rama-1" class="cinerama freccine urside sottosopra cine-filtri" data-quante="8">
+				<span class="freccia-sx"></span>
+	<span class="freccia-dx"></span>
+
+		</nav>
+
+</section>
+
+	<script>
+		jQuery(document).ready(function () {
+			urside_ready(jQuery("ul#rama-1"));
+		});
+		jQuery(document).ready(function () {
+			jQuery(document).ready(function () {
+				urside_ready_ready(jQuery("ul#rama-1"));
+			});
+		});
+		jQuery(window).resize(function () {
+			urside_resize(jQuery("ul#rama-1"));
+		});
+	</script>
+	<!-- end cinerama urside -->
+
+</div>
+</div>
+<div>
+<h4 class='stringa filtro-destinazione filtro'></h4>
+<div>
+	<!-- cinerama urside -->
+<style>
+#rama-2 .foto {background-size:cover;}
+</style>
+<section class="cinerama urside sottosopra cine-filtri no-tasso niente-testo2 fit-cover">
+
+		<ul
+data-lingua="it"
+id="rama-2"
+class="cinerama urside sottosopra cine-filtri no-tasso niente-testo2 fit-cover"
+data-compressione="jpeg.080-png.6-o"
+data-compressione2="jpeg.080-png.6-o"
+data-compressione3="jpeg.080-png.6-o"
+data-compressione4="jpeg.080-png.6-o"
+data-compressione5="jpeg.080-png.6-o"
+data-compressione6="jpeg.080-png.6-o"
+data-compressione7="jpeg.080-png.6-o"
+data-compressione8="jpeg.080-png.6-o"
+data-compressione9="jpeg.080-png.6-o"
+data-compressione10="jpeg.080-png.6-o"
+data-compressione11="jpeg.080-png.6-o"
+data-fit="cover"
+data-fit2=""
+data-fit3=""
+data-fit4=""
+data-fit5=""
+data-fit6=""
+data-fit7=""
+data-fit8=""
+data-fit9=""
+data-fit10=""
+data-fit11=""
+data-foto="background"
+data-foto2=""
+data-foto3=""
+data-foto4=""
+data-foto5=""
+data-foto6=""
+data-foto7=""
+data-foto8=""
+data-foto9=""
+data-foto10=""
+data-foto11=""
+data-chiama-immagini="ready"
+data-chiama-immagini2=""
+data-chiama-immagini3=""
+data-chiama-immagini4=""
+data-chiama-immagini5=""
+data-chiama-immagini6=""
+data-chiama-immagini7=""
+data-chiama-immagini8=""
+data-chiama-immagini9=""
+data-chiama-immagini10=""
+data-chiama-immagini11=""
+data-sfondo=""
+data-rapporto=""
+style=""
+title=""
+data-genere="urside"
+data-quante="5">
+	<li
+style=""
+data-file="/2020/11/filtro_bagno@2x.png"
+data-file2=""
+data-file3=""
+data-file4=""
+data-file5=""
+data-file6=""
+data-file7=""
+data-file8=""
+data-file9="" 
+data-file10="" 
+data-file11="" 
+data-mime="image/png"
+data-mime2=""
+data-mime3=""
+data-mime4=""
+data-mime5=""
+data-mime6=""
+data-mime7=""
+data-mime8=""
+data-mime9=""
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="93"
+data-numero="1"
+data-w="110"
+data-h="110"
+data-w2="0"
+data-h2="0"
+data-w3="0"
+data-h3="0"
+data-w4="0"
+data-h4="0"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="0"
+data-h7="0"
+data-w8="0"
+data-h8="0"
+data-w9="0"
+data-h9="0"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="bagno"
+class="filtro_destinazione pescato bagno">
+
+	<article>
+		<a href='https://eliosceramica.com/collezioni/destinazione/bagno/' rel='urside' class='link-orso' title='Bagno'>
+			<div class='titolo-e-testo'>
+				<h3 class='titolo'><span>Bagno</span></h3>
+				<div class='testo'></div>
+			</div>
+			<div class='leggi-e-tasso'>
+				
+				<p class='leggi-tutto'><span></span></p>
+			</div>
+			<div class='data'>
+				<p><span class='giorno'>15</span><span class='mese'>10</span><span class='anno'>2020</span></p>
+			</div>
+			<div class='foto urside' style=''></div>
+		</a>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2020/11/filtro_cucina@2x.png"
+data-file2=""
+data-file3=""
+data-file4=""
+data-file5=""
+data-file6=""
+data-file7=""
+data-file8=""
+data-file9="" 
+data-file10="" 
+data-file11="" 
+data-mime="image/png"
+data-mime2=""
+data-mime3=""
+data-mime4=""
+data-mime5=""
+data-mime6=""
+data-mime7=""
+data-mime8=""
+data-mime9=""
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="366"
+data-numero="2"
+data-w="110"
+data-h="110"
+data-w2="0"
+data-h2="0"
+data-w3="0"
+data-h3="0"
+data-w4="0"
+data-h4="0"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="0"
+data-h7="0"
+data-w8="0"
+data-h8="0"
+data-w9="0"
+data-h9="0"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="cucina"
+class="filtro_destinazione pescato cucina">
+
+	<article>
+		<a href='https://eliosceramica.com/collezioni/destinazione/cucina/' rel='urside' class='link-orso' title='Cucina'>
+			<div class='titolo-e-testo'>
+				<h3 class='titolo'><span>Cucina</span></h3>
+				<div class='testo'></div>
+			</div>
+			<div class='leggi-e-tasso'>
+				
+				<p class='leggi-tutto'><span></span></p>
+			</div>
+			<div class='data'>
+				<p><span class='giorno'>18</span><span class='mese'>11</span><span class='anno'>2020</span></p>
+			</div>
+			<div class='foto urside' style=''></div>
+		</a>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2020/11/filtro_living@2x.png"
+data-file2=""
+data-file3=""
+data-file4=""
+data-file5=""
+data-file6=""
+data-file7=""
+data-file8=""
+data-file9="" 
+data-file10="" 
+data-file11="" 
+data-mime="image/png"
+data-mime2=""
+data-mime3=""
+data-mime4=""
+data-mime5=""
+data-mime6=""
+data-mime7=""
+data-mime8=""
+data-mime9=""
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="367"
+data-numero="3"
+data-w="110"
+data-h="110"
+data-w2="0"
+data-h2="0"
+data-w3="0"
+data-h3="0"
+data-w4="0"
+data-h4="0"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="0"
+data-h7="0"
+data-w8="0"
+data-h8="0"
+data-w9="0"
+data-h9="0"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="living"
+class="filtro_destinazione pescato living">
+
+	<article>
+		<a href='https://eliosceramica.com/collezioni/destinazione/living/' rel='urside' class='link-orso' title='Living'>
+			<div class='titolo-e-testo'>
+				<h3 class='titolo'><span>Living</span></h3>
+				<div class='testo'></div>
+			</div>
+			<div class='leggi-e-tasso'>
+				
+				<p class='leggi-tutto'><span></span></p>
+			</div>
+			<div class='data'>
+				<p><span class='giorno'>18</span><span class='mese'>11</span><span class='anno'>2020</span></p>
+			</div>
+			<div class='foto urside' style=''></div>
+		</a>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2020/11/filtro_contract@2x.png"
+data-file2=""
+data-file3=""
+data-file4=""
+data-file5=""
+data-file6=""
+data-file7=""
+data-file8=""
+data-file9="" 
+data-file10="" 
+data-file11="" 
+data-mime="image/png"
+data-mime2=""
+data-mime3=""
+data-mime4=""
+data-mime5=""
+data-mime6=""
+data-mime7=""
+data-mime8=""
+data-mime9=""
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="368"
+data-numero="4"
+data-w="110"
+data-h="110"
+data-w2="0"
+data-h2="0"
+data-w3="0"
+data-h3="0"
+data-w4="0"
+data-h4="0"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="0"
+data-h7="0"
+data-w8="0"
+data-h8="0"
+data-w9="0"
+data-h9="0"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="contract"
+class="filtro_destinazione pescato contract">
+
+	<article>
+		<a href='https://eliosceramica.com/collezioni/destinazione/contract/' rel='urside' class='link-orso' title='Contract'>
+			<div class='titolo-e-testo'>
+				<h3 class='titolo'><span>Contract</span></h3>
+				<div class='testo'></div>
+			</div>
+			<div class='leggi-e-tasso'>
+				
+				<p class='leggi-tutto'><span></span></p>
+			</div>
+			<div class='data'>
+				<p><span class='giorno'>18</span><span class='mese'>11</span><span class='anno'>2020</span></p>
+			</div>
+			<div class='foto urside' style=''></div>
+		</a>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2020/11/filtro_outdoor@2x.png"
+data-file2=""
+data-file3=""
+data-file4=""
+data-file5=""
+data-file6=""
+data-file7=""
+data-file8=""
+data-file9="" 
+data-file10="" 
+data-file11="" 
+data-mime="image/png"
+data-mime2=""
+data-mime3=""
+data-mime4=""
+data-mime5=""
+data-mime6=""
+data-mime7=""
+data-mime8=""
+data-mime9=""
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="369"
+data-numero="5"
+data-w="110"
+data-h="110"
+data-w2="0"
+data-h2="0"
+data-w3="0"
+data-h3="0"
+data-w4="0"
+data-h4="0"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="0"
+data-h7="0"
+data-w8="0"
+data-h8="0"
+data-w9="0"
+data-h9="0"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="outdoor"
+class="filtro_destinazione pescato outdoor">
+
+	<article>
+		<a href='https://eliosceramica.com/collezioni/destinazione/outdoor/' rel='urside' class='link-orso' title='Outdoor'>
+			<div class='titolo-e-testo'>
+				<h3 class='titolo'><span>Outdoor</span></h3>
+				<div class='testo'></div>
+			</div>
+			<div class='leggi-e-tasso'>
+				
+				<p class='leggi-tutto'><span></span></p>
+			</div>
+			<div class='data'>
+				<p><span class='giorno'>18</span><span class='mese'>11</span><span class='anno'>2020</span></p>
+			</div>
+			<div class='foto urside' style=''></div>
+		</a>
+	</article>
+	</li>
+
+</ul>
+		<nav id="freccine-rama-2" class="cinerama freccine urside sottosopra cine-filtri" data-quante="5">
+				<span class="freccia-sx"></span>
+	<span class="freccia-dx"></span>
+
+		</nav>
+
+</section>
+
+	<script>
+		jQuery(document).ready(function () {
+			urside_ready(jQuery("ul#rama-2"));
+		});
+		jQuery(document).ready(function () {
+			jQuery(document).ready(function () {
+				urside_ready_ready(jQuery("ul#rama-2"));
+			});
+		});
+		jQuery(window).resize(function () {
+			urside_resize(jQuery("ul#rama-2"));
+		});
+	</script>
+	<!-- end cinerama urside -->
+
+</div>
+</div>
+<div>
+<h4 class='stringa filtro-formati filtro'></h4>
+<div>
+	<!-- cinerama urside -->
+<style>
+#rama-3 .foto {background-size:cover;}
+</style>
+<section class="cinerama urside sottosopra cine-filtri no-tasso niente-testo2 fit-cover">
+
+		<ul
+data-lingua="it"
+id="rama-3"
+class="cinerama urside sottosopra cine-filtri no-tasso niente-testo2 fit-cover"
+data-compressione="jpeg.080-png.6-o"
+data-compressione2="jpeg.080-png.6-o"
+data-compressione3="jpeg.080-png.6-o"
+data-compressione4="jpeg.080-png.6-o"
+data-compressione5="jpeg.080-png.6-o"
+data-compressione6="jpeg.080-png.6-o"
+data-compressione7="jpeg.080-png.6-o"
+data-compressione8="jpeg.080-png.6-o"
+data-compressione9="jpeg.080-png.6-o"
+data-compressione10="jpeg.080-png.6-o"
+data-compressione11="jpeg.080-png.6-o"
+data-fit="cover"
+data-fit2=""
+data-fit3=""
+data-fit4=""
+data-fit5=""
+data-fit6=""
+data-fit7=""
+data-fit8=""
+data-fit9=""
+data-fit10=""
+data-fit11=""
+data-foto="background"
+data-foto2=""
+data-foto3=""
+data-foto4=""
+data-foto5=""
+data-foto6=""
+data-foto7=""
+data-foto8=""
+data-foto9=""
+data-foto10=""
+data-foto11=""
+data-chiama-immagini="ready"
+data-chiama-immagini2=""
+data-chiama-immagini3=""
+data-chiama-immagini4=""
+data-chiama-immagini5=""
+data-chiama-immagini6=""
+data-chiama-immagini7=""
+data-chiama-immagini8=""
+data-chiama-immagini9=""
+data-chiama-immagini10=""
+data-chiama-immagini11=""
+data-sfondo=""
+data-rapporto=""
+style=""
+title=""
+data-genere="urside"
+data-quante="6">
+	<li
+style=""
+data-file="/2020/11/filtro_quadrato@2x.png"
+data-file2=""
+data-file3=""
+data-file4=""
+data-file5=""
+data-file6=""
+data-file7=""
+data-file8=""
+data-file9="" 
+data-file10="" 
+data-file11="" 
+data-mime="image/png"
+data-mime2=""
+data-mime3=""
+data-mime4=""
+data-mime5=""
+data-mime6=""
+data-mime7=""
+data-mime8=""
+data-mime9=""
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="94"
+data-numero="1"
+data-w="110"
+data-h="110"
+data-w2="0"
+data-h2="0"
+data-w3="0"
+data-h3="0"
+data-w4="0"
+data-h4="0"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="0"
+data-h7="0"
+data-w8="0"
+data-h8="0"
+data-w9="0"
+data-h9="0"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="quadrato"
+class="filtro_formato pescato quadrato">
+
+	<article>
+		<a href='https://eliosceramica.com/collezioni/formato/quadrato/' rel='urside' class='link-orso' title='Quadrato'>
+			<div class='titolo-e-testo'>
+				<h3 class='titolo'><span>Quadrato</span></h3>
+				<div class='testo'></div>
+			</div>
+			<div class='leggi-e-tasso'>
+				
+				<p class='leggi-tutto'><span></span></p>
+			</div>
+			<div class='data'>
+				<p><span class='giorno'>15</span><span class='mese'>10</span><span class='anno'>2020</span></p>
+			</div>
+			<div class='foto urside' style=''></div>
+		</a>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2020/11/filtro_piccoli@2x.png"
+data-file2=""
+data-file3=""
+data-file4=""
+data-file5=""
+data-file6=""
+data-file7=""
+data-file8=""
+data-file9="" 
+data-file10="" 
+data-file11="" 
+data-mime="image/png"
+data-mime2=""
+data-mime3=""
+data-mime4=""
+data-mime5=""
+data-mime6=""
+data-mime7=""
+data-mime8=""
+data-mime9=""
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="95"
+data-numero="2"
+data-w="110"
+data-h="110"
+data-w2="0"
+data-h2="0"
+data-w3="0"
+data-h3="0"
+data-w4="0"
+data-h4="0"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="0"
+data-h7="0"
+data-w8="0"
+data-h8="0"
+data-w9="0"
+data-h9="0"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="piccolo"
+class="filtro_formato pescato piccolo">
+
+	<article>
+		<a href='https://eliosceramica.com/collezioni/formato/piccolo/' rel='urside' class='link-orso' title='Piccoli'>
+			<div class='titolo-e-testo'>
+				<h3 class='titolo'><span>Piccoli</span></h3>
+				<div class='testo'></div>
+			</div>
+			<div class='leggi-e-tasso'>
+				
+				<p class='leggi-tutto'><span></span></p>
+			</div>
+			<div class='data'>
+				<p><span class='giorno'>15</span><span class='mese'>10</span><span class='anno'>2020</span></p>
+			</div>
+			<div class='foto urside' style=''></div>
+		</a>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2020/11/filtro_grandi@2x.png"
+data-file2=""
+data-file3=""
+data-file4=""
+data-file5=""
+data-file6=""
+data-file7=""
+data-file8=""
+data-file9="" 
+data-file10="" 
+data-file11="" 
+data-mime="image/png"
+data-mime2=""
+data-mime3=""
+data-mime4=""
+data-mime5=""
+data-mime6=""
+data-mime7=""
+data-mime8=""
+data-mime9=""
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="370"
+data-numero="3"
+data-w="110"
+data-h="110"
+data-w2="0"
+data-h2="0"
+data-w3="0"
+data-h3="0"
+data-w4="0"
+data-h4="0"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="0"
+data-h7="0"
+data-w8="0"
+data-h8="0"
+data-w9="0"
+data-h9="0"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="grande"
+class="filtro_formato pescato grande">
+
+	<article>
+		<a href='https://eliosceramica.com/collezioni/formato/grande/' rel='urside' class='link-orso' title='Grandi 100x100'>
+			<div class='titolo-e-testo'>
+				<h3 class='titolo'><span>Grandi 100x100</span></h3>
+				<div class='testo'></div>
+			</div>
+			<div class='leggi-e-tasso'>
+				
+				<p class='leggi-tutto'><span></span></p>
+			</div>
+			<div class='data'>
+				<p><span class='giorno'>18</span><span class='mese'>11</span><span class='anno'>2020</span></p>
+			</div>
+			<div class='foto urside' style=''></div>
+		</a>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2020/11/filtro_rettangolo@2x.png"
+data-file2=""
+data-file3=""
+data-file4=""
+data-file5=""
+data-file6=""
+data-file7=""
+data-file8=""
+data-file9="" 
+data-file10="" 
+data-file11="" 
+data-mime="image/png"
+data-mime2=""
+data-mime3=""
+data-mime4=""
+data-mime5=""
+data-mime6=""
+data-mime7=""
+data-mime8=""
+data-mime9=""
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="371"
+data-numero="4"
+data-w="110"
+data-h="110"
+data-w2="0"
+data-h2="0"
+data-w3="0"
+data-h3="0"
+data-w4="0"
+data-h4="0"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="0"
+data-h7="0"
+data-w8="0"
+data-h8="0"
+data-w9="0"
+data-h9="0"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="rettangolo"
+class="filtro_formato pescato rettangolo">
+
+	<article>
+		<a href='https://eliosceramica.com/collezioni/formato/rettangolo/' rel='urside' class='link-orso' title='Rettangolo'>
+			<div class='titolo-e-testo'>
+				<h3 class='titolo'><span>Rettangolo</span></h3>
+				<div class='testo'></div>
+			</div>
+			<div class='leggi-e-tasso'>
+				
+				<p class='leggi-tutto'><span></span></p>
+			</div>
+			<div class='data'>
+				<p><span class='giorno'>18</span><span class='mese'>11</span><span class='anno'>2020</span></p>
+			</div>
+			<div class='foto urside' style=''></div>
+		</a>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2020/11/filtro_listone@2x.png"
+data-file2=""
+data-file3=""
+data-file4=""
+data-file5=""
+data-file6=""
+data-file7=""
+data-file8=""
+data-file9="" 
+data-file10="" 
+data-file11="" 
+data-mime="image/png"
+data-mime2=""
+data-mime3=""
+data-mime4=""
+data-mime5=""
+data-mime6=""
+data-mime7=""
+data-mime8=""
+data-mime9=""
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="372"
+data-numero="5"
+data-w="110"
+data-h="110"
+data-w2="0"
+data-h2="0"
+data-w3="0"
+data-h3="0"
+data-w4="0"
+data-h4="0"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="0"
+data-h7="0"
+data-w8="0"
+data-h8="0"
+data-w9="0"
+data-h9="0"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="listone"
+class="filtro_formato pescato listone">
+
+	<article>
+		<a href='https://eliosceramica.com/collezioni/formato/listone/' rel='urside' class='link-orso' title='Listone'>
+			<div class='titolo-e-testo'>
+				<h3 class='titolo'><span>Listone</span></h3>
+				<div class='testo'></div>
+			</div>
+			<div class='leggi-e-tasso'>
+				
+				<p class='leggi-tutto'><span></span></p>
+			</div>
+			<div class='data'>
+				<p><span class='giorno'>18</span><span class='mese'>11</span><span class='anno'>2020</span></p>
+			</div>
+			<div class='foto urside' style=''></div>
+		</a>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2023/10/filtro_magnus.png"
+data-file2=""
+data-file3=""
+data-file4=""
+data-file5=""
+data-file6=""
+data-file7=""
+data-file8=""
+data-file9="" 
+data-file10="" 
+data-file11="" 
+data-mime="image/png"
+data-mime2=""
+data-mime3=""
+data-mime4=""
+data-mime5=""
+data-mime6=""
+data-mime7=""
+data-mime8=""
+data-mime9=""
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="31451"
+data-numero="6"
+data-w="110"
+data-h="110"
+data-w2="0"
+data-h2="0"
+data-w3="0"
+data-h3="0"
+data-w4="0"
+data-h4="0"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="0"
+data-h7="0"
+data-w8="0"
+data-h8="0"
+data-w9="0"
+data-h9="0"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="magnus"
+class="filtro_formato pescato magnus">
+
+	<article>
+		<a href='https://eliosceramica.com/collezioni/formato/magnus/' rel='urside' class='link-orso' title='Lastra'>
+			<div class='titolo-e-testo'>
+				<h3 class='titolo'><span>Lastra</span></h3>
+				<div class='testo'></div>
+			</div>
+			<div class='leggi-e-tasso'>
+				
+				<p class='leggi-tutto'><span></span></p>
+			</div>
+			<div class='data'>
+				<p><span class='giorno'>19</span><span class='mese'>10</span><span class='anno'>2023</span></p>
+			</div>
+			<div class='foto urside' style=''></div>
+		</a>
+	</article>
+	</li>
+
+</ul>
+		<nav id="freccine-rama-3" class="cinerama freccine urside sottosopra cine-filtri" data-quante="6">
+				<span class="freccia-sx"></span>
+	<span class="freccia-dx"></span>
+
+		</nav>
+
+</section>
+
+	<script>
+		jQuery(document).ready(function () {
+			urside_ready(jQuery("ul#rama-3"));
+		});
+		jQuery(document).ready(function () {
+			jQuery(document).ready(function () {
+				urside_ready_ready(jQuery("ul#rama-3"));
+			});
+		});
+		jQuery(window).resize(function () {
+			urside_resize(jQuery("ul#rama-3"));
+		});
+	</script>
+	<!-- end cinerama urside -->
+
+</div>
+</div>
+<div>
+<h4 class='stringa filtro-decori filtro'></h4>
+<div>
+	<!-- cinerama urside -->
+<style>
+#rama-4 .foto {background-size:cover;}
+</style>
+<section class="cinerama urside sottosopra cine-filtri no-tasso niente-testo2 fit-cover">
+
+		<ul
+data-lingua="it"
+id="rama-4"
+class="cinerama urside sottosopra cine-filtri no-tasso niente-testo2 fit-cover"
+data-compressione="jpeg.080-png.6-o"
+data-compressione2="jpeg.080-png.6-o"
+data-compressione3="jpeg.080-png.6-o"
+data-compressione4="jpeg.080-png.6-o"
+data-compressione5="jpeg.080-png.6-o"
+data-compressione6="jpeg.080-png.6-o"
+data-compressione7="jpeg.080-png.6-o"
+data-compressione8="jpeg.080-png.6-o"
+data-compressione9="jpeg.080-png.6-o"
+data-compressione10="jpeg.080-png.6-o"
+data-compressione11="jpeg.080-png.6-o"
+data-fit="cover"
+data-fit2=""
+data-fit3=""
+data-fit4=""
+data-fit5=""
+data-fit6=""
+data-fit7=""
+data-fit8=""
+data-fit9=""
+data-fit10=""
+data-fit11=""
+data-foto="background"
+data-foto2=""
+data-foto3=""
+data-foto4=""
+data-foto5=""
+data-foto6=""
+data-foto7=""
+data-foto8=""
+data-foto9=""
+data-foto10=""
+data-foto11=""
+data-chiama-immagini="ready"
+data-chiama-immagini2=""
+data-chiama-immagini3=""
+data-chiama-immagini4=""
+data-chiama-immagini5=""
+data-chiama-immagini6=""
+data-chiama-immagini7=""
+data-chiama-immagini8=""
+data-chiama-immagini9=""
+data-chiama-immagini10=""
+data-chiama-immagini11=""
+data-sfondo=""
+data-rapporto=""
+style=""
+title=""
+data-genere="urside"
+data-quante="6">
+	<li
+style=""
+data-file="/2020/11/filtro_cementine@2x.png"
+data-file2=""
+data-file3=""
+data-file4=""
+data-file5=""
+data-file6=""
+data-file7=""
+data-file8=""
+data-file9="" 
+data-file10="" 
+data-file11="" 
+data-mime="image/png"
+data-mime2=""
+data-mime3=""
+data-mime4=""
+data-mime5=""
+data-mime6=""
+data-mime7=""
+data-mime8=""
+data-mime9=""
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="349"
+data-numero="1"
+data-w="110"
+data-h="110"
+data-w2="0"
+data-h2="0"
+data-w3="0"
+data-h3="0"
+data-w4="0"
+data-h4="0"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="0"
+data-h7="0"
+data-w8="0"
+data-h8="0"
+data-w9="0"
+data-h9="0"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="cementina"
+class="filtro_decoro pescato cementina">
+
+	<article>
+		<a href='https://eliosceramica.com/collezioni/decoro/cementina/' rel='urside' class='link-orso' title='Cementine'>
+			<div class='titolo-e-testo'>
+				<h3 class='titolo'><span>Cementine</span></h3>
+				<div class='testo'></div>
+			</div>
+			<div class='leggi-e-tasso'>
+				
+				<p class='leggi-tutto'><span></span></p>
+			</div>
+			<div class='data'>
+				<p><span class='giorno'>17</span><span class='mese'>11</span><span class='anno'>2020</span></p>
+			</div>
+			<div class='foto urside' style=''></div>
+		</a>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2020/11/filtro_metallici@2x.png"
+data-file2=""
+data-file3=""
+data-file4=""
+data-file5=""
+data-file6=""
+data-file7=""
+data-file8=""
+data-file9="" 
+data-file10="" 
+data-file11="" 
+data-mime="image/png"
+data-mime2=""
+data-mime3=""
+data-mime4=""
+data-mime5=""
+data-mime6=""
+data-mime7=""
+data-mime8=""
+data-mime9=""
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="373"
+data-numero="2"
+data-w="110"
+data-h="110"
+data-w2="0"
+data-h2="0"
+data-w3="0"
+data-h3="0"
+data-w4="0"
+data-h4="0"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="0"
+data-h7="0"
+data-w8="0"
+data-h8="0"
+data-w9="0"
+data-h9="0"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="metallico"
+class="filtro_decoro pescato metallico">
+
+	<article>
+		<a href='https://eliosceramica.com/collezioni/decoro/metallico/' rel='urside' class='link-orso' title='Metallici'>
+			<div class='titolo-e-testo'>
+				<h3 class='titolo'><span>Metallici</span></h3>
+				<div class='testo'></div>
+			</div>
+			<div class='leggi-e-tasso'>
+				
+				<p class='leggi-tutto'><span></span></p>
+			</div>
+			<div class='data'>
+				<p><span class='giorno'>18</span><span class='mese'>11</span><span class='anno'>2020</span></p>
+			</div>
+			<div class='foto urside' style=''></div>
+		</a>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2020/11/filtro_floreali@2x.png"
+data-file2=""
+data-file3=""
+data-file4=""
+data-file5=""
+data-file6=""
+data-file7=""
+data-file8=""
+data-file9="" 
+data-file10="" 
+data-file11="" 
+data-mime="image/png"
+data-mime2=""
+data-mime3=""
+data-mime4=""
+data-mime5=""
+data-mime6=""
+data-mime7=""
+data-mime8=""
+data-mime9=""
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="374"
+data-numero="3"
+data-w="110"
+data-h="110"
+data-w2="0"
+data-h2="0"
+data-w3="0"
+data-h3="0"
+data-w4="0"
+data-h4="0"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="0"
+data-h7="0"
+data-w8="0"
+data-h8="0"
+data-w9="0"
+data-h9="0"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="floreale"
+class="filtro_decoro pescato floreale">
+
+	<article>
+		<a href='https://eliosceramica.com/collezioni/decoro/floreale/' rel='urside' class='link-orso' title='Floreali'>
+			<div class='titolo-e-testo'>
+				<h3 class='titolo'><span>Floreali</span></h3>
+				<div class='testo'></div>
+			</div>
+			<div class='leggi-e-tasso'>
+				
+				<p class='leggi-tutto'><span></span></p>
+			</div>
+			<div class='data'>
+				<p><span class='giorno'>18</span><span class='mese'>11</span><span class='anno'>2020</span></p>
+			</div>
+			<div class='foto urside' style=''></div>
+		</a>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2020/11/filtro_geometrici@2x.png"
+data-file2=""
+data-file3=""
+data-file4=""
+data-file5=""
+data-file6=""
+data-file7=""
+data-file8=""
+data-file9="" 
+data-file10="" 
+data-file11="" 
+data-mime="image/png"
+data-mime2=""
+data-mime3=""
+data-mime4=""
+data-mime5=""
+data-mime6=""
+data-mime7=""
+data-mime8=""
+data-mime9=""
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="375"
+data-numero="4"
+data-w="110"
+data-h="110"
+data-w2="0"
+data-h2="0"
+data-w3="0"
+data-h3="0"
+data-w4="0"
+data-h4="0"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="0"
+data-h7="0"
+data-w8="0"
+data-h8="0"
+data-w9="0"
+data-h9="0"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="geometrico"
+class="filtro_decoro pescato geometrico">
+
+	<article>
+		<a href='https://eliosceramica.com/collezioni/decoro/geometrico/' rel='urside' class='link-orso' title='Geometrici'>
+			<div class='titolo-e-testo'>
+				<h3 class='titolo'><span>Geometrici</span></h3>
+				<div class='testo'></div>
+			</div>
+			<div class='leggi-e-tasso'>
+				
+				<p class='leggi-tutto'><span></span></p>
+			</div>
+			<div class='data'>
+				<p><span class='giorno'>18</span><span class='mese'>11</span><span class='anno'>2020</span></p>
+			</div>
+			<div class='foto urside' style=''></div>
+		</a>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2020/11/filtro_3D@2x.png"
+data-file2=""
+data-file3=""
+data-file4=""
+data-file5=""
+data-file6=""
+data-file7=""
+data-file8=""
+data-file9="" 
+data-file10="" 
+data-file11="" 
+data-mime="image/png"
+data-mime2=""
+data-mime3=""
+data-mime4=""
+data-mime5=""
+data-mime6=""
+data-mime7=""
+data-mime8=""
+data-mime9=""
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="376"
+data-numero="5"
+data-w="110"
+data-h="110"
+data-w2="0"
+data-h2="0"
+data-w3="0"
+data-h3="0"
+data-w4="0"
+data-h4="0"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="0"
+data-h7="0"
+data-w8="0"
+data-h8="0"
+data-w9="0"
+data-h9="0"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="3d"
+class="filtro_decoro pescato 3d">
+
+	<article>
+		<a href='https://eliosceramica.com/collezioni/decoro/3d/' rel='urside' class='link-orso' title='3D'>
+			<div class='titolo-e-testo'>
+				<h3 class='titolo'><span>3D</span></h3>
+				<div class='testo'></div>
+			</div>
+			<div class='leggi-e-tasso'>
+				
+				<p class='leggi-tutto'><span></span></p>
+			</div>
+			<div class='data'>
+				<p><span class='giorno'>18</span><span class='mese'>11</span><span class='anno'>2020</span></p>
+			</div>
+			<div class='foto urside' style=''></div>
+		</a>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2020/11/filtro_vintage@2x.png"
+data-file2=""
+data-file3=""
+data-file4=""
+data-file5=""
+data-file6=""
+data-file7=""
+data-file8=""
+data-file9="" 
+data-file10="" 
+data-file11="" 
+data-mime="image/png"
+data-mime2=""
+data-mime3=""
+data-mime4=""
+data-mime5=""
+data-mime6=""
+data-mime7=""
+data-mime8=""
+data-mime9=""
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="377"
+data-numero="6"
+data-w="110"
+data-h="110"
+data-w2="0"
+data-h2="0"
+data-w3="0"
+data-h3="0"
+data-w4="0"
+data-h4="0"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="0"
+data-h7="0"
+data-w8="0"
+data-h8="0"
+data-w9="0"
+data-h9="0"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="vintage"
+class="filtro_decoro pescato vintage">
+
+	<article>
+		<a href='https://eliosceramica.com/collezioni/decoro/vintage/' rel='urside' class='link-orso' title='Vintage'>
+			<div class='titolo-e-testo'>
+				<h3 class='titolo'><span>Vintage</span></h3>
+				<div class='testo'></div>
+			</div>
+			<div class='leggi-e-tasso'>
+				
+				<p class='leggi-tutto'><span></span></p>
+			</div>
+			<div class='data'>
+				<p><span class='giorno'>18</span><span class='mese'>11</span><span class='anno'>2020</span></p>
+			</div>
+			<div class='foto urside' style=''></div>
+		</a>
+	</article>
+	</li>
+
+</ul>
+		<nav id="freccine-rama-4" class="cinerama freccine urside sottosopra cine-filtri" data-quante="6">
+				<span class="freccia-sx"></span>
+	<span class="freccia-dx"></span>
+
+		</nav>
+
+</section>
+
+	<script>
+		jQuery(document).ready(function () {
+			urside_ready(jQuery("ul#rama-4"));
+		});
+		jQuery(document).ready(function () {
+			jQuery(document).ready(function () {
+				urside_ready_ready(jQuery("ul#rama-4"));
+			});
+		});
+		jQuery(window).resize(function () {
+			urside_resize(jQuery("ul#rama-4"));
+		});
+	</script>
+	<!-- end cinerama urside -->
+
+</div>
+</div>
+</div><div id='ricerca'><div>
+
+<div class='tendina'>
+	<div class='scritta'>
+		<span class='freccia'></span>
+		<span class='stringa tendina-nome-collezione'></span>
+	</div>
+	
+	<!-- cinerama leporide -->
+
+	<script src="https://eliosceramica.com/wp-content/plugins/cinerama/js/animali/leporide.js?v=10.03.2020c"></script>
+	<link rel="stylesheet" href="https://eliosceramica.com/wp-content/plugins/cinerama/css/animali/leporide.css?v=10.03.2020c" media="all"/>
+<section class="cinerama leporide tendina-collezioni no-tasso niente-testo2 niente-testo fit-">
+
+		<ul
+data-lingua="it"
+id="rama-5"
+class="cinerama leporide tendina-collezioni no-tasso niente-testo2 niente-testo fit-"
+data-compressione="jpeg.080-png.6-o"
+data-compressione2="jpeg.080-png.6-o"
+data-compressione3="jpeg.080-png.6-o"
+data-compressione4="jpeg.080-png.6-o"
+data-compressione5="jpeg.080-png.6-o"
+data-compressione6="jpeg.080-png.6-o"
+data-compressione7="jpeg.080-png.6-o"
+data-compressione8="jpeg.080-png.6-o"
+data-compressione9="jpeg.080-png.6-o"
+data-compressione10="jpeg.080-png.6-o"
+data-compressione11="jpeg.080-png.6-o"
+data-fit=""
+data-fit2=""
+data-fit3=""
+data-fit4=""
+data-fit5=""
+data-fit6=""
+data-fit7=""
+data-fit8=""
+data-fit9=""
+data-fit10=""
+data-fit11=""
+data-foto="niente"
+data-foto2=""
+data-foto3=""
+data-foto4=""
+data-foto5=""
+data-foto6=""
+data-foto7=""
+data-foto8=""
+data-foto9=""
+data-foto10=""
+data-foto11=""
+data-chiama-immagini=""
+data-chiama-immagini2=""
+data-chiama-immagini3=""
+data-chiama-immagini4=""
+data-chiama-immagini5=""
+data-chiama-immagini6=""
+data-chiama-immagini7=""
+data-chiama-immagini8=""
+data-chiama-immagini9=""
+data-chiama-immagini10=""
+data-chiama-immagini11=""
+data-sfondo=""
+data-rapporto=""
+style=""
+title=""
+data-genere="leporide"
+data-quante="40">
+	<li
+style=""
+data-file="/2023/05/ALLURE_camera.jpg"
+data-file2="/2023/05/ALLURE_bagno.jpg"
+data-file3="/2023/05/ALLURE_cucina.jpg"
+data-file4="/2023/05/ALLURE_LIVING_in_evidenza.jpg"
+data-file5="/2023/05/ALLURE_pubblico.jpg"
+data-file6=""
+data-file7="/2023/05/ALLURE_bagno2.jpg"
+data-file8="/2023/05/ALLURE_dett_quadrato2.jpg"
+data-file9="/2023/05/ALLURE_emozionale.jpeg" 
+data-file10="/2023/05/Elios_catalogo_ALLURE-pdf.jpg" 
+data-file11="/2023/05/ALLURE_CT-pdf.jpg" 
+data-mime="image/jpeg"
+data-mime2="image/jpeg"
+data-mime3="image/jpeg"
+data-mime4="image/jpeg"
+data-mime5="image/jpeg"
+data-mime6=""
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10="application/pdf"
+data-mime11="application/pdf"
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="30716"
+data-numero="1"
+data-w="1280"
+data-h="905"
+data-w2="1280"
+data-h2="905"
+data-w3="905"
+data-h3="1280"
+data-w4="1280"
+data-h4="905"
+data-w5="1280"
+data-h5="905"
+data-w6="0"
+data-h6="0"
+data-w7="1810"
+data-h7="1280"
+data-w8="900"
+data-h8="450"
+data-w9="1200"
+data-h9="675"
+data-w10="1083"
+data-h10="1411"
+data-w11="1085"
+data-h11="1410"
+data-slug="allure"
+class="collezione pescato allure">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/allure/'><span class='prima'></span><span>Allure</span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2021/02/BavariaStone_emozionale_1.jpg"
+data-file2="/2021/02/BavariaStone_emozionale_2.jpg"
+data-file3="/2021/02/BavariaStone_emozionale_1.jpg"
+data-file4="/2021/02/BavariaStone_emozionale_1.jpg"
+data-file5="/2021/02/BavariaStone_emozionale_1.jpg"
+data-file6="/2021/02/BavariaStone_emozionale_1.jpg"
+data-file7="/2021/02/BavariaStone_emozionale_2.jpg"
+data-file8="/2021/02/BavariaStone_emozionale_3-1.jpg"
+data-file9="/2021/02/BavariaStone_emozionale_4.jpg" 
+data-file10="" 
+data-file11="" 
+data-mime="image/jpeg"
+data-mime2="image/jpeg"
+data-mime3="image/jpeg"
+data-mime4="image/jpeg"
+data-mime5="image/jpeg"
+data-mime6="image/jpeg"
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="27100"
+data-numero="2"
+data-w="900"
+data-h="700"
+data-w2="900"
+data-h2="761"
+data-w3="900"
+data-h3="700"
+data-w4="900"
+data-h4="700"
+data-w5="900"
+data-h5="700"
+data-w6="900"
+data-h6="700"
+data-w7="900"
+data-h7="761"
+data-w8="900"
+data-h8="720"
+data-w9="900"
+data-h9="600"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="bavaria-stone"
+class="collezione pescato bavaria-stone">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/bavaria-stone/'><span class='prima'></span><span>Bavaria stone</span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2021/02/BavariaStone_emozionale_1.jpg"
+data-file2="/2021/02/BavariaStone_emozionale_2.jpg"
+data-file3="/2021/02/BavariaStone_emozionale_1.jpg"
+data-file4="/2021/02/BavariaStone_emozionale_1.jpg"
+data-file5="/2021/02/BavariaStone_emozionale_1.jpg"
+data-file6="/2021/02/BavariaStone_emozionale_1.jpg"
+data-file7="/2021/02/BavariaStone_emozionale_2.jpg"
+data-file8="/2021/02/BavariaStone_emozionale_3-1.jpg"
+data-file9="/2021/02/BavariaStone_emozionale_4.jpg" 
+data-file10="" 
+data-file11="" 
+data-mime="image/jpeg"
+data-mime2="image/jpeg"
+data-mime3="image/jpeg"
+data-mime4="image/jpeg"
+data-mime5="image/jpeg"
+data-mime6="image/jpeg"
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="28896"
+data-numero="3"
+data-w="900"
+data-h="700"
+data-w2="900"
+data-h2="761"
+data-w3="900"
+data-h3="700"
+data-w4="900"
+data-h4="700"
+data-w5="900"
+data-h5="700"
+data-w6="900"
+data-h6="700"
+data-w7="900"
+data-h7="761"
+data-w8="900"
+data-h8="720"
+data-w9="900"
+data-h9="600"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="bavaria-stone-advance"
+class="collezione pescato bavaria-stone-advance">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/bavaria-stone-advance/'><span class='prima'></span><span>Bavaria stone ADVANCE<sup>®</sup></span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2021/11/BROOKLYN_BAGNO_grey.jpg"
+data-file2="/2021/11/BROOKLYN_BAGNO_grey.jpg"
+data-file3="/2021/11/BROOKLYN_LVING_white.jpg"
+data-file4="/2021/11/BROOKLYN_LIVING_taupe.jpg"
+data-file5="/2021/11/BROOKLYN_BAR_dark_grey-scaled.jpg"
+data-file6=""
+data-file7="/2021/11/Brooklyn_emozionale_2.jpg"
+data-file8="/2021/11/Brooklyn_moodboard.jpg"
+data-file9="/2021/11/Brooklyn_emozionale_4.jpg" 
+data-file10="/2025/05/ELIOS_CATALOGO-BROOKLYN-pdf.jpg" 
+data-file11="/2021/11/Elios_BROOKLYN_ST-pdf.jpg" 
+data-mime="image/jpeg"
+data-mime2="image/jpeg"
+data-mime3="image/jpeg"
+data-mime4="image/jpeg"
+data-mime5="image/jpeg"
+data-mime6=""
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10="application/pdf"
+data-mime11="application/pdf"
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="29734"
+data-numero="4"
+data-w="1920"
+data-h="1358"
+data-w2="1920"
+data-h2="1358"
+data-w3="1920"
+data-h3="1358"
+data-w4="1920"
+data-h4="1358"
+data-w5="1810"
+data-h5="2560"
+data-w6="0"
+data-h6="0"
+data-w7="900"
+data-h7="1273"
+data-w8="900"
+data-h8="450"
+data-w9="900"
+data-h9="598"
+data-w10="1083"
+data-h10="1411"
+data-w11="969"
+data-h11="1239"
+data-slug="brooklyn"
+class="collezione pescato brooklyn">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/brooklyn/'><span class='prima'></span><span>Brooklyn</span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2021/11/CLAY_BAR_COTTON_EMERALD.jpg"
+data-file2="/2021/11/CLAY_BAGNO_LINEN.jpg"
+data-file3="/2021/11/CLAY_CUCINA_SILK.jpg"
+data-file4=""
+data-file5="/2021/11/CLAY_BAR_COTTON_EMERALD.jpg"
+data-file6=""
+data-file7="/2021/11/Clay_emozionale_2.jpg"
+data-file8="/2021/11/Clay_emozionale_3.jpg"
+data-file9="/2021/11/Clay_emozionale_4.jpg" 
+data-file10="" 
+data-file11="" 
+data-mime="image/jpeg"
+data-mime2="image/jpeg"
+data-mime3="image/jpeg"
+data-mime4=""
+data-mime5="image/jpeg"
+data-mime6=""
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="29799"
+data-numero="5"
+data-w="1920"
+data-h="1358"
+data-w2="1920"
+data-h2="1358"
+data-w3="1920"
+data-h3="1358"
+data-w4="0"
+data-h4="0"
+data-w5="1920"
+data-h5="1358"
+data-w6="0"
+data-h6="0"
+data-w7="900"
+data-h7="1273"
+data-w8="900"
+data-h8="450"
+data-w9="900"
+data-h9="598"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="clay"
+class="collezione pescato clay">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/clay/'><span class='prima'></span><span>Clay</span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2024/10/ELIOS_CRETA_CARAMELLODECO-CALDO_COMMERCIALE.jpg"
+data-file2="/2024/10/ELIOS_CRETA_GINEPRODECO-FREDDO_BAGNO.jpg"
+data-file3=""
+data-file4="/2024/10/ELIOS_CRETA_AVENA_CLOE-AVENA_LIVING.jpg"
+data-file5="/2024/10/ELIOS_CRETA_CARAMELLODECO-CALDO_COMMERCIALE.jpg"
+data-file6=""
+data-file7="/2024/10/ELIOS_CRETA_BISCOTTO_CLOE-AVENA_BAGNO-1.jpg"
+data-file8="/2024/10/Creta_CLOE-AVENA_dettaglio.jpg"
+data-file9="/2024/10/CRETA_ispirazione.jpg" 
+data-file10="/2024/10/Elios_catalogo_CRETA-1-pdf.jpg" 
+data-file11="/2024/10/Elios_CRETA_ST-pdf.jpg" 
+data-mime="image/jpeg"
+data-mime2="image/jpeg"
+data-mime3=""
+data-mime4="image/jpeg"
+data-mime5="image/jpeg"
+data-mime6=""
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10="application/pdf"
+data-mime11="application/pdf"
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="32391"
+data-numero="6"
+data-w="1280"
+data-h="1810"
+data-w2="1280"
+data-h2="1810"
+data-w3="0"
+data-h3="0"
+data-w4="1280"
+data-h4="905"
+data-w5="1280"
+data-h5="1810"
+data-w6="0"
+data-h6="0"
+data-w7="452"
+data-h7="640"
+data-w8="900"
+data-h8="720"
+data-w9="900"
+data-h9="597"
+data-w10="1083"
+data-h10="1411"
+data-w11="982"
+data-h11="1300"
+data-slug="creta"
+class="collezione pescato creta">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/creta/'><span class='prima'></span><span>Creta</span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2021/02/DesignEvo_emozionale_1.jpg"
+data-file2="/2021/02/DesignEvo_Bagno.jpg"
+data-file3="/2021/02/DesignEvo_Cucina.jpg"
+data-file4="/2021/02/DesignEvo_Living_01.jpg"
+data-file5="/2021/02/DesignEvo_Negozio.jpg"
+data-file6=""
+data-file7="/2021/02/DesignEvo_emozionale_2.jpg"
+data-file8="/2021/02/DesignEvo_emozionale_3.jpg"
+data-file9="/2021/02/DesignEvo_emozionale_4.jpg" 
+data-file10="" 
+data-file11="" 
+data-mime="image/jpeg"
+data-mime2="image/jpeg"
+data-mime3="image/jpeg"
+data-mime4="image/jpeg"
+data-mime5="image/jpeg"
+data-mime6=""
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="26655"
+data-numero="7"
+data-w="900"
+data-h="900"
+data-w2="740"
+data-h2="740"
+data-w3="740"
+data-h3="740"
+data-w4="740"
+data-h4="740"
+data-w5="882"
+data-h5="740"
+data-w6="0"
+data-h6="0"
+data-w7="900"
+data-h7="1304"
+data-w8="900"
+data-h8="603"
+data-w9="900"
+data-h9="603"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="design-evo"
+class="collezione pescato design-evo">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/design-evo/'><span class='prima'></span><span>D_esign Evo</span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2021/03/Deco_emozionale_1.jpeg"
+data-file2="/2021/03/Deco_Azzurro_Bagno.jpeg"
+data-file3="/2021/03/Elios_Deco_amb_Nordic_C_Cucina_isp.jpeg"
+data-file4="/2021/03/Elios_Deco_amb_Nordic_B_Living_isp.jpeg"
+data-file5="/2021/03/Deco_Original_Grigio_Cucina.jpeg"
+data-file6=""
+data-file7="/2021/03/Deco_emozionale_2.jpeg"
+data-file8="/2021/03/Deco_emozionale_3.jpeg"
+data-file9="/2021/03/Deco_emozionale_4.jpeg" 
+data-file10="" 
+data-file11="" 
+data-mime="image/jpeg"
+data-mime2="image/jpeg"
+data-mime3="image/jpeg"
+data-mime4="image/jpeg"
+data-mime5="image/jpeg"
+data-mime6=""
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="26817"
+data-numero="8"
+data-w="900"
+data-h="900"
+data-w2="740"
+data-h2="740"
+data-w3="960"
+data-h3="700"
+data-w4="960"
+data-h4="700"
+data-w5="740"
+data-h5="740"
+data-w6="0"
+data-h6="0"
+data-w7="900"
+data-h7="1272"
+data-w8="900"
+data-h8="1234"
+data-w9="900"
+data-h9="599"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="deco"
+class="collezione pescato deco">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/deco/'><span class='prima'></span><span>Deco</span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2021/03/Deco_emozionale_1.jpeg"
+data-file2="/2021/03/Deco_Azzurro_Bagno.jpeg"
+data-file3="/2021/03/Elios_Deco_amb_Nordic_C_Cucina_isp.jpeg"
+data-file4=""
+data-file5="/2021/03/Deco_Original_Grigio_Cucina.jpeg"
+data-file6=""
+data-file7="/2021/03/Deco_emozionale_2.jpeg"
+data-file8="/2021/03/Deco_emozionale_3.jpeg"
+data-file9="/2021/03/Deco_emozionale_4.jpeg" 
+data-file10="" 
+data-file11="" 
+data-mime="image/jpeg"
+data-mime2="image/jpeg"
+data-mime3="image/jpeg"
+data-mime4=""
+data-mime5="image/jpeg"
+data-mime6=""
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="28927"
+data-numero="9"
+data-w="900"
+data-h="900"
+data-w2="740"
+data-h2="740"
+data-w3="960"
+data-h3="700"
+data-w4="0"
+data-h4="0"
+data-w5="740"
+data-h5="740"
+data-w6="0"
+data-h6="0"
+data-w7="900"
+data-h7="1272"
+data-w8="900"
+data-h8="1234"
+data-w9="900"
+data-h9="599"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="deco-advance"
+class="collezione pescato deco-advance">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/deco-advance/'><span class='prima'></span><span>Deco ADVANCE<sup>®</sup></span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2021/11/DOLOMITI_LIVING_bianco_greige.jpg"
+data-file2="/2021/11/DOLOMITI_BAGNO_grigio.jpg"
+data-file3="/2021/11/DOLOMITI_CUCINA_antracite.jpg"
+data-file4="/2021/11/DOLOMITI_LIVING_bianco_greige.jpg"
+data-file5=""
+data-file6=""
+data-file7="/2021/11/Dolomiti_emozionale_2.jpg"
+data-file8="/2021/11/Dolomiti_emozionale_3.jpg"
+data-file9="/2021/11/Dolomiti_emozionale_4.jpg" 
+data-file10="" 
+data-file11="" 
+data-mime="image/jpeg"
+data-mime2="image/jpeg"
+data-mime3="image/jpeg"
+data-mime4="image/jpeg"
+data-mime5=""
+data-mime6=""
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="29655"
+data-numero="10"
+data-w="1920"
+data-h="1358"
+data-w2="1920"
+data-h2="1358"
+data-w3="1920"
+data-h3="1358"
+data-w4="1920"
+data-h4="1358"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="900"
+data-h7="900"
+data-w8="900"
+data-h8="450"
+data-w9="900"
+data-h9="598"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="dolomiti"
+class="collezione pescato dolomiti">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/dolomiti/'><span class='prima'></span><span>Dolomiti</span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2024/10/ELIOS_DOMUS_MOONWHITE_OCEANBLUE_COMMERCIALE.jpg"
+data-file2="/2024/10/ELIOS_DOMUS_SUNSETROSE_CRETA_ZUCCHERO_BAGNO.jpg"
+data-file3="/2024/10/ELIOS_DOMUS_FORESTGREEN_CUCINA.jpg"
+data-file4="/2024/10/ELIOS_DOMUS_CLAYRED_INGRESSO.jpg"
+data-file5="/2024/10/ELIOS_DOMUS_MOONWHITE_OCEANBLUE_COMMERCIALE.jpg"
+data-file6=""
+data-file7="/2024/10/ELIOS_DOMUS_CLAYRED_INGRESSO.jpg"
+data-file8="/2024/10/DOMUS_dettaglio.jpeg"
+data-file9="/2024/10/domus_ispirazione-1.jpg" 
+data-file10="/2024/10/Elios_catalogo_DOMUS-1-pdf.jpg" 
+data-file11="/2024/10/Tabella_GRES_PORCELLANATO_CERAMICO_AD_ALTA_RESISTENZA-pdf.jpg" 
+data-mime="image/jpeg"
+data-mime2="image/jpeg"
+data-mime3="image/jpeg"
+data-mime4="image/jpeg"
+data-mime5="image/jpeg"
+data-mime6=""
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10="application/pdf"
+data-mime11="application/pdf"
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="32431"
+data-numero="11"
+data-w="1280"
+data-h="905"
+data-w2="1280"
+data-h2="1810"
+data-w3="1280"
+data-h3="1809"
+data-w4="1280"
+data-h4="1810"
+data-w5="1280"
+data-h5="905"
+data-w6="0"
+data-h6="0"
+data-w7="1280"
+data-h7="1810"
+data-w8="900"
+data-h8="720"
+data-w9="900"
+data-h9="599"
+data-w10="1083"
+data-h10="1411"
+data-w11="997"
+data-h11="1367"
+data-slug="domus"
+class="collezione pescato domus">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/domus/'><span class='prima'></span><span>Domus</span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2023/05/DUST_amb_11-scaled.jpg"
+data-file2="/2023/05/DUST_amb_10-scaled.jpg"
+data-file3="/2023/05/DUST_amb_14-scaled.jpg"
+data-file4="/2023/05/DUST_amb_3-scaled.jpg"
+data-file5="/2023/05/DUST_amb_8-scaled.jpg"
+data-file6=""
+data-file7="/2023/05/DUST_amb_13-scaled.jpg"
+data-file8="/2023/05/DUST_dettaglio_quadrato.jpg"
+data-file9="/2023/05/DUST_emozionale.jpg" 
+data-file10="" 
+data-file11="" 
+data-mime="image/jpeg"
+data-mime2="image/jpeg"
+data-mime3="image/jpeg"
+data-mime4="image/jpeg"
+data-mime5="image/jpeg"
+data-mime6=""
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="30717"
+data-numero="12"
+data-w="2560"
+data-h="1810"
+data-w2="1810"
+data-h2="2560"
+data-w3="1810"
+data-h3="2560"
+data-w4="1810"
+data-h4="2560"
+data-w5="2560"
+data-h5="2560"
+data-w6="0"
+data-h6="0"
+data-w7="2560"
+data-h7="2560"
+data-w8="900"
+data-h8="450"
+data-w9="900"
+data-h9="600"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="dust"
+class="collezione pescato dust">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/dust/'><span class='prima'></span><span>Dust</span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2024/10/ELIOS_GLOW_ARIZONA_CUCINA.jpg"
+data-file2="/2024/10/ELIOS_GLOW_CALIFORNIA_BAGNO.jpg"
+data-file3="/2024/10/ELIOS_GLOW_ARIZONA_CUCINA.jpg"
+data-file4="/2024/10/ELIOS_GLOW_DAKOTA_LIVING.jpg"
+data-file5="/2024/10/ELIOS_GLOW_INDIANAVIRGINIA_COMMERCIALE.jpg"
+data-file6=""
+data-file7="/2024/10/ELIOS_GLOW_MONTANA_INGRESSO.jpg"
+data-file8="/2024/10/GLOW_dettaglio.jpeg"
+data-file9="/2024/10/GLOW_ispirazione.jpg" 
+data-file10="/2024/10/Elios_catalogo_GLOW-1-pdf.jpg" 
+data-file11="/2024/10/Tabella_GRES_PORCELLANATO_CERAMICO_AD_ALTA_RESISTENZA-pdf.jpg" 
+data-mime="image/jpeg"
+data-mime2="image/jpeg"
+data-mime3="image/jpeg"
+data-mime4="image/jpeg"
+data-mime5="image/jpeg"
+data-mime6=""
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10="application/pdf"
+data-mime11="application/pdf"
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="32457"
+data-numero="13"
+data-w="1280"
+data-h="905"
+data-w2="1280"
+data-h2="1810"
+data-w3="1280"
+data-h3="905"
+data-w4="1280"
+data-h4="1810"
+data-w5="1280"
+data-h5="905"
+data-w6="0"
+data-h6="0"
+data-w7="1280"
+data-h7="1810"
+data-w8="900"
+data-h8="720"
+data-w9="900"
+data-h9="597"
+data-w10="1083"
+data-h10="1411"
+data-w11="997"
+data-h11="1367"
+data-slug="glow"
+class="collezione pescato glow">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/glow/'><span class='prima'></span><span>Glow</span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2025/10/ELIOS_GOLDEN-HOUR_MARGARITA_CAMERA_evidenza.jpg"
+data-file2="/2025/10/ELIOS_GOLDEN-HOUR_HAWAIAN_SHELL_GREY-LIGHT-POLISHED_BAGNO.jpg"
+data-file3="/2025/10/ELIOS_GOLDEN_HOUR_CAIPIRINHA_CUCINA.jpg"
+data-file4="/2025/10/ELIOS_GOLDEN-HOUR_BLUE-LAGOON_SHELL_GREY-3D-SATEN_GREY-3D-MATT_CAMINETTO.jpg"
+data-file5="/2025/10/ELIOS_GOLDEN-HOUR_BELLINI_RISTORANTE.jpg"
+data-file6=""
+data-file7="/2025/10/ELIOS_GOLDEN_HOUR_CAIPIRINHA_CUCINA.jpg"
+data-file8="/2025/10/ELIOS_GOLDEN-HOUR_HAWAIAN_SHELL_GREY-LIGHT-POLISHED_BAGNO_dettaglio.jpg"
+data-file9="/2025/10/GOLDEN-HOUR_ispirazione.jpg" 
+data-file10="/2026/02/ELIOS_CATALOGO_GOLDEN_HOUR-pdf.jpg" 
+data-file11="/2025/10/GOLDEN-HOUR-Series-pdf.jpg" 
+data-mime="image/jpeg"
+data-mime2="image/jpeg"
+data-mime3="image/jpeg"
+data-mime4="image/jpeg"
+data-mime5="image/jpeg"
+data-mime6=""
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10="application/pdf"
+data-mime11="application/pdf"
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="32922"
+data-numero="14"
+data-w="1280"
+data-h="905"
+data-w2="1280"
+data-h2="1810"
+data-w3="1280"
+data-h3="1811"
+data-w4="1280"
+data-h4="1810"
+data-w5="1280"
+data-h5="905"
+data-w6="0"
+data-h6="0"
+data-w7="1280"
+data-h7="1811"
+data-w8="900"
+data-h8="900"
+data-w9="900"
+data-h9="900"
+data-w10="1083"
+data-h10="1411"
+data-w11="1058"
+data-h11="1497"
+data-slug="golden-hour"
+class="collezione pescato golden-hour">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/golden-hour/'><span class='prima'></span><span>Golden Hour</span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2021/01/GranPalace_emozionale_1.jpg"
+data-file2="/2021/02/GRAND_PLACE_bruxelles_living.jpg"
+data-file3="/2021/02/GRAND_PLACE_bruxelles_living.jpg"
+data-file4="/2021/01/GranPalace_emozionale_1.jpg"
+data-file5="/2021/02/GRAND_PLACE_Mons_spa.jpg"
+data-file6="/1904/09/Elios_GrandPlace_esterno.jpg"
+data-file7="/2021/01/GranPalace_emozionale_2.jpg"
+data-file8="/2021/01/GranPalace_emozionale_3.jpg"
+data-file9="/2021/01/ispirazione.jpg" 
+data-file10="/2025/03/Elios_catalogo_GRAND-PLACE-pdf.jpg" 
+data-file11="" 
+data-mime="image/jpeg"
+data-mime2="image/jpeg"
+data-mime3="image/jpeg"
+data-mime4="image/jpeg"
+data-mime5="image/jpeg"
+data-mime6="image/jpeg"
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10="application/pdf"
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="26055"
+data-numero="15"
+data-w="740"
+data-h="528"
+data-w2="1280"
+data-h2="700"
+data-w3="1280"
+data-h3="700"
+data-w4="740"
+data-h4="528"
+data-w5="1280"
+data-h5="700"
+data-w6="960"
+data-h6="700"
+data-w7="426"
+data-h7="640"
+data-w8="900"
+data-h8="597"
+data-w9="482"
+data-h9="320"
+data-w10="1083"
+data-h10="1411"
+data-w11="0"
+data-h11="0"
+data-slug="grand-place"
+class="collezione pescato grand-place">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/grand-place/'><span class='prima'></span><span>Grand Place</span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2021/02/Harmony_emozionale_1-scaled.jpg"
+data-file2="/2021/02/Harmony_White_DecPaint_Bagno.jpg"
+data-file3="/2021/02/Harmony_White_TaupeCanvas_decGeometrieNEW_Cucina.jpg"
+data-file4="/2021/02/Harmony_Grigio_Living.jpg"
+data-file5="/2021/02/HarmonyGrey_DecGeometrie_HorizonCarbon_Shop.jpg"
+data-file6="/2021/02/Harmony_emozionale_2-scaled.jpg"
+data-file7="/2021/02/Harmony_emozionale_2-scaled.jpg"
+data-file8="/2021/02/Harmony_emozionale_3-scaled.jpg"
+data-file9="/2021/02/Harmony_emozionale_4-scaled.jpg" 
+data-file10="" 
+data-file11="" 
+data-mime="image/jpeg"
+data-mime2="image/jpeg"
+data-mime3="image/jpeg"
+data-mime4="image/jpeg"
+data-mime5="image/jpeg"
+data-mime6="image/jpeg"
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="27252"
+data-numero="16"
+data-w="2560"
+data-h="1950"
+data-w2="740"
+data-h2="740"
+data-w3="1280"
+data-h3="905"
+data-w4="1280"
+data-h4="905"
+data-w5="740"
+data-h5="740"
+data-w6="2560"
+data-h6="2560"
+data-w7="2560"
+data-h7="2560"
+data-w8="2560"
+data-h8="2560"
+data-w9="2560"
+data-h9="1714"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="harmony"
+class="collezione pescato harmony">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/harmony/'><span class='prima'></span><span>Harmony</span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2023/05/HEXAGON_amb_1-scaled.jpg"
+data-file2="/2023/05/HEXAGON_amb_3-scaled.jpg"
+data-file3="/2023/05/HEXAGON_amb_6-scaled.jpg"
+data-file4="/2023/05/HEXAGON_amb_8-scaled.jpg"
+data-file5="/2023/05/HEXAGON_amb_2-scaled.jpg"
+data-file6=""
+data-file7="/2023/05/HEXAGON_amb_4-scaled.jpg"
+data-file8="/2023/05/HEXAGON_dettaglio_quadrato.jpg"
+data-file9="/2023/05/HEXAGON_emozionale.jpg" 
+data-file10="" 
+data-file11="" 
+data-mime="image/jpeg"
+data-mime2="image/jpeg"
+data-mime3="image/jpeg"
+data-mime4="image/jpeg"
+data-mime5="image/jpeg"
+data-mime6=""
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="30715"
+data-numero="17"
+data-w="1810"
+data-h="2560"
+data-w2="2560"
+data-h2="1810"
+data-w3="1810"
+data-h3="2560"
+data-w4="1810"
+data-h4="2560"
+data-w5="2560"
+data-h5="1810"
+data-w6="0"
+data-h6="0"
+data-w7="1810"
+data-h7="2560"
+data-w8="900"
+data-h8="450"
+data-w9="900"
+data-h9="600"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="hexagon"
+class="collezione pescato hexagon">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/hexagon/'><span class='prima'></span><span>Hexagon</span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2018/10/Elios_Horizon_Asfalto_Living_960x700.jpg"
+data-file2="/2021/02/Horizon_Fango_Bagno.jpg"
+data-file3="/2021/02/Elios_Horizon_Carbone_4.jpg"
+data-file4="/2021/02/Horizon_Carbone_Living.jpg"
+data-file5="/2021/02/Horizon_Cava_Office.jpg"
+data-file6=""
+data-file7="/2021/02/Horizon_Polvere_moodboard.jpg"
+data-file8="/2021/02/Horizon_emozionale_3.jpg"
+data-file9="/2021/02/Horizon_emozionale_4.jpg" 
+data-file10="" 
+data-file11="" 
+data-mime="image/jpeg"
+data-mime2="image/jpeg"
+data-mime3="image/jpeg"
+data-mime4="image/jpeg"
+data-mime5="image/jpeg"
+data-mime6=""
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="27641"
+data-numero="18"
+data-w="960"
+data-h="700"
+data-w2="1280"
+data-h2="700"
+data-w3="1920"
+data-h3="1357"
+data-w4="1280"
+data-h4="700"
+data-w5="1280"
+data-h5="700"
+data-w6="0"
+data-h6="0"
+data-w7="900"
+data-h7="900"
+data-w8="900"
+data-h8="564"
+data-w9="900"
+data-h9="1350"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="horizon"
+class="collezione pescato horizon">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/horizon/'><span class='prima'></span><span>Horizon</span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2018/10/Elios_Horizon_Asfalto_Living_960x700.jpg"
+data-file2="/2021/02/Horizon_Fango_Bagno.jpg"
+data-file3="/2021/02/Horizon_emozionale_1.jpg"
+data-file4="/2021/02/Horizon_Carbone_Living.jpg"
+data-file5="/2021/02/Horizon_Cava_Office.jpg"
+data-file6=""
+data-file7="/2021/02/Horizon_Polvere_moodboard.jpg"
+data-file8="/2021/02/Horizon_emozionale_3.jpg"
+data-file9="/2021/02/Horizon_emozionale_4.jpg" 
+data-file10="" 
+data-file11="" 
+data-mime="image/jpeg"
+data-mime2="image/jpeg"
+data-mime3="image/jpeg"
+data-mime4="image/jpeg"
+data-mime5="image/jpeg"
+data-mime6=""
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="28926"
+data-numero="19"
+data-w="960"
+data-h="700"
+data-w2="1280"
+data-h2="700"
+data-w3="900"
+data-h3="636"
+data-w4="1280"
+data-h4="700"
+data-w5="1280"
+data-h5="700"
+data-w6="0"
+data-h6="0"
+data-w7="900"
+data-h7="900"
+data-w8="900"
+data-h8="564"
+data-w9="900"
+data-h9="1350"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="horizon-advance"
+class="collezione pescato horizon-advance">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/horizon-advance/'><span class='prima'></span><span>Horizon ADVANCE<sup>®</sup></span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2023/10/Incanto_amb_1.jpg"
+data-file2=""
+data-file3=""
+data-file4="/2023/10/Incanto_amb_1.jpg"
+data-file5=""
+data-file6=""
+data-file7="/2023/10/Incanto_BiancoStatuario_amb2.jpg"
+data-file8="/2023/10/Incanto_StatuarioImpero_amb1.jpg"
+data-file9="/2023/10/Incanto_emozionale_3.jpg" 
+data-file10="" 
+data-file11="" 
+data-mime="image/jpeg"
+data-mime2=""
+data-mime3=""
+data-mime4="image/jpeg"
+data-mime5=""
+data-mime6=""
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="31336"
+data-numero="20"
+data-w="1280"
+data-h="1280"
+data-w2="0"
+data-h2="0"
+data-w3="0"
+data-h3="0"
+data-w4="1280"
+data-h4="1280"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="1280"
+data-h7="1280"
+data-w8="1280"
+data-h8="1688"
+data-w9="900"
+data-h9="600"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="incanto"
+class="collezione pescato incanto">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/incanto/'><span class='prima'></span><span>Incanto</span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2023/10/Lithos_Ivory_amb2.jpg"
+data-file2=""
+data-file3=""
+data-file4="/2023/10/lithos_amb_1.jpg"
+data-file5=""
+data-file6=""
+data-file7="/2023/10/lithos_amb_1.jpg"
+data-file8="/2023/10/Lithos_dett_quadtrato.jpg"
+data-file9="/2023/10/lithos_emozionale_2.jpg" 
+data-file10="" 
+data-file11="" 
+data-mime="image/jpeg"
+data-mime2=""
+data-mime3=""
+data-mime4="image/jpeg"
+data-mime5=""
+data-mime6=""
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="31385"
+data-numero="21"
+data-w="1280"
+data-h="1687"
+data-w2="0"
+data-h2="0"
+data-w3="0"
+data-h3="0"
+data-w4="1280"
+data-h4="1280"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="1280"
+data-h7="1280"
+data-w8="900"
+data-h8="600"
+data-w9="900"
+data-h9="600"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="lithos"
+class="collezione pescato lithos">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/lithos/'><span class='prima'></span><span>Lithos</span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2021/05/LoveDecors_Flora_3.jpg"
+data-file2="/2021/05/LoveDecors_Leaf_3.jpg"
+data-file3="/2021/05/LoveDecors_Roses_3.jpg"
+data-file4="/2021/05/LoveDecors_Ibis_2.jpg"
+data-file5="/2021/05/LoveDecors_Bloom_2.jpg"
+data-file6=""
+data-file7="/2021/05/LoveDecors_emozionale_2.jpg"
+data-file8="/2021/05/LoveDecors_moodboard.jpg"
+data-file9="/2021/05/LoveDecors_emozionale_4.jpg" 
+data-file10="" 
+data-file11="" 
+data-mime="image/jpeg"
+data-mime2="image/jpeg"
+data-mime3="image/jpeg"
+data-mime4="image/jpeg"
+data-mime5="image/jpeg"
+data-mime6=""
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="29338"
+data-numero="22"
+data-w="1920"
+data-h="1920"
+data-w2="1920"
+data-h2="1920"
+data-w3="1920"
+data-h3="1920"
+data-w4="1920"
+data-h4="1357"
+data-w5="1920"
+data-h5="1920"
+data-w6="0"
+data-h6="0"
+data-w7="900"
+data-h7="900"
+data-w8="900"
+data-h8="450"
+data-w9="900"
+data-h9="598"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="love-decors"
+class="collezione pescato love-decors">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/love-decors/'><span class='prima'></span><span>Love & Decors</span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2023/10/lithos_amb_1-1.jpg"
+data-file2="/2023/10/manhattan_amb_1.jpg"
+data-file3=""
+data-file4="/2023/10/lithos_amb_1-1.jpg"
+data-file5=""
+data-file6=""
+data-file7="/2023/10/LoveDecors_Garden_Manhattan_amb1.jpg"
+data-file8="/2023/10/LoveDecors_Rainforest_amb2.jpg"
+data-file9="/2023/10/lovedecors_emozionale_2.jpg" 
+data-file10="" 
+data-file11="" 
+data-mime="image/jpeg"
+data-mime2="image/jpeg"
+data-mime3=""
+data-mime4="image/jpeg"
+data-mime5=""
+data-mime6=""
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="31459"
+data-numero="23"
+data-w="1280"
+data-h="1280"
+data-w2="1280"
+data-h2="1280"
+data-w3="0"
+data-h3="0"
+data-w4="1280"
+data-h4="1280"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="1280"
+data-h7="1687"
+data-w8="1280"
+data-h8="1688"
+data-w9="900"
+data-h9="600"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="lovedecors-magnus"
+class="collezione pescato lovedecors-magnus">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/lovedecors-magnus/'><span class='prima'></span><span>Love&Decors</span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2023/10/manhattan_amb_1.jpg"
+data-file2="/2023/10/manhattan_amb_1.jpg"
+data-file3=""
+data-file4=""
+data-file5=""
+data-file6=""
+data-file7="/2023/10/Manhattan_Pearl_amb2.jpg"
+data-file8="/2023/10/Manhattan_Pearl_amb1.jpg"
+data-file9="/2023/10/manhattan_emozionale_3.jpg" 
+data-file10="" 
+data-file11="" 
+data-mime="image/jpeg"
+data-mime2="image/jpeg"
+data-mime3=""
+data-mime4=""
+data-mime5=""
+data-mime6=""
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="31363"
+data-numero="24"
+data-w="1280"
+data-h="1280"
+data-w2="1280"
+data-h2="1280"
+data-w3="0"
+data-h3="0"
+data-w4="0"
+data-h4="0"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="1280"
+data-h7="1687"
+data-w8="1280"
+data-h8="1280"
+data-w9="900"
+data-h9="600"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="manhattan"
+class="collezione pescato manhattan">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/manhattan/'><span class='prima'></span><span>Manhattan</span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2023/10/marechiaro_amb_1.jpg"
+data-file2="/2023/10/marechiaro_amb_3.jpg"
+data-file3="/2023/10/marechiaro_amb_4.jpg"
+data-file4="/2023/10/marechiaro_amb_1.jpg"
+data-file5=""
+data-file6="/2023/10/marechiaro_amb_2.jpg"
+data-file7="/2023/10/marechiaro_amb_3.jpg"
+data-file8="/2023/10/marechiaro_emozionale_1.jpg"
+data-file9="/2023/10/marechiaro_emozionale_2.jpg" 
+data-file10="" 
+data-file11="" 
+data-mime="image/jpeg"
+data-mime2="image/jpeg"
+data-mime3="image/jpeg"
+data-mime4="image/jpeg"
+data-mime5=""
+data-mime6="image/jpeg"
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="31268"
+data-numero="25"
+data-w="1280"
+data-h="905"
+data-w2="905"
+data-h2="1280"
+data-w3="1280"
+data-h3="1280"
+data-w4="1280"
+data-h4="905"
+data-w5="0"
+data-h5="0"
+data-w6="1280"
+data-h6="905"
+data-w7="905"
+data-h7="1280"
+data-w8="900"
+data-h8="600"
+data-w9="900"
+data-h9="600"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="marechiaro"
+class="collezione pescato marechiaro">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/marechiaro/'><span class='prima'></span><span>Marechiaro</span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2023/10/millenium_quartz_amb_1.jpg"
+data-file2="/2023/10/millenium_quartz_amb_2.jpg"
+data-file3=""
+data-file4="/2023/10/millenium_quartz_amb_1.jpg"
+data-file5="/2023/10/millenium_quartz_amb_4.jpg"
+data-file6="/2023/10/millenium_quartz_amb_5.jpg"
+data-file7="/2023/10/millenium_quartz_amb_2.jpg"
+data-file8="/2023/10/millenium_quartz_emozionale_1.jpg"
+data-file9="/2023/10/millenium_quartz_emozionale_2.jpg" 
+data-file10="" 
+data-file11="" 
+data-mime="image/jpeg"
+data-mime2="image/jpeg"
+data-mime3=""
+data-mime4="image/jpeg"
+data-mime5="image/jpeg"
+data-mime6="image/jpeg"
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="31238"
+data-numero="26"
+data-w="1280"
+data-h="905"
+data-w2="905"
+data-h2="1280"
+data-w3="0"
+data-h3="0"
+data-w4="1280"
+data-h4="905"
+data-w5="1280"
+data-h5="905"
+data-w6="1280"
+data-h6="1280"
+data-w7="905"
+data-h7="1280"
+data-w8="900"
+data-h8="600"
+data-w9="900"
+data-h9="600"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="millenium-quartz"
+class="collezione pescato millenium-quartz">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/millenium-quartz/'><span class='prima'></span><span>Millennium Quartz</span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2022/11/Montreal_amb_evidenza.jpg"
+data-file2="/2022/11/Montreal_amb_bathroom.jpg"
+data-file3="/2022/11/Montreal_amb_kitchen.jpg"
+data-file4="/2022/11/Montreal_amb_evidenza.jpg"
+data-file5="/2022/11/Montreal_amb_contract.jpg"
+data-file6="/2022/11/Montreal_amb_outdoor.jpg"
+data-file7="/2022/11/Montreal_amb_bathroom.jpg"
+data-file8="/2022/11/Montreal_dettaglio_quadrato.jpg"
+data-file9="/2022/11/AdobeStock_403029245.jpg" 
+data-file10="" 
+data-file11="" 
+data-mime="image/jpeg"
+data-mime2="image/jpeg"
+data-mime3="image/jpeg"
+data-mime4="image/jpeg"
+data-mime5="image/jpeg"
+data-mime6="image/jpeg"
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="30276"
+data-numero="27"
+data-w="1280"
+data-h="905"
+data-w2="1280"
+data-h2="905"
+data-w3="1280"
+data-h3="905"
+data-w4="1280"
+data-h4="905"
+data-w5="1280"
+data-h5="905"
+data-w6="1280"
+data-h6="905"
+data-w7="1280"
+data-h7="905"
+data-w8="900"
+data-h8="600"
+data-w9="1280"
+data-h9="720"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="montreal"
+class="collezione pescato montreal">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/montreal/'><span class='prima'></span><span>Montreal</span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2023/10/mysterium_amb_3.jpg"
+data-file2=""
+data-file3=""
+data-file4=""
+data-file5="/2023/10/mysterium_amb_3.jpg"
+data-file6=""
+data-file7="/2023/10/mysterium_amb_2.jpg"
+data-file8="/2023/10/Mysterium_Pearl_amb1.jpg"
+data-file9="/2023/10/mysterium_emozionale_1.jpg" 
+data-file10="/2023/10/Elios_catalogo_MAGNUS-MYSTERIUM-1-pdf.jpg" 
+data-file11="" 
+data-mime="image/jpeg"
+data-mime2=""
+data-mime3=""
+data-mime4=""
+data-mime5="image/jpeg"
+data-mime6=""
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10="application/pdf"
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="31407"
+data-numero="28"
+data-w="1280"
+data-h="1280"
+data-w2="0"
+data-h2="0"
+data-w3="0"
+data-h3="0"
+data-w4="0"
+data-h4="0"
+data-w5="1280"
+data-h5="1280"
+data-w6="0"
+data-h6="0"
+data-w7="905"
+data-h7="1280"
+data-w8="1280"
+data-h8="1280"
+data-w9="900"
+data-h9="600"
+data-w10="1083"
+data-h10="1411"
+data-w11="0"
+data-h11="0"
+data-slug="mysterium"
+class="collezione pescato mysterium">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/mysterium/'><span class='prima'></span><span>Mysterium</span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2022/11/Quercia_amb_evidenza.jpg"
+data-file2="/2022/11/Quercia_amb_bathroom.jpg"
+data-file3="/2022/11/Quercia_amb_kitchen.jpg"
+data-file4="/2022/11/Quercia_amb_living.jpg"
+data-file5=""
+data-file6=""
+data-file7="/2022/11/Quercia_amb_kitchen.jpg"
+data-file8="/2022/11/Quercia_dettaglio_quadrato.jpg"
+data-file9="/2022/11/AdobeStock_29947050.jpg" 
+data-file10="/2022/11/Elios_catalogo_QUERCIA-pdf.jpg" 
+data-file11="/2022/11/Elios_QUERCIA_ST-pdf.jpg" 
+data-mime="image/jpeg"
+data-mime2="image/jpeg"
+data-mime3="image/jpeg"
+data-mime4="image/jpeg"
+data-mime5=""
+data-mime6=""
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10="application/pdf"
+data-mime11="application/pdf"
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="30217"
+data-numero="29"
+data-w="1280"
+data-h="905"
+data-w2="1280"
+data-h2="905"
+data-w3="905"
+data-h3="1280"
+data-w4="1280"
+data-h4="905"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="905"
+data-h7="1280"
+data-w8="900"
+data-h8="600"
+data-w9="1280"
+data-h9="853"
+data-w10="1083"
+data-h10="1411"
+data-w11="968"
+data-h11="1248"
+data-slug="quercia"
+class="collezione pescato quercia">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/quercia/'><span class='prima'></span><span>Quercia</span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2021/02/Roma_emozionale_1.jpg"
+data-file2="/2021/02/Roma_Bagno_Celio.jpg"
+data-file3="/2021/02/Roma_Palatino_Cucina.jpg"
+data-file4="/2021/02/Roma_Living_viminale.jpg"
+data-file5="/2021/02/Roma_Ristorante_Palatino.jpg"
+data-file6="/2021/02/Roma_Pav_palatino_esterno2.jpg"
+data-file7="/2021/02/Roma_emozionale_2.jpg"
+data-file8="/2021/02/Roma_Aventino_pav.jpg"
+data-file9="/2021/02/Roma_emozionale_4.jpg" 
+data-file10="/2025/06/Elios_catalogo_ROMA-pdf.jpg" 
+data-file11="" 
+data-mime="image/jpeg"
+data-mime2="image/jpeg"
+data-mime3="image/jpeg"
+data-mime4="image/jpeg"
+data-mime5="image/jpeg"
+data-mime6="image/jpeg"
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10="application/pdf"
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="27452"
+data-numero="30"
+data-w="900"
+data-h="675"
+data-w2="1280"
+data-h2="700"
+data-w3="1280"
+data-h3="700"
+data-w4="1280"
+data-h4="700"
+data-w5="740"
+data-h5="555"
+data-w6="716"
+data-h6="451"
+data-w7="900"
+data-h7="675"
+data-w8="1920"
+data-h8="1451"
+data-w9="900"
+data-h9="576"
+data-w10="1083"
+data-h10="1411"
+data-w11="0"
+data-h11="0"
+data-slug="roma"
+class="collezione pescato roma">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/roma/'><span class='prima'></span><span>Roma</span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2024/10/ELIOS_SEDIMENTI_SAND_LIVING.jpg"
+data-file2="/2024/10/ELIOS_SEDIMENTI_WHITE_SAND_BAGNO.jpg"
+data-file3=""
+data-file4="/2024/10/ELIOS_SEDIMENTI_SAND_LIVING.jpg"
+data-file5="/2024/10/ELIOS_SEDIMENTI_BEIGE_COMMERCIALE.jpg"
+data-file6="/2024/10/ELIOS_SEDIMENTI_WHITE_GREY_IN_OUT.jpg"
+data-file7="/2024/10/EL_SEDIMENTI_BEIGE_LIRERIA.jpg"
+data-file8="/2024/10/SEDIMENTI_dettaglio.jpg"
+data-file9="/2024/10/SEDIMENTI_ispirazione.jpg" 
+data-file10="/2026/02/ELIOS_CATALOGO-SEDIMENTI-1-pdf.jpg" 
+data-file11="/2024/10/Elios_SEDIMENTI_ST-pdf.jpg" 
+data-mime="image/jpeg"
+data-mime2="image/jpeg"
+data-mime3=""
+data-mime4="image/jpeg"
+data-mime5="image/jpeg"
+data-mime6="image/jpeg"
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10="application/pdf"
+data-mime11="application/pdf"
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="32364"
+data-numero="31"
+data-w="1280"
+data-h="1810"
+data-w2="1280"
+data-h2="1810"
+data-w3="0"
+data-h3="0"
+data-w4="1280"
+data-h4="1810"
+data-w5="1280"
+data-h5="905"
+data-w6="1280"
+data-h6="905"
+data-w7="1280"
+data-h7="1810"
+data-w8="900"
+data-h8="720"
+data-w9="900"
+data-h9="598"
+data-w10="1083"
+data-h10="1411"
+data-w11="982"
+data-h11="1285"
+data-slug="sedimenti"
+class="collezione pescato sedimenti">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/sedimenti/'><span class='prima'></span><span>Sedimenti</span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2026/02/ELIOS_SEGMENTO_PISCINA-OUTDOOR_DUPLEX-A.jpg"
+data-file2="/2026/02/ELIOS_SEGMENTO_BAGNO_ALBUS.jpg"
+data-file3="/2026/02/ELIOS_SEGMENTO_CUCINA_DUPLEX-B.jpg"
+data-file4="/2026/02/ELIOS_SEGMENTO_LIVING_NIGRUM.jpg"
+data-file5="/2026/02/ELIOS_SEGMENTO_COMMERCIALE_FLAVUS_CRETA-GINEPRO.jpg"
+data-file6="/2026/02/ELIOS_SEGMENTO_ESTERNO_URBANO.jpg"
+data-file7="/2026/02/ELIOS_SEGMENTO_BAGNO_ALBUS.jpg"
+data-file8="/2026/02/ELIOS_SEGMENTO_BAGNO_ALBUS_dettaglio.jpg"
+data-file9="/2026/02/ELIOS_SEGMENTO_BAGNO_DUPLEX-C_CAERULEUS_YOSEMITE-NATURAL_Ispirazione.jpg" 
+data-file10="/2026/02/ELIOS_FLYER-SEGMENTO-pdf.jpg" 
+data-file11="/2026/02/SEGMENTO-Series-pdf.jpg" 
+data-mime="image/jpeg"
+data-mime2="image/jpeg"
+data-mime3="image/jpeg"
+data-mime4="image/jpeg"
+data-mime5="image/jpeg"
+data-mime6="image/jpeg"
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10="application/pdf"
+data-mime11="application/pdf"
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="33177"
+data-numero="32"
+data-w="1280"
+data-h="905"
+data-w2="1280"
+data-h2="1810"
+data-w3="1280"
+data-h3="1810"
+data-w4="1280"
+data-h4="1810"
+data-w5="1280"
+data-h5="1810"
+data-w6="1280"
+data-h6="1810"
+data-w7="1280"
+data-h7="1810"
+data-w8="320"
+data-h8="207"
+data-w9="320"
+data-h9="320"
+data-w10="1512"
+data-h10="756"
+data-w11="1058"
+data-h11="1497"
+data-slug="segmento"
+class="collezione pescato segmento">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/segmento/'><span class='prima'></span><span>Segmento</span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2025/10/ELIOS_SHELL_IVORY-3D-SATEN_BAGNO_evidenza.jpg"
+data-file2="/2025/10/ELIOS_SHELL_IVORY-3D-SATEN_BAGNO.jpg"
+data-file3="/2025/10/ELIOS_SHELL_BEIGE-LIGHT-3D-SATEN_GOLDEN-HOUR-CAIPIRINHA_CUCINA.jpg"
+data-file4="/2025/10/ELIOS_SHELL_BEIGE-3D-MATT_LIVING.jpg"
+data-file5=""
+data-file6=""
+data-file7="/2025/10/ELIOS_SHELL_GREY-3D-SATEN_GREY-3D-MATT_GOLDEN-HOUR-BLUE-LAGOON_CAMINETTO_verticale.jpg"
+data-file8="/2025/10/shell_dettaglio.jpg"
+data-file9="/2025/10/SHELL_emozionale.jpg" 
+data-file10="/2026/02/ELIOS_CATALOGO-SHELL-pdf.jpg" 
+data-file11="/2025/10/SHELL-Series-pdf.jpg" 
+data-mime="image/jpeg"
+data-mime2="image/jpeg"
+data-mime3="image/jpeg"
+data-mime4="image/jpeg"
+data-mime5=""
+data-mime6=""
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10="application/pdf"
+data-mime11="application/pdf"
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="32882"
+data-numero="33"
+data-w="900"
+data-h="636"
+data-w2="1280"
+data-h2="905"
+data-w3="1280"
+data-h3="1811"
+data-w4="1280"
+data-h4="905"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="900"
+data-h7="1273"
+data-w8="900"
+data-h8="900"
+data-w9="900"
+data-h9="900"
+data-w10="1083"
+data-h10="1411"
+data-w11="1058"
+data-h11="1497"
+data-slug="shell"
+class="collezione pescato shell">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/shell/'><span class='prima'></span><span>Shell</span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2025/10/Elios_ArgillaKotta_Skultura_5cm_Porpora_Gloss_Soft_Commerciale_evidenza.jpg"
+data-file2="/2025/10/Elios_ArgillaKotta_Skultura_10cm_Bianco_Soft-copia.jpg"
+data-file3="/2025/10/Elios_ArgillaKotta_Skultura_Elle_Salvia_Gloss_Dining-copia.jpg"
+data-file4="/2025/10/Elios_ArgillaKotta_Skultura_10cm_5cm_Cipria_Gloss_Soft_Still-Life1-copia.jpg"
+data-file5="/2025/10/Elios_ArgillaKotta_Skultura_5cm_Porpora_Gloss_Soft_Commerciale-copia.jpg"
+data-file6=""
+data-file7="/2025/10/Elios_ArgillaKotta_Skultura_Elle_Salvia_Gloss_Dining-copia.jpg"
+data-file8="/2025/10/Skultura_DSF1400_quadrato.jpg"
+data-file9="/2025/10/DSF1195_BW-ispirazione.jpg" 
+data-file10="/2025/10/ELIOS_CATALOGO-SKULTURA-1-pdf.jpg" 
+data-file11="" 
+data-mime="image/jpeg"
+data-mime2="image/jpeg"
+data-mime3="image/jpeg"
+data-mime4="image/jpeg"
+data-mime5="image/jpeg"
+data-mime6=""
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10="application/pdf"
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="33036"
+data-numero="34"
+data-w="1280"
+data-h="839"
+data-w2="1280"
+data-h2="1920"
+data-w3="1280"
+data-h3="1920"
+data-w4="1280"
+data-h4="1920"
+data-w5="1280"
+data-h5="1920"
+data-w6="0"
+data-h6="0"
+data-w7="1280"
+data-h7="1920"
+data-w8="900"
+data-h8="900"
+data-w9="900"
+data-h9="900"
+data-w10="1008"
+data-h10="1512"
+data-w11="0"
+data-h11="0"
+data-slug="skultura"
+class="collezione pescato skultura">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/skultura/'><span class='prima'></span><span>Skultura</span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2023/05/slate_amb_7-scaled.jpg"
+data-file2="/2023/05/slate_amb_5-scaled.jpg"
+data-file3=""
+data-file4="/2023/05/slate_amb_2-scaled.jpg"
+data-file5="/2023/05/slate_amb_1-scaled.jpg"
+data-file6=""
+data-file7="/2023/05/slate_amb_6-scaled.jpg"
+data-file8="/2023/05/slate_dettaglio_quadrato.jpg"
+data-file9="/2023/05/slate_emozionale.jpg" 
+data-file10="" 
+data-file11="" 
+data-mime="image/jpeg"
+data-mime2="image/jpeg"
+data-mime3=""
+data-mime4="image/jpeg"
+data-mime5="image/jpeg"
+data-mime6=""
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="30714"
+data-numero="35"
+data-w="2560"
+data-h="1810"
+data-w2="1810"
+data-h2="2560"
+data-w3="0"
+data-h3="0"
+data-w4="1810"
+data-h4="2560"
+data-w5="1810"
+data-h5="2560"
+data-w6="0"
+data-h6="0"
+data-w7="1810"
+data-h7="2560"
+data-w8="900"
+data-h8="450"
+data-w9="900"
+data-h9="598"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="slate"
+class="collezione pescato slate">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/slate/'><span class='prima'></span><span>Slate</span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2021/02/TerreEtrusche_emozionale_1.jpg"
+data-file2="/2021/02/TerreEtrusche_emozionale_1.jpg"
+data-file3="/2021/02/TerreEtrusche_emozionale_1.jpg"
+data-file4="/2021/02/TerreEtrusche_emozionale_1.jpg"
+data-file5=""
+data-file6=""
+data-file7="/2021/02/TerreEtrusche_emozionale_2.jpg"
+data-file8="/2021/02/TerreEtrusche_emozionale_3.jpg"
+data-file9="/2021/02/TerreEtrusche_emozionale_4.jpg" 
+data-file10="" 
+data-file11="" 
+data-mime="image/jpeg"
+data-mime2="image/jpeg"
+data-mime3="image/jpeg"
+data-mime4="image/jpeg"
+data-mime5=""
+data-mime6=""
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="27876"
+data-numero="36"
+data-w="900"
+data-h="901"
+data-w2="900"
+data-h2="901"
+data-w3="900"
+data-h3="901"
+data-w4="900"
+data-h4="901"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="900"
+data-h7="1272"
+data-w8="900"
+data-h8="480"
+data-w9="900"
+data-h9="601"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="terre-etrusche"
+class="collezione pescato terre-etrusche">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/terre-etrusche/'><span class='prima'></span><span>Terre Etrusche</span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2021/01/Tropical_emozionale_1.jpg"
+data-file2="/2021/02/Elios_Tropical_Blu_2.jpg"
+data-file3="/2021/02/Elios_Tropical_Ocra_20x20.jpg"
+data-file4="/2021/02/Norway_White_Tropical_Petrolio_Shop.jpg"
+data-file5=""
+data-file6=""
+data-file7="/2021/01/Tropical_emozionale_2.jpg"
+data-file8="/2021/01/Tropical_emozionale_3_ok.jpg"
+data-file9="/2021/01/Tropical_emozionale_4.jpg" 
+data-file10="" 
+data-file11="" 
+data-mime="image/jpeg"
+data-mime2="image/jpeg"
+data-mime3="image/jpeg"
+data-mime4="image/jpeg"
+data-mime5=""
+data-mime6=""
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="610"
+data-numero="37"
+data-w="900"
+data-h="900"
+data-w2="1920"
+data-h2="1358"
+data-w3="1280"
+data-h3="700"
+data-w4="1280"
+data-h4="700"
+data-w5="0"
+data-h5="0"
+data-w6="0"
+data-h6="0"
+data-w7="900"
+data-h7="1304"
+data-w8="900"
+data-h8="603"
+data-w9="900"
+data-h9="601"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="tropical"
+class="collezione pescato tropical">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/tropical/'><span class='prima'></span><span>Tropical</span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2024/01/twist_amb_1.jpg"
+data-file2="/2024/01/twist_amb_1.jpg"
+data-file3="/2022/11/Emotion_amb_kitchen.jpg"
+data-file4="/2024/01/twist_amb_2.jpg"
+data-file5="/2024/01/twist_amb_3.jpg"
+data-file6=""
+data-file7="/2024/01/twist_amb_2.jpg"
+data-file8="/2024/01/twist_quadrato.jpg"
+data-file9="/2024/01/twist_emozionale.jpg" 
+data-file10="" 
+data-file11="" 
+data-mime="image/jpeg"
+data-mime2="image/jpeg"
+data-mime3="image/jpeg"
+data-mime4="image/jpeg"
+data-mime5="image/jpeg"
+data-mime6=""
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10=""
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="31604"
+data-numero="38"
+data-w="1280"
+data-h="1810"
+data-w2="1280"
+data-h2="1810"
+data-w3="1280"
+data-h3="905"
+data-w4="1280"
+data-h4="1810"
+data-w5="1280"
+data-h5="1280"
+data-w6="0"
+data-h6="0"
+data-w7="1280"
+data-h7="1810"
+data-w8="900"
+data-h8="600"
+data-w9="900"
+data-h9="600"
+data-w10="0"
+data-h10="0"
+data-w11="0"
+data-h11="0"
+data-slug="twist"
+class="collezione pescato twist">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/twist/'><span class='prima'></span><span>Twist</span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2025/10/ELIOS_VENERE_COMMERCIALE-FLORA_RUGIADA-MATERICA_AURA-DORICA.jpg"
+data-file2="/2025/10/EL_VENERE_NUOVO-BAGNO_PERLA_ALTA_V2-copia.jpg"
+data-file3=""
+data-file4=""
+data-file5="/2025/10/ELIOS_VENERE_SCORCIO-OPTICA-ROSA_FLORA-copia.jpg"
+data-file6=""
+data-file7="/2025/10/ELIOS_VENERE_BAGNO_AURA_AURA-MATERICA.jpg"
+data-file8="/2025/10/ELIOS_VENERE_MOODBOARD-DECORI-E-STRUTTURE_dettaglio-1.jpg"
+data-file9="/2025/10/00_IMMAGINE-MOODBOARD_ispirazine.jpg" 
+data-file10="/2025/10/ELIOS_CATALOGO-VENERE-pdf.jpg" 
+data-file11="" 
+data-mime="image/jpeg"
+data-mime2="image/jpeg"
+data-mime3=""
+data-mime4=""
+data-mime5="image/jpeg"
+data-mime6=""
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10="application/pdf"
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="32782"
+data-numero="39"
+data-w="1280"
+data-h="905"
+data-w2="1280"
+data-h2="1810"
+data-w3="0"
+data-h3="0"
+data-w4="0"
+data-h4="0"
+data-w5="1280"
+data-h5="1811"
+data-w6="0"
+data-h6="0"
+data-w7="1280"
+data-h7="1810"
+data-w8="900"
+data-h8="900"
+data-w9="900"
+data-h9="900"
+data-w10="1083"
+data-h10="1411"
+data-w11="0"
+data-h11="0"
+data-slug="venere"
+class="collezione pescato venere">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/venere/'><span class='prima'></span><span>Venere</span></a>
+		</div>
+	</article>
+	</li>
+	<li
+style=""
+data-file="/2023/05/YOSEMITE_amb4.jpg"
+data-file2=""
+data-file3=""
+data-file4="/2023/05/YOSEMITE_amb2.jpg"
+data-file5="/2023/05/YOSEMITE_amb3.jpg"
+data-file6=""
+data-file7="/2023/05/YOSEMITE_amb3.jpg"
+data-file8="/2023/05/YOSEMITE_dettaglio_quadrato.jpg"
+data-file9="/2023/05/YOSEMITE_emozionale.jpg" 
+data-file10="/2025/04/ELIOS_CATALOGO_YOSEMITE-pdf.jpg" 
+data-file11="" 
+data-mime="image/jpeg"
+data-mime2=""
+data-mime3=""
+data-mime4="image/jpeg"
+data-mime5="image/jpeg"
+data-mime6=""
+data-mime7="image/jpeg"
+data-mime8="image/jpeg"
+data-mime9="image/jpeg"
+data-mime10="application/pdf"
+data-mime11=""
+data-velatura=""
+data-velatura2=""
+data-velatura3=""
+data-velatura4=""
+data-velatura5=""
+data-velatura6=""
+data-velatura7=""
+data-velatura8=""
+data-velatura9=""
+data-velatura10=""
+data-velatura11=""
+data-id="30713"
+data-numero="40"
+data-w="1280"
+data-h="905"
+data-w2="0"
+data-h2="0"
+data-w3="0"
+data-h3="0"
+data-w4="905"
+data-h4="1280"
+data-w5="902"
+data-h5="1280"
+data-w6="0"
+data-h6="0"
+data-w7="902"
+data-h7="1280"
+data-w8="900"
+data-h8="450"
+data-w9="900"
+data-h9="598"
+data-w10="1083"
+data-h10="1411"
+data-w11="0"
+data-h11="0"
+data-slug="yosemite"
+class="collezione pescato yosemite">
+
+	<article>
+		<div>
+			<a href='https://eliosceramica.com/collezione/yosemite/'><span class='prima'></span><span>Yosemite</span></a>
+		</div>
+	</article>
+	</li>
+
+</ul>
+</section>
+
+	<script>
+		jQuery(document).ready(function () {
+			leporide_ready(jQuery("ul#rama-5"));
+		});
+		jQuery(document).ready(function () {
+			jQuery(document).ready(function () {
+				leporide_ready_ready(jQuery("ul#rama-5"));
+			});
+		});
+		jQuery(window).resize(function () {
+			leporide_resize(jQuery("ul#rama-5"));
+		});
+	</script>
+	<!-- end cinerama leporide -->
+
+</div>
+<div class='link-azzera-filtri'>
+	<div>
+		<span class='icona-azzera-filtri'></span>
+		<a class='stringa azzera-filtri' href='collezioni'></a>
+	</div>
+</div>
+<div class='vedi-tutte'>
+	<div>
+		<span class='freccia'></span>
+		<a class='stringa vedi-tutte-le-collezioni' href='collezioni'></a>
+	</div>
+</div></div></div>
+</div></div>
+
+</div>
+</div>
+<article id='principe' class='pagina404'><a id='principale'></a>
+<div class='titolo-pagina'><h1>404</h1></div>
+<div class='contento-pagina'><div class='non-pagina'><p>La pagina che stai cercando non esiste</p></div></div>
+
+
+</article>
+<div style='display:none;'><ul class='menu-lingue flex verticale'>
+<li class='lingua-en clicca'><span class='cambia-lingua-kuki' data-lingua='en'>EN</span></li>
+<li class='lingua-fr clicca'><span class='cambia-lingua-kuki' data-lingua='fr'>FR</span></li>
+<li class='lingua-de clicca'><span class='cambia-lingua-kuki' data-lingua='de'>DE</span></li>
+<li class='lingua-it attuale'><span class='cambia-lingua-kuki' data-lingua='it'>IT</span></li>
+</ul>
+</div>
+<div id='menu-footer'><div>
+<footer id='footer-centro'>
+<div><div>
+<div class='footer-centro sezione-footer'><h2><a href="collezioni">COLLEZIONI</a></h2>
+<h2><a href="wish-list">Wishlist</a></h2>
+<h2><a href="contatti">Contatti</a></h2>
+<h2><a href="https://portale.eliosceramica.it/">Area riservata</a></h2>
+</div>
+</div></div>
+</footer>
+<footer id='footer-destra'>
+<div><div>
+<div class='footer-destro sezione-footer'><div class="dati-societari">
+<p>© 2024 Italcer S.p.A. SB soggetto a direzione e coordinamento di Italfloor S.p.A.</p>
+<p>Uffici commerciali, magazzino e spedizioni:<br />
+via Giardini 58 ‐ 41042 Fiorano Modenese (MO) ‐ ITALY</p>
+<p>Amministrazione e sede legale:<br />
+via Emilia Ovest 53/A ‐ 42048 Rubiera (RE) ‐ ITALY</p>
+<p>Capitale Sociale € 14.978.911,80 i.v.<br />
+Cod. SDI MZO2A0U<br />
+Export M/RE 013156<br />
+R.E.A. RE 81836<br />
+Reg. Imp. RE 3892</p>
+<p>CF/P.IVA 00142060359 ‐ CEE IT00142060359</p>
+<p><a href="privacy-policy">Privacy Policy</a> | <a href="cookie-policy-ue">Cookie Policy</a> | <a href="https://eliosceramica.com/wp-content/uploads/2024/03/Italcer-informativa-fornitori-clienti-03.24.pdf">Informativa per fornitori e clienti</a> | <a href="https://eliosceramica.com/wp-content/uploads/2025/01/Condizioni-generali-di-vendita.pdf">Condizioni generali di vendita</a> | Website by <a href="https://www.ufoadv.it">ufoadv</a></p>
+</div>
+</div>
+</div></div>
+</footer>
+<footer id='footer-sinistra'>
+<div><div>
+<div class='footer-sinistro sezione-footer'><div class="logo-and-contacts">
+<div id='logo-footer'></div>
+<p class="contacts">ITALCER S.p.A. SB &#8211; Elios Ceramica<br />Via Giardini, 58 &dash; 41042 Fiorano Modenese (MO)<br />
+Tel: <a href="tel:+390536842411">+39 0536 842411</a> &dash; Fax: <a href="fax:+390536842450">+39 0536 842450</a><br />
+<a href="email:info@eliosceramica.it">info@eliosceramica.it</a>
+</p>
+</div>
+<div><a href="/cersaie-2025-novita-elios-ceramica/" style="font-size: 14px; color: #fff; font-family: 'PoppinsRegular';">Elios Ceramica &#038; CERSAIE 2025 | Scopri le novità presentate</a></div>
+<div class='link-social'>
+<div class='social'>
+<a class='facebook gigi' target='_BLANK' href='https://facebook.com/elios.ceramica/'><img src='https://eliosceramica.com/elios-20201013-07333/martino-04.05.2021/css/img/icone/facebook.svg' /></a>
+<a class='instagram' target='_BLANK' href='https://www.instagram.com/elios_ceramica/'><img src='https://eliosceramica.com/elios-20201013-07333/martino-04.05.2021/css/img/icone/instagram.svg' /></a>
+<a class='youtube' target='_BLANK' href='https://www.youtube.com/channel/UCSP0sfJgeKF_YqluIpk7nQg'><img src='https://eliosceramica.com/elios-20201013-07333/martino-04.05.2021/css/img/icone/youtube.svg' /></a>
+<a class='linkedin' target='_BLANK' href='https://www.linkedin.com/company/24661261/'><img src='https://eliosceramica.com/elios-20201013-07333/martino-04.05.2021/css/img/icone/linkedin.svg' /></a>
+</div>
+</div>
+
+</div>
+</div></div>
+</footer>
+</div></div>
+
+<!-- Consent Management powered by Complianz | GDPR/CCPA Cookie Consent https://wordpress.org/plugins/complianz-gdpr -->
+<div id="cmplz-cookiebanner-container"><div class="cmplz-cookiebanner cmplz-hidden banner-1 cookie optin cmplz-bottom-right cmplz-categories-type-view-preferences" aria-modal="true" data-nosnippet="true" role="dialog" aria-live="polite" aria-labelledby="cmplz-header-1-optin" aria-describedby="cmplz-message-1-optin">
+	<div class="cmplz-header">
+		<div class="cmplz-logo"></div>
+		<div class="cmplz-title" id="cmplz-header-1-optin">Gestisci Consenso</div>
+		<div class="cmplz-close" tabindex="0" role="button" aria-label="Chiudere dialogo">
+			<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+		</div>
+	</div>
+
+	<div class="cmplz-divider cmplz-divider-header"></div>
+	<div class="cmplz-body">
+		<div class="cmplz-message" id="cmplz-message-1-optin">Per fornire le migliori esperienze, utilizziamo tecnologie come i cookie per memorizzare e/o accedere alle informazioni del dispositivo. Il consenso a queste tecnologie ci permetterà di elaborare dati come il comportamento di navigazione o ID unici su questo sito. Non acconsentire o ritirare il consenso può influire negativamente su alcune caratteristiche e funzioni.</div>
+		<!-- categories start -->
+		<div class="cmplz-categories">
+			<details class="cmplz-category cmplz-functional" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Funzionale</span>
+							<span class='cmplz-always-active'>
+								<span class="cmplz-banner-checkbox">
+									<input type="checkbox"
+										   id="cmplz-functional-optin"
+										   data-category="cmplz_functional"
+										   class="cmplz-consent-checkbox cmplz-functional"
+										   size="40"
+										   value="1"/>
+									<label class="cmplz-label" for="cmplz-functional-optin"><span class="screen-reader-text">Funzionale</span></label>
+								</span>
+								Sempre attivo							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-functional">L'archiviazione tecnica o l'accesso sono strettamente necessari al fine legittimo di consentire l'uso di un servizio specifico esplicitamente richiesto dall'abbonato o dall'utente, o al solo scopo di effettuare la trasmissione di una comunicazione su una rete di comunicazione elettronica.</span>
+				</div>
+			</details>
+
+			<details class="cmplz-category cmplz-preferences" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Preferenze</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox"
+									   id="cmplz-preferences-optin"
+									   data-category="cmplz_preferences"
+									   class="cmplz-consent-checkbox cmplz-preferences"
+									   size="40"
+									   value="1"/>
+								<label class="cmplz-label" for="cmplz-preferences-optin"><span class="screen-reader-text">Preferenze</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-preferences">L'archiviazione tecnica o l'accesso sono necessari per lo scopo legittimo di memorizzare le preferenze che non sono richieste dall'abbonato o dall'utente.</span>
+				</div>
+			</details>
+
+			<details class="cmplz-category cmplz-statistics" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Statistiche</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox"
+									   id="cmplz-statistics-optin"
+									   data-category="cmplz_statistics"
+									   class="cmplz-consent-checkbox cmplz-statistics"
+									   size="40"
+									   value="1"/>
+								<label class="cmplz-label" for="cmplz-statistics-optin"><span class="screen-reader-text">Statistiche</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-statistics">L'archiviazione tecnica o l'accesso che viene utilizzato esclusivamente per scopi statistici.</span>
+					<span class="cmplz-description-statistics-anonymous">L'archiviazione tecnica o l'accesso che viene utilizzato esclusivamente per scopi statistici anonimi. Senza un mandato di comparizione, una conformità volontaria da parte del vostro Fornitore di Servizi Internet, o ulteriori registrazioni da parte di terzi, le informazioni memorizzate o recuperate per questo scopo da sole non possono di solito essere utilizzate per l'identificazione.</span>
+				</div>
+			</details>
+			<details class="cmplz-category cmplz-marketing" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Marketing</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox"
+									   id="cmplz-marketing-optin"
+									   data-category="cmplz_marketing"
+									   class="cmplz-consent-checkbox cmplz-marketing"
+									   size="40"
+									   value="1"/>
+								<label class="cmplz-label" for="cmplz-marketing-optin"><span class="screen-reader-text">Marketing</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-marketing">L'archiviazione tecnica o l'accesso sono necessari per creare profili di utenti per inviare pubblicità, o per tracciare l'utente su un sito web o su diversi siti web per scopi di marketing simili.</span>
+				</div>
+			</details>
+		</div><!-- categories end -->
+			</div>
+
+	<div class="cmplz-links cmplz-information">
+		<a class="cmplz-link cmplz-manage-options cookie-statement" href="#" data-relative_url="#cmplz-manage-consent-container">Gestisci opzioni</a>
+		<a class="cmplz-link cmplz-manage-third-parties cookie-statement" href="#" data-relative_url="#cmplz-cookies-overview">Gestisci servizi</a>
+		<a class="cmplz-link cmplz-manage-vendors tcf cookie-statement" href="#" data-relative_url="#cmplz-tcf-wrapper">Gestisci {vendor_count} fornitori</a>
+		<a class="cmplz-link cmplz-external cmplz-read-more-purposes tcf" target="_blank" rel="noopener noreferrer nofollow" href="https://cookiedatabase.org/tcf/purposes/">Per saperne di più su questi scopi</a>
+			</div>
+
+	<div class="cmplz-divider cmplz-footer"></div>
+
+	<div class="cmplz-buttons">
+		<button class="cmplz-btn cmplz-accept">Accetta</button>
+		<button class="cmplz-btn cmplz-deny">Nega</button>
+		<button class="cmplz-btn cmplz-view-preferences">Visualizza le preferenze</button>
+		<button class="cmplz-btn cmplz-save-preferences">Salva preferenze</button>
+		<a class="cmplz-btn cmplz-manage-options tcf cookie-statement" href="#" data-relative_url="#cmplz-manage-consent-container">Visualizza le preferenze</a>
+			</div>
+
+	<div class="cmplz-links cmplz-documents">
+		<a class="cmplz-link cookie-statement" href="#" data-relative_url="">{title}</a>
+		<a class="cmplz-link privacy-statement" href="#" data-relative_url="">{title}</a>
+		<a class="cmplz-link impressum" href="#" data-relative_url="">{title}</a>
+			</div>
+
+</div>
+</div>
+					<div id="cmplz-manage-consent" data-nosnippet="true"><button class="cmplz-btn cmplz-hidden cmplz-manage-consent manage-consent-1">Gestisci consenso</button>
+
+</div><script src="https://eliosceramica.com/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+<script src="https://eliosceramica.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script src="https://eliosceramica.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.0.4" id="swv-js"></script>
+<script id="contact-form-7-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "contact-form-7", {"translation-revision-date":"2025-03-02 21:28:53+0000","generator":"GlotPress\/4.0.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"it"},"This contact form is placed in the wrong place.":["Questo modulo di contatto \u00e8 posizionato nel posto sbagliato."],"Error:":["Errore:"]}},"comment":{"reference":"includes\/js\/index.js"}} );
+</script>
+<script id="contact-form-7-js-before">
+var wpcf7 = {
+    "api": {
+        "root": "https:\/\/eliosceramica.com\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    }
+};
+</script>
+<script src="https://eliosceramica.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.0.4" id="contact-form-7-js"></script>
+<script src="https://eliosceramica.com/martino-04.05.2021/js/elios.js?ver=1.0" id="elios-js"></script>
+<script src="https://eliosceramica.com/wp-content/plugins/elios/elios.js?v=342wW678&amp;ver=1.0" id="termos-js"></script>
+<script src="https://eliosceramica.com/wp-content/themes/argilla/js/argilla.js?v=442dd4d&amp;ver=1.0" id="argilla-js"></script>
+<script id="cmplz-cookiebanner-js-extra">
+var complianz = {"prefix":"cmplz_","user_banner_id":"1","set_cookies":[],"block_ajax_content":"","banner_version":"29","version":"7.5.4.1","store_consent":"1","do_not_track_enabled":"","consenttype":"optin","region":"eu","geoip":"1","dismiss_timeout":"","disable_cookiebanner":"","soft_cookiewall":"","dismiss_on_scroll":"","cookie_expiry":"365","url":"https:\/\/eliosceramica.com\/wp-json\/complianz\/v1\/","locale":"lang=it&locale=it_IT","set_cookies_on_root":"","cookie_domain":"","current_policy_id":"39","cookie_path":"\/","categories":{"statistics":"statistiche","marketing":"marketing"},"tcf_active":"","placeholdertext":"Fai clic per accettare i cookie {category} e abilitare questo contenuto","css_file":"https:\/\/eliosceramica.com\/wp-content\/uploads\/complianz\/css\/banner-{banner_id}-{type}.css?v=29","page_links":{"eu":{"cookie-statement":{"title":"Cookie Policy ","url":"https:\/\/eliosceramica.com\/cookie-policy-ue\/"},"privacy-statement":{"title":"PRIVACY POLICY","url":"https:\/\/eliosceramica.com\/privacy-policy\/"}}},"tm_categories":"","forceEnableStats":"","preview":"","clean_cookies":"","aria_label":"Fai clic per accettare i cookie {category} e abilitare questo contenuto"};
+</script>
+<script defer src="https://eliosceramica.com/wp-content/plugins/complianz-gdpr-premium/cookiebanner/js/complianz.min.js?ver=1758804811" id="cmplz-cookiebanner-js"></script>
+<script id="cmplz-cookiebanner-js-after">
+	let cmplzBlockedContent = document.querySelector('.cmplz-blocked-content-notice');
+	if ( cmplzBlockedContent) {
+	        cmplzBlockedContent.addEventListener('click', function(event) {
+            event.stopPropagation();
+        });
+	}
+</script>
+<!-- Statistics script Complianz GDPR/CCPA -->
+						<script type="text/plain"							data-category="statistics">				(function(c,l,a,r,i,t,y){
+			         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+			         t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+			         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+			     })(window, document, "clarity", "script", "qrroixl3y8");
+</script><div id='puntatore-scopri' style='display:none;'>SCOPRI</div>
+
+<div style='display:none;' id='testo_cookie_banner'>Utilizziamo i cookie per assicurarci di darti la migliore esperienza sul nostro sito web. Se continui ad utilizzare questo sito noi assumiamo che tu ne sia felice.</div>
+
+	</body>
+</html>
