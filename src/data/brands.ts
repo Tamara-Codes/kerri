@@ -99,7 +99,7 @@ export const brands: Brand[] = [
     slug: "monocibec",
     category: "plocice",
     website: "https://www.monocibec.it/en/",
-    logo: "https://prod-stor.mkintra.confindustriaceramica.it/ccintranet-production-public/media/company_logos/5539a571-1b1b-4e05-b387-a1cd414143b8_MONOCIBEC.jpg",
+    logo: "",
     images: [
       "https://www.monocibec.it/wp-content/uploads/2026/01/FINCIBEC_monocibec_thymos_Tellur-60x120_ESTERNO-PISCINA.jpg",
       "https://www.monocibec.it/wp-content/uploads/2025/09/Amb_Symbol-60x120-Decoro-Glyph-60x120-1.jpg",
@@ -156,7 +156,7 @@ export const brands: Brand[] = [
     slug: "cercom-ceramiche",
     category: "plocice",
     website: "https://www.cercomceramiche.it/?lang=en",
-    logo: "https://prod-stor.mkintra.confindustriaceramica.it/ccintranet-production-public/media/company_logos/b417146a-eeb3-438a-bf2f-6bb390081454_LOGO_CERCOM.jpg",
+    logo: "",
     images: [
       "https://www.cercomceramiche.it/wp-content/uploads/PLYMOUTH-AIROPORT.jpg",
       "https://www.cercomceramiche.it/wp-content/uploads/CORTE-SAN-RUFFILLO.jpg",
@@ -243,7 +243,7 @@ export const brands: Brand[] = [
     slug: "elios-ceramica",
     category: "plocice",
     website: "https://eliosceramica.com/?lang=en",
-    logo: "https://prod-stor.mkintra.confindustriaceramica.it/ccintranet-production-public/media/company_logos/e4afbc54-5e67-4a75-9250-e0bcd84d41d0_elios_2024.jpg",
+    logo: "",
     images: [
       "https://eliosceramica.com/wp-content/uploads/2021/02/Elios_ArgillaKotta_Skultura_5cm_Porpora_Gloss_Soft_Commerciale_high.jpg",
       "https://eliosceramica.com/wp-content/uploads/2021/02/Elios_ArgillaKotta_Skultura_10cm_5cm_Cipria_Gloss_Soft_Still-Life1_high.jpg",
@@ -279,7 +279,7 @@ export const brands: Brand[] = [
     slug: "isla-tiles",
     category: "plocice",
     website: "https://www.islatiles.it/?lang=en",
-    logo: "https://prod-stor.mkintra.confindustriaceramica.it/ccintranet-production-public/media/company_logos/81aaf5c7-729a-4d4b-8244-c856504f2baa_isla_tiles_logo.jpg",
+    logo: "",
     images: [
       "https://www.islatiles.it/wp-content/uploads/ISLA_Salento_Scatto_Grigio.jpg",
       "https://www.islatiles.it/wp-content/uploads/ISLA_Salento_Esterno_Grey.jpg",
