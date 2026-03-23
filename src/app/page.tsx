@@ -15,14 +15,10 @@ const navLinks = [
 ];
 
 const categoryImages: Record<string, string> = {
-  plocice:
-    "https://www.lafabbrica.it/wp-content/uploads/2025/11/Moon-Cream_focus.jpg",
-  sanitarije:
-    "https://www.artceram.it/wp-content/uploads/2023/12/Artceram-Lavabi-BRERA-3_copertina-sito-scaled.jpg",
-  namjestaj:
-    "https://artesi.it/wp-content/uploads/2025/07/punto-vendita-2-1015x1024.jpg",
-  "kade-i-tus-kabine":
-    "https://www.artceram.it/wp-content/uploads/2022/09/Vasche.jpg",
+  plocice: "/images/pages/cat-plocice.jpg",
+  sanitarije: "/images/pages/cat-sanitarije.jpg",
+  namjestaj: "/images/pages/cat-namjestaj.jpg",
+  "kade-i-tus-kabine": "/images/pages/cat-kade.jpg",
 };
 
 export default function HomePage() {
@@ -51,7 +47,7 @@ export default function HomePage() {
       <section className="relative h-screen min-h-[550px] flex items-end overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://www.monocibec.it/wp-content/uploads/2024/09/Amb_VictoriaAdelphi.jpg"
+            src="/images/pages/hero.jpg"
             alt="Luksuzni interijer s talijanskim pločicama"
             fill
             className="object-cover"
@@ -256,7 +252,7 @@ export default function HomePage() {
             </div>
             <div className="relative aspect-[4/3] overflow-hidden">
               <Image
-                src="https://www.crz64.com/wp-content/uploads/2025/12/Amb_Flow_White_60x120_Living-1300x920.jpg"
+                src="/images/pages/about.jpg"
                 alt="Interijer s keramičkim pločicama"
                 fill
                 className="object-cover"
@@ -320,7 +316,7 @@ export default function HomePage() {
       <section className="relative py-16 sm:py-28 lg:py-36 overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://www.islatiles.it/wp-content/uploads/ISLA_Salento_Living-Beige.jpg"
+            src="/images/pages/cta.jpg"
             alt="Kupaonica s pločicama"
             fill
             className="object-cover"

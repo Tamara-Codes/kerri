@@ -17,7 +17,7 @@ export default function ONamaPage() {
       <section className="relative h-[40vh] sm:h-[50vh] min-h-[320px] sm:min-h-[400px] flex items-end overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://www.century-ceramica.it/wp-content/uploads/2025/09/Amb_Mineralis-60x120-120x120-2.jpg"
+            src="/images/pages/onama-hero.jpg"
             alt="KERRI Salon Keramike"
             fill
             className="object-cover"
@@ -74,7 +74,7 @@ export default function ONamaPage() {
             <div className="space-y-8">
               <div className="relative aspect-[4/3] overflow-hidden bg-kerri-warm">
                 <Image
-                  src="https://www.crz64.com/wp-content/uploads/2025/12/Amb_Flow_White_60x120_Living-1300x920.jpg"
+                  src="/images/pages/about.jpg"
                   alt="Interijer s keramičkim pločicama"
                   fill
                   className="object-cover"
