@@ -333,18 +333,15 @@ export default function HomePage() {
             Dođite i uvjerite se u kvalitetu naših proizvoda. Naš stručni tim
             stoji vam na raspolaganju za savjete i pomoć pri odabiru.
           </p>
-          <div className="flex flex-wrap justify-center gap-4">
+          <div className="flex flex-col items-center gap-3">
+            <p className="font-sans text-sm tracking-widest uppercase text-white/50">
+              Nazovite nas
+            </p>
             <a
               href="tel:+385916621275"
-              className="inline-flex items-center gap-3 bg-kerri-red hover:bg-kerri-red-dark text-white px-6 py-3 sm:px-8 sm:py-4 text-xs sm:text-sm font-medium tracking-widest uppercase transition-all duration-300"
+              className="font-serif text-4xl sm:text-5xl md:text-6xl font-light text-white hover:text-kerri-red transition-colors duration-300"
             >
-              Nazovite nas
-            </a>
-            <a
-              href="mailto:kerri@kerri.hr"
-              className="inline-flex items-center gap-3 border border-white/30 hover:border-white/60 text-white px-6 py-3 sm:px-8 sm:py-4 text-xs sm:text-sm font-medium tracking-widest uppercase transition-all duration-300"
-            >
-              Pošaljite upit
+              091 662 1275
             </a>
           </div>
         </div>
