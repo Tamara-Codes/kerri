@@ -312,6 +312,44 @@ export const brands: Brand[] = [
   
     priceRange: "45 – 120",
     priceUnit: "€/m²",},
+  {
+    name: "Verde 1999",
+    slug: "verde-1999",
+    category: "plocice",
+    website: "https://www.verde1999.com/",
+    logo: "",
+    images: [
+      "https://www.verde1999.com/wp-content/uploads/Dakota_ambiente-fargo-antracite.jpg",
+      "https://www.verde1999.com/wp-content/uploads/Dakopta_ambiente-fargo-beige.jpg",
+      "https://www.verde1999.com/wp-content/uploads/AMBIENTAZIONE-AQUARIUS-1_beige.jpg",
+      "https://www.verde1999.com/wp-content/uploads/AMBIENTAZIONE-AQUARIUS-5_bianco.jpg",
+      "https://www.verde1999.com/wp-content/uploads/Verde_1999_Cosmopolitan_Grigio_Bagno.jpg",
+      "https://www.verde1999.com/wp-content/uploads/Verde_1999_Cosmopolitan_Taupe_Living.jpg",
+    ],
+    description:
+      "Talijanske keramičke pločice s modernim dizajnom — kolekcije inspirirane kamenom, betonom i prirodnim materijalima.",
+    priceRange: "25 – 60",
+    priceUnit: "€/m²",
+  },
+  {
+    name: "MGM Ceramiche",
+    slug: "mgm-ceramiche",
+    category: "plocice",
+    website: "https://www.mgmceramiche.it/en/",
+    logo: "/images/logos/mgm.png",
+    images: [
+      "https://www.mgmceramiche.it/upload/serie/ambienti/47/AMB_BLENDSTONE_BONE_IVORY_ECRU_CUCINA.jpg",
+      "https://www.mgmceramiche.it/upload/serie/ambienti/47/AMB_BLENDSTONE_DARK_WHITE_BAGNO.jpg",
+      "https://www.mgmceramiche.it/upload/serie/ambienti/47/AMB_BLENDSTONE_ECRU_GREY_BAGNO.jpg",
+      "https://www.mgmceramiche.it/upload/serie/ambienti/47/AMB_BLENDSTONE_WHITE_GREY_LIVING.jpg",
+      "https://www.mgmceramiche.it/upload/serie/ambienti/46/AMB_RESINHUB_LAND_DESERT_DUNE_LIVING0033.jpg",
+      "https://www.mgmceramiche.it/upload/serie/ambienti/46/AMB_RESINHUB_DUST_CLOUD_SNOW_STATUARIO_BAGNO.jpg",
+    ],
+    description:
+      "Talijanske porculanske pločice visoke kvalitete — efekti kamena, mramora i suvremeni dizajn za svaki prostor.",
+    priceRange: "30 – 70",
+    priceUnit: "€/m²",
+  },
   // === SANITARIJE ===
   {
     name: "ArtCeram",
@@ -462,39 +500,124 @@ export const brands: Brand[] = [
     ],
     description:
       "Kupaonska galanterija i dodaci — preko 30 godina funkcionalnog i suvremenog dizajna.",
-  
     priceRange: "30 – 350",
-    priceUnit: "€/kom",},
+    priceUnit: "€/kom",
+  },
+  {
+    name: "Antrax",
+    slug: "antrax",
+    category: "sanitarije",
+    website: "https://www.antrax.com/",
+    logo: "/images/logos/antrax.svg",
+    images: [
+      "https://www.antrax.com/wp-content/uploads/2025/06/Antrax-IT_Carlo-03-scaled.jpg",
+      "https://www.antrax.com/wp-content/uploads/2025/04/TAVOLINA-cover-scaled.jpg",
+      "https://www.antrax.com/wp-content/uploads/2024/04/lana-1.jpg",
+      "https://www.antrax.com/wp-content/uploads/2024/04/COVER-scaled.jpg",
+      "https://www.antrax.com/wp-content/uploads/2025/04/BLADEcover-scaled.jpg",
+      "https://www.antrax.com/wp-content/uploads/2024/01/Byobu_800x800_15392.jpg",
+    ],
+    description:
+      "Talijanski dizajnerski radijatori i grijači za ručnike — spoj funkcionalnosti, umjetnosti i vrhunskog dizajna.",
+    priceRange: "400 – 2.500",
+    priceUnit: "€/kom",
+  },
   // === NAMJEŠTAJ ===
+  {
+    name: "Ardeco",
+    slug: "ardeco",
+    category: "namjestaj",
+    website: "https://artesi.it/en/ardeco-collections/",
+    logo: "/images/logos/ardeco.png",
+    images: [
+      "/images/brands/ardeco/1.jpg",
+      "/images/brands/ardeco/2.jpg",
+      "/images/brands/ardeco/3.jpg",
+      "/images/brands/ardeco/4.jpg",
+      "/images/brands/ardeco/5.jpg",
+      "/images/brands/ardeco/6.jpg",
+    ],
+    description:
+      "Elegantan talijanski kupaonski namještaj iz Artesi grupacije — suvremeni dizajn s naglaskom na funkcionalnost i estetiku.",
+    priceRange: "800 – 3.500",
+    priceUnit: "€/set",
+  },
   {
     name: "Artesi",
     slug: "artesi",
     category: "namjestaj",
-    website: "https://artesi.it/",
+    website: "https://artesi.it/en/artesi-bathroom-collections/",
     logo: "/images/logos/artesi.jpg",
     images: [
-      "https://archello.com/thumbs/images/2012/12/03/Tiffany-TF01.1506001149.5214.jpg?fit=crop&w=800&h=500",
+      "/images/brands/artesi-furniture/1.jpg",
+      "/images/brands/artesi-furniture/2.jpg",
+      "/images/brands/artesi-furniture/3.jpg",
+      "/images/brands/artesi-furniture/4.jpg",
+      "/images/brands/artesi-furniture/5.jpg",
+      "/images/brands/artesi-furniture/6.jpg",
     ],
     description:
-      "Talijanski kupaonski namještaj od 1990. — dizajn, funkcionalnost i zanatska pažnja. Posjetite web stranicu proizvođača za kompletnu ponudu.",
-  
-    priceRange: "800 – 3.500",
-    priceUnit: "€/set",},
+      "Talijanski kupaonski namještaj od 1990. — dizajn, funkcionalnost i zanatska pažnja u svakom detalju.",
+    priceRange: "900 – 4.000",
+    priceUnit: "€/set",
+  },
+  {
+    name: "Rigosalotti",
+    slug: "rigosalotti",
+    category: "namjestaj",
+    website: "https://en.rigosalotti.it/",
+    logo: "/images/logos/rigosalotti.png",
+    images: [
+      "https://en.rigosalotti.it/wp-content/uploads/2023/11/Rigosalotti_SISTEMA_800x600.jpg",
+      "https://en.rigosalotti.it/wp-content/uploads/2023/11/Rigosalotti_SOFFY_800x600.jpg",
+      "https://en.rigosalotti.it/wp-content/uploads/2023/11/Rigosalotti_FLAMINGO_800x6005.jpg",
+      "https://en.rigosalotti.it/wp-content/uploads/2022/05/SOLEIL-3.jpg",
+      "https://en.rigosalotti.it/wp-content/uploads/2019/02/Rigosalotti_PARADISE_800x6002-2.jpg",
+    ],
+    description:
+      "Talijanski proizvođač tapeciranog namještaja — sofe, garniture i fotelje vrhunske kvalitete i udobnosti.",
+    priceRange: "1.200 – 5.000",
+    priceUnit: "€/kom",
+  },
   // === KADE I TUŠ-KABINE ===
   {
-    name: "Artesi",
-    slug: "artesi-kade",
+    name: "Agha",
+    slug: "agha",
     category: "kade-i-tus-kabine",
-    website: "https://artesi.it/",
-    logo: "/images/logos/artesi.jpg",
+    website: "https://artesi.it/en/agha-collections/",
+    logo: "",
     images: [
-      "https://archello.com/thumbs/images/2012/12/03/Tiffany-TF01.1506001149.5214.jpg?fit=crop&w=800&h=500",
+      "/images/brands/agha/1.jpg",
+      "/images/brands/agha/2.jpg",
+      "/images/brands/agha/3.jpg",
+      "/images/brands/agha/4.jpg",
+      "/images/brands/agha/5.jpg",
+      "/images/brands/agha/6.jpg",
     ],
     description:
-      "Kade i tuš-kabine talijanskog dizajna za savršeno kupaonsko iskustvo. Posjetite web stranicu proizvođača za kompletnu ponudu.",
-  
+      "Tuš-kabine i paravani talijanskog dizajna iz Artesi grupacije — elegantna rješenja za svaku kupaonicu.",
     priceRange: "600 – 2.800",
-    priceUnit: "€/kom",},
+    priceUnit: "€/kom",
+  },
+  {
+    name: "Aquaestil",
+    slug: "aquaestil",
+    category: "kade-i-tus-kabine",
+    website: "https://www.aquaestil.hr/hr/",
+    logo: "",
+    images: [
+      "https://www.aquaestil.hr/images/slider/2026/header_slide_01.jpg",
+      "https://www.aquaestil.hr/images/slider/2024/header_slide_02.jpg",
+      "https://www.aquaestil.hr/images/slider/2024/header_slide_03.jpg",
+      "https://www.aquaestil.hr/images/slider/2026/header_slide_04.jpg",
+      "https://www.aquaestil.hr/images/naslovnica_cat/kupaonske-kade.jpg",
+      "https://www.aquaestil.hr/images/naslovnica_cat/paravani-i-tus-kabine.jpg",
+    ],
+    description:
+      "Hrvatski proizvođač kupaonske opreme — kade, tuš-kabine, paravani i kupaonski namještaj.",
+    priceRange: "500 – 3.000",
+    priceUnit: "€/kom",
+  },
 ];
 
 export const promotions = [

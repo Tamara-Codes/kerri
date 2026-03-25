@@ -8,11 +8,18 @@ interface CategoryPageProps {
   categorySlug: Category;
 }
 
+const categoryHeroImages: Record<Category, string> = {
+  plocice: "/images/pages/cat-plocice.jpg",
+  sanitarije: "/images/pages/cat-sanitarije.jpg",
+  namjestaj: "/images/pages/cat-namjestaj.jpg",
+  "kade-i-tus-kabine": "/images/pages/cat-kade.jpg",
+};
+
 export default function CategoryPage({ categorySlug }: CategoryPageProps) {
   const category = categories.find((c) => c.slug === categorySlug)!;
   const categoryBrands = brands.filter((b) => b.category === categorySlug);
 
-  const heroImage = categoryBrands.find((b) => b.images.length > 0)?.images[0] || "";
+  const heroImage = categoryHeroImages[categorySlug];
 
   return (
     <main className="min-h-screen">
@@ -21,12 +28,13 @@ export default function CategoryPage({ categorySlug }: CategoryPageProps) {
       {/* Hero */}
       <section className="relative h-[40vh] sm:h-[50vh] min-h-[320px] sm:min-h-[400px] flex items-end overflow-hidden">
         <div className="absolute inset-0">
-          {heroImage ? (
-            /* eslint-disable-next-line @next/next/no-img-element */
-            <img src={heroImage} alt={category.name} className="absolute inset-0 w-full h-full object-cover" />
-          ) : (
-            <div className="absolute inset-0 bg-kerri-charcoal" />
-          )}
+          <Image
+            src={heroImage}
+            alt={category.name}
+            fill
+            className="object-cover"
+            priority
+          />
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-black/10" />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 pb-12 lg:pb-16 w-full">

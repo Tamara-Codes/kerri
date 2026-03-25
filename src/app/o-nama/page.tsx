@@ -4,8 +4,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "O nama | KERRI Salon Keramike",
-  description: "Salon keramike KERRI - 30 godina kvalitete u Kastavu. Vaš partner za pločice, sanitarije, kupaonski namještaj i opremu.",
+  title: "O nama | Studio KERRI Design",
+  description: "Studio KERRI Design - 30 godina kvalitete u Matuljima. Vaš partner za pločice, sanitarije, kupaonski namještaj i opremu.",
 };
 
 export default function ONamaPage() {
@@ -18,7 +18,7 @@ export default function ONamaPage() {
         <div className="absolute inset-0">
           <Image
             src="/images/pages/onama-hero.jpg"
-            alt="KERRI Salon Keramike"
+            alt="Studio KERRI Design"
             fill
             className="object-cover"
             priority
@@ -50,7 +50,7 @@ export default function ONamaPage() {
               </h2>
               <div className="space-y-5 font-sans text-base text-kerri-charcoal/60 leading-relaxed">
                 <p>
-                  Salon keramike KERRI djeluje u Kastavu već tri desetljeća, nudeći
+                  Studio KERRI Design djeluje u Matuljima već tri desetljeća, nudeći
                   ekskluzivan izbor talijanskih keramičkih pločica, sanitarija,
                   kupaonskog namještaja te kada i tuš-kabina. Naša dugogodišnja
                   suradnja s vodećim talijanskim proizvođačima omogućuje nam da
@@ -149,8 +149,8 @@ export default function ONamaPage() {
                   <p className="font-sans text-xs tracking-widest uppercase text-white/40 mb-2">Adresa</p>
                   <p className="font-sans text-base text-white/70">
                     Temi commerce d.o.o.<br />
-                    Šporova Jama 2A<br />
-                    51215 Kastav
+                    Trg Maršala Tita 13<br />
+                    51211 Matulji
                   </p>
                 </div>
                 <div>
@@ -187,14 +187,14 @@ export default function ONamaPage() {
             {/* Map placeholder */}
             <div className="relative aspect-square lg:aspect-auto overflow-hidden bg-kerri-warm">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2832.5!2d14.35!3d45.37!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDXCsDIyJzEyLjAiTiAxNMKwMjEnMDAuMCJF!5e0!3m2!1shr!2shr!4v1"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2831.5!2d14.2944!3d45.4589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4764a1c5d6f7e8b3%3A0x1234567890abcdef!2sTrg+Mar%C5%A1ala+Tita+13%2C+51211+Matulji!5e0!3m2!1shr!2shr!4v1"
                 width="100%"
                 height="100%"
                 style={{ border: 0, minHeight: 400 }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="KERRI Salon Keramike - lokacija"
+                title="Studio KERRI Design - lokacija"
                 className="absolute inset-0"
               />
             </div>

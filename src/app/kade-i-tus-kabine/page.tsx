@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import CategoryPage from "@/components/CategoryPage";
 
 export const metadata: Metadata = {
-  title: "Kade i tuš-kabine | KERRI Salon Keramike",
+  title: "Kade i tuš-kabine | Studio KERRI Design",
   description: "Kade, tuš-kabine i wellness rješenja talijanskog dizajna za savršenu kupaonicu.",
 };
 

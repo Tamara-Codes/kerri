@@ -7,13 +7,14 @@ export default function Footer() {
         <div className="flex flex-col items-center gap-4">
           {/* Logo */}
           <Link href="/" className="leading-none">
-            <span className="font-serif text-2xl font-bold text-kerri-red tracking-tight">KERRI</span>
-            <span className="font-serif text-lg text-kerri-charcoal/50 ml-1.5 tracking-tight">salon keramike</span>
+            <span className="font-serif text-lg text-kerri-charcoal/50 tracking-tight">Studio</span>
+            <span className="font-serif text-2xl font-bold text-kerri-red tracking-tight ml-1.5">KERRI</span>
+            <span className="font-serif text-lg text-kerri-charcoal/50 ml-1.5 tracking-tight">Design</span>
           </Link>
 
           {/* Contact info + Facebook */}
           <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-x-5 gap-y-1.5 font-sans text-sm text-kerri-charcoal/50">
-            <span>Šporova Jama 2A, 51215 Kastav</span>
+            <span>Trg Maršala Tita 13, 51211 Matulji</span>
             <a href="tel:+385916621275" className="hover:text-kerri-red transition-colors">091 662 1275</a>
             <a href="mailto:kerri@kerri.hr" className="hover:text-kerri-red transition-colors">kerri@kerri.hr</a>
             <a href="https://facebook.com/kerrisalonkeramike" target="_blank" rel="noopener noreferrer" className="text-kerri-charcoal/30 hover:text-kerri-red transition-colors">

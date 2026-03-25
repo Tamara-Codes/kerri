@@ -20,8 +20,9 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         <div className="flex items-center justify-between h-16 lg:h-20">
           <Link href="/" className="flex-shrink-0 leading-none">
-            <span className="font-serif text-2xl font-bold text-kerri-red tracking-tight">KERRI</span>
-            <span className="font-serif text-lg text-kerri-charcoal/50 ml-1.5 tracking-tight">salon keramike</span>
+            <span className="font-serif text-lg text-kerri-charcoal/50 tracking-tight">Studio</span>
+            <span className="font-serif text-2xl font-bold text-kerri-red tracking-tight ml-1.5">KERRI</span>
+            <span className="font-serif text-lg text-kerri-charcoal/50 ml-1.5 tracking-tight">Design</span>
           </Link>
 
           {/* Desktop nav */}

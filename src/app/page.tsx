@@ -58,7 +58,7 @@ export default function HomePage() {
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 pb-20 lg:pb-28 w-full">
           <p className="animate-fade-up font-sans text-xs md:text-sm tracking-[0.3em] uppercase text-white/60 mb-4">
-            Temi Commerce d.o.o. &mdash; Kastav
+            Temi Commerce d.o.o. &mdash; Matulji
           </p>
           <h1 className="animate-fade-up delay-100 font-serif text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-light text-white leading-[0.95] mb-6">
             30 Godina
@@ -218,7 +218,7 @@ export default function HomePage() {
                 <span className="italic font-medium">za ljepši dom</span>
               </h2>
               <p className="font-sans text-base text-white/50 leading-relaxed mb-8">
-                Već tri desetljeća, salon KERRI u Kastavu predstavlja sinonim za
+                Već tri desetljeća, Studio KERRI Design u Matuljima predstavlja sinonim za
                 vrhunsku talijansku keramiku i kupaonsku opremu. Naš tim
                 stručnjaka pomaže klijentima u odabiru savršenih materijala za
                 svaki prostor — od manjih renovacija do velikih projekata.
@@ -327,7 +327,7 @@ export default function HomePage() {
           <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light text-white leading-tight mb-6">
             Posjetite naš
             <br />
-            <span className="italic font-medium">salon u Kastavu</span>
+            <span className="italic font-medium">salon u Matuljima</span>
           </h2>
           <p className="font-sans text-base text-white/60 mb-10 leading-relaxed">
             Dođite i uvjerite se u kvalitetu naših proizvoda. Naš stručni tim
