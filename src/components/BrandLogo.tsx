@@ -7,9 +7,10 @@ interface BrandLogoProps {
   logo: string;
   website: string;
   sizeClass?: string;
+  invert?: boolean;
 }
 
-export default function BrandLogo({ name, logo, website, sizeClass }: BrandLogoProps) {
+export default function BrandLogo({ name, logo, website, sizeClass, invert }: BrandLogoProps) {
   const [showText, setShowText] = useState(!logo);
   const imgRef = useRef<HTMLImageElement>(null);
 
@@ -38,7 +39,7 @@ export default function BrandLogo({ name, logo, website, sizeClass }: BrandLogoP
           ref={imgRef}
           src={logo}
           alt={name}
-          className={`w-auto object-contain opacity-75 group-hover:opacity-100 transition-all duration-300 group-hover:scale-105 ${imgSize}`}
+          className={`w-auto object-contain opacity-75 group-hover:opacity-100 transition-all duration-300 group-hover:scale-105 ${imgSize}${invert ? " invert" : ""}`}
           onError={() => setShowText(true)}
           onLoad={(e) => {
             const img = e.currentTarget;

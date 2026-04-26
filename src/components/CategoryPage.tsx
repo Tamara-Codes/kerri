@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import Header from "./Header";
 import Footer from "./Footer";
+import BrandGallery from "./BrandGallery";
+import RevealPhoneButton from "./RevealPhoneButton";
 import { brands, categories, type Category } from "@/data/brands";
 
 interface CategoryPageProps {
@@ -32,6 +34,7 @@ export default function CategoryPage({ categorySlug }: CategoryPageProps) {
             src={heroImage}
             alt={category.name}
             fill
+            sizes="100vw"
             className="object-cover"
             priority
           />
@@ -92,40 +95,9 @@ export default function CategoryPage({ categorySlug }: CategoryPageProps) {
                 </p>
 
                 {/* Bento image grid */}
-                {brand.images.length > 0 && (() => {
-                  const imgs = brand.images.slice(0, 6);
-                  const count = imgs.length;
-
-                  // Different bento patterns based on image count
-                  const bentoPatterns: Record<number, string[]> = {
-                    1: ["col-span-2 md:col-span-4 row-span-2"],
-                    2: ["col-span-2 row-span-2", "col-span-2 row-span-2"],
-                    3: ["col-span-2 row-span-2", "col-span-2 row-span-1", "col-span-2 row-span-1"],
-                    4: ["col-span-2 row-span-2", "col-span-1 row-span-1", "col-span-1 row-span-1", "col-span-2 row-span-1"],
-                    5: ["col-span-2 row-span-2", "col-span-1 row-span-1", "col-span-1 row-span-1", "col-span-2 row-span-1", "col-span-2 row-span-1"],
-                    6: ["col-span-2 row-span-2", "col-span-1 row-span-1", "col-span-1 row-span-1", "col-span-1 row-span-2", "col-span-1 row-span-1", "col-span-2 row-span-1"],
-                  };
-                  const pattern = bentoPatterns[count] || bentoPatterns[6]!;
-
-                  return (
-                    <div className="grid grid-cols-2 md:grid-cols-4 auto-rows-[140px] sm:auto-rows-[180px] md:auto-rows-[200px] gap-1.5 sm:gap-2.5">
-                      {imgs.map((img, i) => (
-                        <div
-                          key={i}
-                          className={`group relative overflow-hidden bg-kerri-warm ${pattern[i]}`}
-                        >
-                          {/* eslint-disable-next-line @next/next/no-img-element */}
-                          <img
-                            src={img}
-                            alt={`${brand.name} - ${i + 1}`}
-                            className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                          />
-                          <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-500" />
-                        </div>
-                      ))}
-                    </div>
-                  );
-                })()}
+                {brand.images.length > 0 && (
+                  <BrandGallery name={brand.name} images={brand.images} />
+                )}
 
                 {brand.images.length === 0 && (
                   <div className="bg-kerri-warm p-12 text-center">
@@ -154,9 +126,11 @@ export default function CategoryPage({ categorySlug }: CategoryPageProps) {
             Posjetite naš salon ili nas kontaktirajte za stručno savjetovanje i posebne uvjete.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <a href="tel:+385916621275" className="inline-flex items-center gap-3 bg-kerri-red hover:bg-kerri-red-dark text-white px-6 py-3 sm:px-8 sm:py-4 text-xs sm:text-sm font-medium tracking-widest uppercase transition-all duration-300">
-              Nazovite nas
-            </a>
+            <RevealPhoneButton
+              phone="+385916621275"
+              display="091 662 1275"
+              className="inline-flex items-center gap-3 bg-kerri-red hover:bg-kerri-red-dark text-white px-6 py-3 sm:px-8 sm:py-4 text-xs sm:text-sm font-medium tracking-widest uppercase transition-all duration-300"
+            />
             <a href="mailto:kerri@kerri.hr" className="inline-flex items-center gap-3 border border-white/30 hover:border-white/60 text-white px-6 py-3 sm:px-8 sm:py-4 text-xs sm:text-sm font-medium tracking-widest uppercase transition-all duration-300">
               Pošaljite upit
             </a>

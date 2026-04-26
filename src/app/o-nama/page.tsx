@@ -20,6 +20,7 @@ export default function ONamaPage() {
             src="/images/pages/onama-hero.jpg"
             alt="Studio KERRI Design"
             fill
+            sizes="100vw"
             className="object-cover"
             priority
           />
@@ -77,6 +78,7 @@ export default function ONamaPage() {
                   src="/images/pages/about.jpg"
                   alt="Interijer s keramičkim pločicama"
                   fill
+                  sizes="(min-width: 1024px) 50vw, 100vw"
                   className="object-cover"
                 />
               </div>

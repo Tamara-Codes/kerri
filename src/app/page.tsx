@@ -28,6 +28,9 @@ export default function HomePage() {
       index === self.findIndex((b) => b.website === brand.website)
   );
 
+  // Logos that are white on transparent — invert them so they show on white background
+  const invertedLogos = new Set(["isla-tiles", "agha"]);
+
   // Brands that need larger logo display
   const logoSizeOverrides: Record<string, string> = {
     simas: "max-h-20 max-w-[180px]",
@@ -50,6 +53,7 @@ export default function HomePage() {
             src="/images/pages/hero.jpg"
             alt="Luksuzni interijer s talijanskim pločicama"
             fill
+            sizes="100vw"
             className="object-cover"
             priority
           />
@@ -158,6 +162,7 @@ export default function HomePage() {
                   src={categoryImages[cat.slug] || cat.heroImage}
                   alt={cat.name}
                   fill
+                  sizes="(min-width: 768px) 50vw, 100vw"
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
@@ -255,6 +260,7 @@ export default function HomePage() {
                 src="/images/pages/about.jpg"
                 alt="Interijer s keramičkim pločicama"
                 fill
+                sizes="(min-width: 1024px) 50vw, 100vw"
                 className="object-cover"
               />
               <div className="absolute inset-0 border border-white/10" />
@@ -289,6 +295,7 @@ export default function HomePage() {
                       logo={brand.logo}
                       website={brand.website}
                       sizeClass={logoSizeOverrides[brand.slug]}
+                      invert={invertedLogos.has(brand.slug)}
                     />
                   ))}
                 </div>
@@ -301,6 +308,7 @@ export default function HomePage() {
                           logo={brand.logo}
                           website={brand.website}
                           sizeClass={logoSizeOverrides[brand.slug]}
+                          invert={invertedLogos.has(brand.slug)}
                         />
                       </div>
                     ))}
@@ -316,9 +324,10 @@ export default function HomePage() {
       <section className="relative py-16 sm:py-28 lg:py-36 overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/images/pages/cta.jpg"
+            src="/images/brands/naxos-ceramica/3.jpg"
             alt="Kupaonica s pločicama"
             fill
+            sizes="100vw"
             className="object-cover"
           />
           <div className="absolute inset-0 bg-black/60" />
